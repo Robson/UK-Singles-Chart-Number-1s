@@ -1,0 +1,141 @@
+body {
+	padding: 0;
+	margin: 30px;
+	font-size: 95%;
+	font-family: rubik, roboto, arial, sans-serif;
+	font-weight: 400;
+}
+
+h1 {
+	font-family: rubik, georgia, serif;
+	font-weight: bold;
+}
+
+#selector {
+	vertical-align: top;
+	text-align: left;
+	width: 350px;
+}
+
+#source {
+	margin-bottom: 0;
+}
+
+.box {
+	padding: 0;
+	border: 2px solid #000;
+	background: #fff;
+	margin-bottom: 15px;
+}
+
+.box_title {
+	background: #000;
+	color: #fff;
+	padding: 3px;
+	font-weight: 500;
+	font-family: rubik, roboto, arial, sans-serif;
+}
+
+.box_subtitle {
+	background: #666;
+	color: #fff;	
+	padding: 3px;
+	font-weight: 500;
+	font-family: rubik, roboto, arial, sans-serif;
+}
+
+p {
+	margin: 0;
+	padding: 3px;
+}
+
+ul {
+	margin: 0;
+	padding: 3px;
+	list-style: none;
+}
+
+li {
+	margin: 0;
+	padding: 1px 10px 1px 10px;
+	color: #E60D7F;
+	cursor: pointer;
+}
+
+li:hover {
+	background: #FCEBF4;
+}
+
+li.on {
+	background: #E60D7F;
+	color: #fff;
+}
+
+.desc {
+	display: table-cell;
+}
+
+#song_container {
+	padding-left: 30px;
+	vertical-align: top;
+}
+
+.row {
+	vertical-align: center;
+}
+
+.song {
+	border: 2px solid #000;
+	display: table-cell;
+	padding: 0;
+	font-size: 0;	
+}
+
+.song_highlight {
+	background: #E60D7F;
+}
+
+.song_selected {
+	border-style: dotted;
+}
+
+.overlapping {
+	border-color: #F29107;
+}
+
+.year {
+	display: table-cell;
+	font-size: 12px;
+	padding-right: 10px;
+	width: 32px;
+}
+
+.tooltip_templates {
+	display: none;
+}
+
+.tooltipster-base {
+	max-width: 425px;
+}
+
+.tooltipster-base td {
+	font-weight: bold;
+}
+
+th {
+	text-align: right;
+	font-weight: normal;
+	vertical-align: top;
+}
+
+.lowlight {
+	opacity: 0.3;
+}
+
+a {
+	color: #1DB3E8;
+}
+
+.highlight_number {
+	border-bottom: 2px solid #bbb;
+}

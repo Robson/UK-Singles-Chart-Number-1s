@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>UK Singles Chart: Number 1s</title>		
+		<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/js/tooltipster.bundle.min.js"></script>		
+		<script src="data.js"></script>
+		<link rel="preconnect" href="https://fonts.gstatic.com">
+		<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap">	
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tooltipster/4.2.8/css/tooltipster.bundle.min.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script>
+
+			function removeAllHighlights() {
+				$("li.on").each(function() {
+					$(this).removeClass('on');
+				});
+				$(".song_highlight").each(function() {
+					$(this).removeClass('song_highlight');
+				});
+			}		
+		
+			function selectSongs(describe, value='') {
+				if ($(event.target).hasClass('on')) {
+					removeAllHighlights();
+					$(event.target).removeClass('on');
+				} else {
+					removeAllHighlights();
+					$(event.target).addClass('on');
+					$(".song").each(function() {
+						var isSelected = false;
+						switch (describe) {
+							case 'artist':
+								isSelected = $(this).attr('data-artist').includes(value);
+								break;
+							case 'single-week':
+								isSelected = +$(this).attr('data-woc') == 1;
+								break;
+							case 'return-songs':
+								isSelected = $(this).attr('data-number') == 're';
+								break;
+							case '10-or-more':
+								isSelected = +$(this).attr('data-woc') >= 10;
+								break;
+							case 'joint-number-1s':
+								isSelected = +$(this).attr('data-overlapping') == 1;
+								break;
+							case 'christmas-number-1s':
+								isSelected = +$(this).attr('data-christmas') == 1;
+								break;
+							case 'one-thousand':
+								isSelected = +$(this).attr('data-number') == 1000;
+								break;
+						}
+						if (isSelected)
+							$(this).addClass('song_highlight');
+					});
+				}
+			}
+
+			function makeTooltipHtml(id) {
+				var source = $('#block_' + id);
+				var tooltips = [];
+				tooltips['Artist'] = source.attr('data-artist');
+				tooltips['Song'] = source.attr('data-title');
+				tooltips['Date'] = source.attr('data-date');
+				var appearances = source.attr('data-appearances').split(' ');
+				if (appearances.length == 1) {
+					tooltips['Weeks at number&nbsp;1'] = source.attr('data-woc');
+				} else {
+					var wocs = [];
+					var sum = 0;
+					for (var appearance of appearances) {
+						if (appearance == id)
+							wocs.push("<span class='highlight_number'>" + data[appearance].woc + "</span>");
+						else
+							wocs.push(data[appearance].woc);
+						sum += +data[appearance].woc;
+						tooltips['Weeks at number&nbsp;1'] = wocs.join('+') + ' = ' + sum;
+					}
+				}
+				if (source.attr('data-overlapping') == '1')
+					tooltips['Note Overlapping'] = 'Has overlapping week(s) with adjacent song.';
+				if (source.attr('data-christmas') == '1')
+					tooltips['Note Christmas'] = 'This was a Christmas number 1.';
+				var tooltip = ''
+				for (var pair of Object.entries(tooltips))
+					tooltip += '<tr><th>' + (pair[0].startsWith('Note') ? 'Note' : pair[0]) + ':</th><td>' + pair[1] + '</td></tr>';
+				return '<table>' + tooltip + '</table>';
+			}
+
+			function cleanHtml(html) {
+				return html.replace(/(<[^>]+>|")/g, '');
+			}
+
+			function makeSuffix(number) {
+				if (![11, 12, 13].includes(number % 100)) {
+					switch (+number % 10) {
+						case 1: return 'st';
+						case 2: return 'nd';
+						case 3: return 'rd';
+					}
+				}
+				return 'th';
+			}
+
+			var selectedSong = -1;
+
+			$(document).ready(function() {
+				$('.tooltip').tooltipster({ delay: 0, distance: 0 });
+				$('.song').mousedown(function() {
+					removeSelectedSongs();
+					if (selectedSong == $(this).attr('data-id')) {
+						$('#selected p').html('Click on a song to show the details here.');
+						selectedSong = -1;
+					} else {
+						var clickedArtist = $(this).attr('data-artist');
+						var clickedSong = $(this).attr('data-title');
+						var item = data[+$(this).attr('data-id')];
+						var details = 'Artist: ' + item.artist + '<br/>Song: ' + item.song + '<br/>';
+						var appearances = $(this).attr('data-appearances').split(' ');
+						if (appearances.length == 1) {
+							details += 'Date: ' + item.date + '<br/>';
+							details += 'Weeks at number&nbsp;1: ' + item.woc + '<br/>';
+							details += 'This was the ' + (+item.number).toLocaleString() + makeSuffix(+item.number) + ' number&nbsp;1.<br/>';
+						} else {
+							var dates = [], wocs = [], sum = 0;
+							for (var appearance of appearances) {
+								if (appearance == $(this).attr('data-id')) {
+									wocs.push("<span style='font-weight:bold'>" + data[appearance].woc + "</span>");
+									dates.push("<span style='font-weight:bold'>" + data[appearance].date.replace(/ /g, '&nbsp;') + "</span>");
+								} else {
+									wocs.push(data[appearance].woc);
+									dates.push(data[appearance].date.replace(/ /g, '&nbsp;'));
+								}
+								sum += +data[appearance].woc;
+							}
+							details += 'Dates: ' + dates.join(', ') + '<br/>';
+							details += 'Weeks at number&nbsp;1: ' + wocs.join('+') + ' = ' + sum + '<br/>';
+							var firstAppearance = +data[+appearances[0]].number
+							details += 'This was the ' + firstAppearance.toLocaleString() + makeSuffix(firstAppearance) + ' number&nbsp;1.<br/>';
+						}
+						if ($(this).attr('data-overlapping') == '1') {
+							details += 'This has overlapping weeks at number&nbsp;1.<br/>';
+						}
+						if ($(this).attr('data-christmas') == '1') {
+							details += 'This was a Christmas number&nbsp;1.<br/>';
+						}
+						details = details.replace(/href="/g, 'href="https://en.wikipedia.org');
+						$('#selected p').html(details);
+						selectedSong = $(this).attr('data-id');
+						$(".song").each(function(index) {
+							if ($(this).attr('data-artist') == clickedArtist &&
+							    $(this).attr('data-title') == clickedSong) {
+							    $(this).addClass('song_selected');
+							}
+						});
+					}
+				});
+			});
+
+			function removeSelectedSongs() {
+				$(".song_selected").each(function() {
+					$(this).removeClass('song_selected');
+				});
+			}
+
+		</script>
+	</head>
+	<body>
+		<h1>UK Singles Chart: Number 1s</h1>
+		<div class="tooltip_templates"></div>
+		<table>
+			<tr>
+				<td id="selector">
+					<div id="help" class="box">
+						<div class="box_title">About</div>
+						<p>Each block represents a song, with the length representing the amount of weeks at number&nbsp;1.</p>
+						<p>Hover over a block to see the song details.</p>
+						<p>Songs with an <span style="color:#F29107">orange&nbsp;border</span> had overlapping weeks at number&nbsp;1.</p>
+						<p>Created by <a href="/">Robson</a>.</p>
+					</div>
+					<div id="selected" class="box">
+						<div class="box_title">Selection</div>
+						<p>Click on a song to show the details here.</p>
+					</div>
+					<div id="highlights" class="box">
+						<div class="box_title">Highlight</div>
+						<p>Click an item to highlight associated songs.</p>
+						<div class="box_subtitle">Artists with the most number&nbsp;1s</div>
+						<ul>
+							<script>
+								var artists = [
+									[ 21, 'Elvis Presley' ],
+									[ 17, 'The Beatles' ],
+									[ 14, 'Cliff Richard' ],
+									[ 14, 'Westlife'  ],
+									[ 13, 'Madonna' ],
+									[ 12, 'Take That' ],
+									[ 12, 'The Shadows' ],
+									[ 10, 'Calvin Harris' ],
+									[ 10, 'Eminem' ],
+									[  9, 'ABBA' ],									
+									[  9, 'Rihanna' ],
+									[  9, 'Spice Girls' ],
+									[  9, 'Ed Sheeran' ],
+									[  8, 'Oasis' ],
+									[  8, 'The Rolling Stones' ]
+								];
+								for (var artist of artists) {
+									if (artist[0] < 10)
+										artist[0] = '&#8199;' + artist[0] // digit-width space
+									document.write('<li onclick="javascript:selectSongs(\'artist\', \'' + artist[1] + '\')">' + artist.join(' - ') + '</li>');
+								}
+							</script>
+						</ul>
+						<div class="box_subtitle">Artists with the most weeks at number&nbsp;1</div>
+						<ul>
+							<script>
+								var artists = [
+									[ 80, 'Elvis Presley' ],
+									[ 69, 'The Beatles' ],
+									[ 46, 'Cliff Richard' ],
+									[ 44, 'The Shadows' ],
+									[ 41, 'Ed Sheeran' ],
+									[ 38, 'Justin Bieber' ],
+									[ 32, 'Frankie Laine' ],
+									[ 31, 'ABBA' ],
+									[ 31, 'Calvin Harris' ],									
+									[ 31, 'Drake' ],
+									[ 29, 'Madonna' ],
+									[ 29, 'Take That' ],
+									[ 25, 'Rihanna' ],									
+									[ 23, 'Elton John' ],
+									[ 22, 'Spice Girls' ],
+									[ 20, 'Ariana Grande' ],
+									[ 20, 'Slade' ],
+									[ 20, 'Westlife' ]
+								];
+								for (var artist of artists)
+									document.write('<li onclick="javascript:selectSongs(\'artist\', \'' + artist[1] + '\')">' + artist.join(' - ') + '</li>');
+							</script>
+						</ul>
+						<div class="box_subtitle">Meta</div>
+						<ul>
+							<li onclick="javascript:selectSongs('single-week')">Number 1s for a single week.</li>
+							<li onclick="javascript:selectSongs('10-or-more')">Number 1s for 10+ consecutive weeks.</li>
+							<li onclick="javascript:selectSongs('return-songs')">Returning number 1s.</li>
+							<li onclick="javascript:selectSongs('christmas-number-1s')">Christmas number 1s.</li>
+							<li onclick="javascript:selectSongs('joint-number-1s')">Songs that shared the number 1 spot.</li>
+							<li onclick="javascript:selectSongs('one-thousand')">The 1,000th number 1.</li>
+						</ul>
+					</div>
+					<div id="source" class="box">
+						<div class="box_title">Source</div>
+						<p>All data is taken from the Wikipedia pages linked in <a href="https://en.wikipedia.org/wiki/Lists_of_UK_Singles_Chart_number_ones">Lists of UK Singles Chart number ones</a>.</p>
+						<p>This data is produced by the <a href="https://www.officialcharts.com/">Official&nbsp;Charts&nbsp;Company</a>.</p>
+						<p>All data used on this page is publicly available.</p>
+					</div>
+				</td>
+				<td id="song_container">
+					<div class="row">
+						<script>
+							const BLOCK_WIDTH = 6
+							var previousYear = '', count = 0, lastDate = '', isOverlapping;
+							for (var i = 0; i < data.length; i++) {
+								var song = data[i];
+								var songYear = song.date.split(' ').slice(-1)[0];
+								if (songYear != previousYear) {
+									previousYear = songYear;
+									document.write('</div><div class="row"><span class="year">' + previousYear + '</span>');
+								}
+								var isOverlapping = song.woc.includes('x');
+								var isChristmas = i == data.length -1 || (i < data.length - 1 && songYear != data[i + 1].date.split(' ').slice(-1)[0]);
+								if (songYear == 1953) // special rule!
+									isChristmas = (song.date == '13 November 1953')
+								song.woc = song.woc.replace('x', '')
+								var width = (+song.woc * (BLOCK_WIDTH + BLOCK_WIDTH)) - BLOCK_WIDTH;
+								var html = '<span ' +
+									'class="tooltip song' + (isOverlapping ? ' overlapping' : '') + '" ' +
+									'id="block_' + count + '" ' +
+									'style="width:' + width + 'px" ' +
+									'data-id="' + count + '" ' +
+									'data-number="' + cleanHtml(song.number) + '" ' +
+									'data-artist="' + cleanHtml(song.artist) + '" ' +
+									'data-title="' + cleanHtml(song.song) + '" ' +
+									'data-date="' + cleanHtml(song.date) + '" ' +
+									'data-woc="' + cleanHtml(song.woc) + '" ' +
+									'data-appearances="' + song.appearances.join(' ') + '" ' +
+									'data-tooltip-content="#tooltip_' + count + '" ' +
+									'data-overlapping="' + (isOverlapping ? 1 : 0) + '" ' +
+									'data-christmas="' + (isChristmas ? 1 : 0) + '" ' +
+									'>&nbsp;</span>';
+								document.write(html);
+								$('.tooltip_templates').append('<div id="tooltip_' + count + '">' + makeTooltipHtml(count) + '</div>');
+								count++;
+								lastDate = song.date;
+							}
+						</script>
+					</div>
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
