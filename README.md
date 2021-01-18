@@ -1,11 +1,30 @@
 # UK Singles Chart: Number 1s
 
+## Explanation
+
 The UK Singles Chart tracks the sales of music in the United Kingdom. 
+
+## Live Version
+
+https://robson.plus/number-1s/
+
+## Files
 
 The code in this repository does two things:
 
-**converter.py** - This is responsible for converting the data from Wikipedia into JSON. There's lots of information and instructions in that file.
+**converter.py** - This python script is responsible for converting the data from Wikipedia into JSON. There's lots of information and instructions in that file.
 
 **everything else** - This is responsible for visualising the data as an interactive web page.
 
-You can view this visualisation here: https://robson.plus/number-1s/
+## Technologies
+
+This is built using:
+ * Python
+ * HTML
+ * CSS
+ * JavaScript
+   * jQuery
+     * <a href="https://github.com/calebjacob/tooltipster">Tooltipster</a>
+	 
+<a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobson.plus%2Fnumber-1s%2F"><img src="https://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML" /></a>
+<a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Frobson.plus%2Fnumber-1s%2Fstyle.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en"><img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" alt="Valid CSS" /></a>   	 
