@@ -23,7 +23,7 @@ This is built using:
  * HTML
  * CSS
  * JavaScript
-   * jQuery
+   * <a href="https://github.com/jquery/jquery">jQuery</a>
      * <a href="https://github.com/calebjacob/tooltipster">Tooltipster</a>
 	 
 <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Frobson.plus%2Fnumber-1s%2F"><img src="https://www.w3.org/Icons/valid-html401-blue" alt="Valid HTML" /></a>
