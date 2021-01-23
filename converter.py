@@ -34,7 +34,7 @@ How do I use this?
 3. Save as 1950s.txt in the same folder as this script. Save as ANSI encoding.
 4. Repeat for all the other decades.
 5. Run the script.
-6. You will now have a data.js file with all of that data in a usable format.
+6. You will now have a data.json file with all of that data in a usable format.
 
 ***********************************
 Wait, that seems suspiciously easy?
@@ -139,7 +139,7 @@ def is_valid_metadata(line):
            bool(re.match(r'[\.\dx]+\Z', line['woc']))
 
 def save_javascript(songs):
-    with open('data.js', 'w') as file_output:
+    with open('data.json', 'w') as file_output:
         file_output.write('var data = ' + json.dumps(songs, indent=4))
 
 metadata = create_songs_metadata()
