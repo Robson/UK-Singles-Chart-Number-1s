@@ -2,7 +2,9 @@
 
 ## Explanation
 
-The UK Singles Chart tracks the sales of music in the United Kingdom. 
+The UK Singles Chart tracks the sales of music in the United Kingdom.
+
+This interactive webpage allows you to explore the songs that have reached Number 1 on the chart.
 
 ## Live Version
 
