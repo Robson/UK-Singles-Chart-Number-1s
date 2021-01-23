@@ -10,11 +10,14 @@ https://robson.plus/number-1s/
 
 ## Files
 
-The code in this repository does two things:
+### converter.py
+This python script is responsible for converting the data from Wikipedia into JSON. There's lots of information and instructions in that file.
 
-**converter.py** - This python script is responsible for converting the data from Wikipedia into JSON. There's lots of information and instructions in that file.
+### data.json
+This is created by the script above.
 
-**everything else** - This is responsible for visualising the data as an interactive web page.
+### index.html + style.css + page.js
+These are responsible for visualising the data as an interactive webpage.
 
 ## Technologies
 
