@@ -1,13 +1,12 @@
 # UK Singles Chart: Number 1s
 
-
 ## Table of Contents
 
  * [Explanation](#explanation)
  * [Live Version](#live-version)
  * [Compatibility](#compatibility)
  * [Testing](#testing) 
- * [Files](#files)
+ * [File Descriptions](#file-descriptions)
  * [Technologies](#technologies)
  * [Validation](#validation)
  
@@ -49,7 +48,7 @@ To run this on your computer:
  * Unzip anywhere.
  * Open *index.html* in your browser.
 
-## Files
+## File Descriptions
 
 ### converter.py
 This python script is responsible for converting the data from Wikipedia into JSON. There's lots of information and instructions in that file.
