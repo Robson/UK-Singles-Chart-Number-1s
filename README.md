@@ -44,7 +44,7 @@ The instructions for running this are contained within *converter.py*
 ### Webpage
 
 To run this on your computer:
- * [Download the repository](https://github.com/Robson/Film-Franchise-Ratings/archive/master.zip).
+ * [Download the repository](https://github.com/Robson/UK-Singles-Chart-Number-1s/archive/master.zip).
  * Unzip anywhere.
  * Open *index.html* in your browser.
 
