@@ -117,9 +117,9 @@ def remove_duplicates(songs):
     return songs
 
 def add_returns_metadata(songs):
-    for i in range(len(songs)):
+    for i, e1 in enumerate(songs):
         appearances = []
-        for j in range(len(songs)):
+        for j, e2 in enumerate(songs):
             if songs[i]['artist'] == songs[j]['artist'] and \
                songs[i]['song'] == songs[j]['song']:
                appearances.append(j)
