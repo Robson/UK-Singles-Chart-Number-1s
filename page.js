@@ -156,4 +156,4 @@ function isUsed(a) {
 	return a;
 }
 
-isUsed([cleanHtml]);
+isUsed([cleanHtml, makeTooltipHtml, selectSongs]);
