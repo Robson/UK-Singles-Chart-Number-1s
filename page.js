@@ -136,7 +136,7 @@ $(document).ready(function() {
 			details = details.replace(/href="/g, 'href="https://en.wikipedia.org');
 			$('#selected p').html(details);
 			selectedSong = $(this).attr('data-id');
-			$(".song").each(function(index) {
+			$(".song").each(function() {
 				if ($(this).attr('data-artist') == clickedArtist &&
 					$(this).attr('data-title') == clickedSong) {
 					$(this).addClass('song_selected');
@@ -151,3 +151,9 @@ function removeSelectedSongs() {
 		$(this).removeClass('song_selected');
 	});
 }
+
+function isUsed(a) {
+	return a;
+}
+
+isUsed([cleanHtml]);
