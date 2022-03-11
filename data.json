@@ -14502,7 +14502,7 @@ var data = [
     {
         "number": "1373",
         "artist": "<a href=\"/wiki/Jawsh_685\">Jawsh 685</a> and <a href=\"/wiki/Jason_Derulo\">Jason Derulo</a>",
-        "song": "\"<a href=\"/wiki/Savage_Love_(Laxed_%E2%80%93_Siren_Beat)\">Savage Love (Laxed \u00e2\u20ac\u201c Siren Beat)</a>\"",
+        "song": "\"<a href=\"/wiki/Savage_Love_(Laxed_%E2%80%93_Siren_Beat)\">Savage Love (Laxed \u2013 Siren Beat)</a>\"",
         "date": "9 July 2020",
         "woc": "3",
         "appearances": [
@@ -14577,6 +14577,136 @@ var data = [
         "woc": "1",
         "appearances": [
             1443
+        ]
+    },
+    {
+        "number": "1381",
+        "artist": "<a href=\"/wiki/Wham!\">Wham!</a>",
+        "song": "\"<a href=\"/wiki/Last_Christmas\">Last Christmas</a>\"",
+        "date": "7 January 2021",
+        "woc": "1",
+        "appearances": [
+            1444
+        ]
+    },
+    {
+        "number": "1382",
+        "artist": "<a href=\"/wiki/Little_Mix\">Little Mix</a>",
+        "song": "\"<a href=\"/wiki/Sweet_Melody_(song)\">Sweet Melody</a>\"",
+        "date": "14 January 2021",
+        "woc": "1",
+        "appearances": [
+            1445
+        ]
+    },
+    {
+        "number": "1383",
+        "artist": "<a href=\"/wiki/Olivia_Rodrigo\">Olivia Rodrigo</a>",
+        "song": "\"<a href=\"/wiki/Drivers_License_(song)\">Drivers License</a>\"",
+        "date": "21 January 2021",
+        "woc": "9",
+        "appearances": [
+            1446
+        ]
+    },
+    {
+        "number": "1384",
+        "artist": "<a href=\"/wiki/Nathan_Evans_(singer)\">Nathan Evans</a>, <a href=\"/wiki/220_Kid\">220 Kid</a> and <a href=\"/wiki/Billen_Ted\">Billen Ted</a>",
+        "song": "\"<a href=\"/wiki/Wellerman#Nathan_Evans_version\">Wellerman</a>\"",
+        "date": "25 March 2021",
+        "woc": "2",
+        "appearances": [
+            1447
+        ]
+    },
+    {
+        "number": "1385",
+        "artist": "<a href=\"/wiki/Lil_Nas_X\">Lil Nas X</a>",
+        "song": "\"<a href=\"/wiki/Montero_(Call_Me_by_Your_Name)\">Montero (Call Me by Your Name)</a>\"",
+        "date": "8 April 2021",
+        "woc": "5",
+        "appearances": [
+            1448
+        ]
+    },
+    {
+        "number": "1386",
+        "artist": "<a href=\"/wiki/Tion_Wayne\">Tion Wayne</a> and <a href=\"/wiki/Russ_Millions\">Russ Millions</a>",
+        "song": "\"<a href=\"/wiki/Body_(Russ_Millions_and_Tion_Wayne_song)\">Body</a>\"",
+        "date": "13 May 2021",
+        "woc": "3",
+        "appearances": [
+            1449
+        ]
+    },
+    {
+        "number": "1387",
+        "artist": "<a href=\"/wiki/Olivia_Rodrigo\">Olivia Rodrigo</a>",
+        "song": "\"<a href=\"/wiki/Good_4_U\">Good 4 U</a>\"",
+        "date": "3 June 2021",
+        "woc": "5",
+        "appearances": [
+            1450
+        ]
+    },
+    {
+        "number": "1388",
+        "artist": "<a href=\"/wiki/Ed_Sheeran\">Ed Sheeran</a>",
+        "song": "\"<a href=\"/wiki/Bad_Habits_(Ed_Sheeran_song)\">Bad Habits</a>\"",
+        "date": "8 July 2021",
+        "woc": "11",
+        "appearances": [
+            1451
+        ]
+    },
+    {
+        "number": "1389",
+        "artist": "<a href=\"/wiki/Ed_Sheeran\">Ed Sheeran</a>",
+        "song": "\"<a href=\"/wiki/Shivers_(Ed_Sheeran_song)\">Shivers</a>\"",
+        "date": "23 September 2021",
+        "woc": "4",
+        "appearances": [
+            1452
+        ]
+    },
+    {
+        "number": "1390",
+        "artist": "<a href=\"/wiki/Elton_John\">Elton John</a> and <a href=\"/wiki/Dua_Lipa\">Dua Lipa</a>",
+        "song": "\"<a href=\"/wiki/Cold_Heart_(Pnau_remix)\">Cold Heart (Pnau remix)</a>\"",
+        "date": "21 October 2021",
+        "woc": "1",
+        "appearances": [
+            1453
+        ]
+    },
+    {
+        "number": "1391",
+        "artist": "<a href=\"/wiki/Adele\">Adele</a>",
+        "song": "\"<a href=\"/wiki/Easy_on_Me\">Easy on Me</a>\"",
+        "date": "28 October 2021",
+        "woc": "7",
+        "appearances": [
+            1454
+        ]
+    },
+    {
+        "number": "1392",
+        "artist": "<a href=\"/wiki/Ed_Sheeran\">Ed Sheeran</a> and <a href=\"/wiki/Elton_John\">Elton John</a>",
+        "song": "\"<a href=\"/wiki/Merry_Christmas_(song)\">Merry Christmas</a>\"",
+        "date": "16 December 2021",
+        "woc": "2",
+        "appearances": [
+            1455
+        ]
+    },
+    {
+        "number": "1393",
+        "artist": "<a href=\"/wiki/LadBaby\">LadBaby</a> featuring <a href=\"/wiki/Ed_Sheeran\">Ed Sheeran</a> and <a href=\"/wiki/Elton_John\">Elton John</a>",
+        "song": "\"<a href=\"/wiki/Sausage_Rolls_for_Everyone\">Sausage Rolls for Everyone</a>\"",
+        "date": "30 December 2021",
+        "woc": "1",
+        "appearances": [
+            1456
         ]
     }
 ]
