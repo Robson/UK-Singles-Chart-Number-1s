@@ -31,7 +31,7 @@ var data = [
     },
     {
         "number": "4",
-        "artist": "<a href=\"/wiki/Eddie_Fisher_(singer)\">Eddie Fisher</a>",
+        "artist": "<a href=\"/wiki/Eddie_Fisher\">Eddie Fisher</a>",
         "song": "\"<a href=\"/wiki/Outside_of_Heaven\">Outside of Heaven</a>\"",
         "date": "30 January 1953",
         "woc": "1",
@@ -82,7 +82,7 @@ var data = [
     {
         "number": "9",
         "artist": "<a href=\"/wiki/Frankie_Laine\">Frankie Laine</a>",
-        "song": "\"<a href=\"/wiki/I_Believe_(1953_song)\">I Believe</a>\"",
+        "song": "\"<a href=\"/wiki/I_Believe_(Frankie_Laine_song)\">I Believe</a>\"",
         "date": "24 April 1953",
         "woc": "9",
         "appearances": [
@@ -93,7 +93,7 @@ var data = [
     },
     {
         "number": "10",
-        "artist": "<a href=\"/wiki/Eddie_Fisher_(singer)\">Eddie Fisher</a>",
+        "artist": "<a href=\"/wiki/Eddie_Fisher\">Eddie Fisher</a> with <a href=\"/wiki/Sally_Sweetland\">Sally Sweetland</a>",
         "song": "\"<a href=\"/wiki/I%27m_Walking_Behind_You\">I'm Walking Behind You</a>\"",
         "date": "26 June 1953",
         "woc": "1",
@@ -104,7 +104,7 @@ var data = [
     {
         "number": "re",
         "artist": "<a href=\"/wiki/Frankie_Laine\">Frankie Laine</a>",
-        "song": "\"<a href=\"/wiki/I_Believe_(1953_song)\">I Believe</a>\"",
+        "song": "\"<a href=\"/wiki/I_Believe_(Frankie_Laine_song)\">I Believe</a>\"",
         "date": "3 July 1953",
         "woc": "6",
         "appearances": [
@@ -126,7 +126,7 @@ var data = [
     {
         "number": "re",
         "artist": "<a href=\"/wiki/Frankie_Laine\">Frankie Laine</a>",
-        "song": "\"<a href=\"/wiki/I_Believe_(1953_song)\">I Believe</a>\"",
+        "song": "\"<a href=\"/wiki/I_Believe_(Frankie_Laine_song)\">I Believe</a>\"",
         "date": "21 August 1953",
         "woc": "3",
         "appearances": [
@@ -138,7 +138,7 @@ var data = [
     {
         "number": "12",
         "artist": "<a href=\"/wiki/Guy_Mitchell\">Guy Mitchell</a>",
-        "song": "\"<a href=\"/wiki/Look_At_That_Girl\">Look At That Girl</a>\"",
+        "song": "\"<a href=\"/wiki/Look_at_That_Girl\">Look at That Girl</a>\"",
         "date": "11 September 1953",
         "woc": "6",
         "appearances": [
@@ -204,7 +204,8 @@ var data = [
         "date": "12 March 1954",
         "woc": "5",
         "appearances": [
-            19
+            19,
+            21
         ]
     },
     {
@@ -220,11 +221,12 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/The_Stargazers_(1940s%E2%80%931950s_group)\">The Stargazers</a>",
+        "artist": "<a href=\"/wiki/The_Stargazers_(1940s%E2%80%9350s_group)\">The Stargazers</a>",
         "song": "\"<a href=\"/wiki/I_See_the_Moon\">I See the Moon</a>\"",
         "date": "23 April 1954",
         "woc": "1",
         "appearances": [
+            19,
             21
         ]
     },
@@ -251,7 +253,7 @@ var data = [
     },
     {
         "number": "20",
-        "artist": "<a href=\"/wiki/David_Whitfield\">David Whitfield</a>",
+        "artist": "<a href=\"/wiki/David_Whitfield\">David Whitfield</a> with <a href=\"/wiki/Mantovani\">Mantovani and his Orchestra</a>",
         "song": "\"<a href=\"/wiki/Cara_Mia\">Cara Mia</a>\"",
         "date": "2 July 1954",
         "woc": "10",
@@ -333,13 +335,12 @@ var data = [
     },
     {
         "number": "27",
-        "artist": "<a href=\"/wiki/Dickie_Valentine\">Dickie Valentine</a>",
-        "song": "\"<a href=\"/wiki/The_Finger_of_Suspicion_(Points_at_You)\">The Finger of Suspicion</a>\"",
+        "artist": "<a href=\"/wiki/Dickie_Valentine\">Dickie Valentine</a> with <a href=\"/wiki/The_Stargazers_(vocal_ensemble)\">the Stargazers</a>",
+        "song": "\"<a href=\"/wiki/The_Finger_of_Suspicion\">The Finger of Suspicion</a>\"",
         "date": "7 January 1955",
         "woc": "1",
         "appearances": [
-            32,
-            34
+            32
         ]
     },
     {
@@ -355,12 +356,11 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/Dickie_Valentine\">Dickie Valentine</a>",
+        "artist": "<a href=\"/wiki/Dickie_Valentine\">Dickie Valentine</a> with <a href=\"/wiki/The_Stargazers_(vocal_ensemble)\">the Stargazers</a>",
         "song": "\"<a href=\"/wiki/The_Finger_of_Suspicion_(Points_at_You)\">The Finger of Suspicion</a>\"",
         "date": "21 January 1955",
         "woc": "2",
         "appearances": [
-            32,
             34
         ]
     },
@@ -397,7 +397,7 @@ var data = [
     },
     {
         "number": "31",
-        "artist": "<a href=\"/wiki/Perez_Prado\">Perez \"Prez\" Prado</a> and his Orchestra",
+        "artist": "<a href=\"/wiki/P%C3%A9rez_Prado\">Perez Prado and his Orchestra</a>",
         "song": "\"<a href=\"/wiki/Cherry_Pink_(and_Apple_Blossom_White)\">Cherry Pink (and Apple Blossom White)</a>\"",
         "date": "29 April 1955",
         "woc": "2",
@@ -467,7 +467,7 @@ var data = [
     },
     {
         "number": "38",
-        "artist": "<a href=\"/wiki/Johnston_Brothers\">Johnston Brothers</a>",
+        "artist": "<a href=\"/wiki/The_Johnston_Brothers\">The Johnston Brothers</a>",
         "song": "\"<a href=\"/wiki/Hernando%27s_Hideaway\">Hernando's Hideaway</a>\"",
         "date": "11 November 1955",
         "woc": "2",
@@ -540,7 +540,7 @@ var data = [
     },
     {
         "number": "44",
-        "artist": "<a href=\"/wiki/Kay_Starr\">Kay Starr</a> with the <a href=\"/wiki/Hugo_Winterhalter\">Hugo Winterhalter</a> <a href=\"/wiki/Orchestra\">Orchestra</a>",
+        "artist": "<a href=\"/wiki/Kay_Starr\">Kay Starr</a>",
         "song": "\"<a href=\"/wiki/Rock_and_Roll_Waltz\">Rock and Roll Waltz</a>\"",
         "date": "30 March 1956",
         "woc": "1",
@@ -591,7 +591,7 @@ var data = [
     },
     {
         "number": "48",
-        "artist": "<a href=\"/wiki/Frankie_Lymon\">Frankie Lymon</a> and <a href=\"/wiki/The_Teenagers\">The Teenagers</a>",
+        "artist": "<a href=\"/wiki/The_Teenagers\">The Teenagers</a>",
         "song": "\"<a href=\"/wiki/Why_Do_Fools_Fall_in_Love_(song)\">Why Do Fools Fall in Love</a>\"",
         "date": "20 July 1956",
         "woc": "3",
@@ -612,7 +612,7 @@ var data = [
     {
         "number": "50",
         "artist": "<a href=\"/wiki/Anne_Shelton_(singer)\">Anne Shelton</a>",
-        "song": "\"<a href=\"/wiki/Lay_Down_Your_Arms_(song)\">Lay Down Your Arms</a>\"",
+        "song": "\"<a href=\"/wiki/Lay_Down_Your_Arms_(1956_song)\">Lay Down Your Arms</a>\"",
         "date": "21 September 1956",
         "woc": "4",
         "appearances": [
@@ -748,7 +748,7 @@ var data = [
     {
         "number": "61",
         "artist": "<a href=\"/wiki/Lonnie_Donegan\">Lonnie Donegan</a>",
-        "song": "\"<a href=\"/wiki/Puttin%27_On_the_Style\">Puttin' On the Style</a>\" / \"<a href=\"/wiki/Gamblin%27_Man\">Gamblin' Man</a>\"",
+        "song": "\"<a href=\"/wiki/Gamblin%27_Man\">Gamblin' Man</a>\" / \"<a href=\"/wiki/Puttin%27_On_the_Style\">Puttin' On the Style</a>\"",
         "date": "28 June 1957",
         "woc": "2",
         "appearances": [
@@ -812,8 +812,7 @@ var data = [
         "date": "24 January 1958",
         "woc": "3",
         "appearances": [
-            78,
-            1030
+            78
         ]
     },
     {
@@ -849,7 +848,7 @@ var data = [
     {
         "number": "71",
         "artist": "<a href=\"/wiki/Connie_Francis\">Connie Francis</a>",
-        "song": "\"<a href=\"/wiki/Who%27s_Sorry_Now%3F\">Who's Sorry Now</a>\"",
+        "song": "\"<a href=\"/wiki/Who%27s_Sorry_Now%3F_(song)\">Who's Sorry Now</a>\"",
         "date": "16 May 1958",
         "woc": "6",
         "appearances": [
@@ -869,7 +868,7 @@ var data = [
     {
         "number": "73",
         "artist": "<a href=\"/wiki/The_Everly_Brothers\">The Everly Brothers</a>",
-        "song": "\"<a href=\"/wiki/All_I_Have_to_Do_Is_Dream\">All I Have to Do Is Dream</a>\" / \"Claudette\"",
+        "song": "\"<a href=\"/wiki/All_I_Have_to_Do_Is_Dream\">All I Have to Do Is Dream</a>\" / \"<a href=\"/wiki/Claudette_(song)\">Claudette</a>\"",
         "date": "4 July 1958",
         "woc": "7x",
         "appearances": [
@@ -889,7 +888,7 @@ var data = [
     {
         "number": "75",
         "artist": "<a href=\"/wiki/Connie_Francis\">Connie Francis</a>",
-        "song": "\"<a href=\"/wiki/Carolina_Moon_(song)\">Carolina Moon</a>\" / \"<a href=\"/wiki/Stupid_Cupid\">Stupid Cupid</a>\"",
+        "song": "\"<a href=\"/wiki/Stupid_Cupid\">Stupid Cupid</a>\" / \"<a href=\"/wiki/Carolina_Moon_(song)\">Carolina Moon</a>\"",
         "date": "26 September 1958",
         "woc": "6",
         "appearances": [
@@ -939,7 +938,7 @@ var data = [
     {
         "number": "80",
         "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis Presley</a>",
-        "song": "\"<a href=\"/wiki/I_Got_Stung\">I Got Stung</a>\" / \"<a href=\"/wiki/One_Night_(Elvis_Presley_song)\">One Night</a>\"",
+        "song": "\"<a href=\"/wiki/One_Night_(Elvis_Presley_song)\">One Night</a>\" / \"<a href=\"/wiki/I_Got_Stung\">I Got Stung</a>\"",
         "date": "30 January 1959",
         "woc": "3",
         "appearances": [
@@ -948,7 +947,7 @@ var data = [
     },
     {
         "number": "81",
-        "artist": "<a href=\"/wiki/Shirley_Bassey\">Shirley Bassey</a> with <a href=\"/wiki/Wally_Stott\">Wally Stott &amp; His Orchestra</a>",
+        "artist": "<a href=\"/wiki/Shirley_Bassey\">Shirley Bassey</a>",
         "song": "\"<a href=\"/wiki/As_I_Love_You\">As I Love You</a>\"",
         "date": "20 February 1959",
         "woc": "4",
@@ -989,7 +988,7 @@ var data = [
     {
         "number": "85",
         "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis Presley</a>",
-        "song": "\"<a href=\"/wiki/A_Fool_Such_As_I\">A Fool Such As I</a>\" / \"<a href=\"/wiki/I_Need_Your_Love_Tonight\">I Need Your Love Tonight</a>\"",
+        "song": "\"<a href=\"/wiki/(Now_and_Then_There%27s)_A_Fool_Such_as_I\">A Fool Such as I</a>\" / \"<a href=\"/wiki/I_Need_Your_Love_Tonight\">I Need Your Love Tonight</a>\"",
         "date": "15 May 1959",
         "woc": "5",
         "appearances": [
@@ -1018,7 +1017,7 @@ var data = [
     },
     {
         "number": "88",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and The Shadows",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Drifters</a>",
         "song": "\"<a href=\"/wiki/Living_Doll_(song)\">Living Doll</a>\"",
         "date": "31 July 1959",
         "woc": "6",
@@ -1058,8 +1057,8 @@ var data = [
     },
     {
         "number": "92",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Shadows\">The Shadows</a>",
-        "song": "\"<a href=\"/wiki/Travellin%27_Light\">Travellin' Light</a>\"",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Shadows</a>",
+        "song": "\"<a href=\"/wiki/Travellin%27_Light_(Cliff_Richard_song)\">Travellin' Light</a>\"",
         "date": "30 October 1959",
         "woc": "5",
         "appearances": [
@@ -1078,7 +1077,7 @@ var data = [
     },
     {
         "number": "94",
-        "artist": "<a href=\"/wiki/Emile_Ford\">Emile Ford</a> and the Checkmates",
+        "artist": "<a href=\"/wiki/Emile_Ford\">Emile Ford and the Checkmates</a>",
         "song": "\"<a href=\"/wiki/What_Do_You_Want_to_Make_Those_Eyes_at_Me_For%3F\">What Do You Want to Make Those Eyes at Me For?</a>\"",
         "date": "18 December 1959",
         "woc": "6x",
@@ -1149,7 +1148,7 @@ var data = [
     {
         "number": "101",
         "artist": "<a href=\"/wiki/The_Everly_Brothers\">The Everly Brothers</a>",
-        "song": "\"<a href=\"/wiki/Cathy%27s_Clown\">Cathy's Clown</a>\"",
+        "song": "\"<a href=\"/wiki/Cathy%27s_Clown_(The_Everly_Brothers_song)\">Cathy's Clown</a>\"",
         "date": "5 May 1960",
         "woc": "7",
         "appearances": [
@@ -1178,7 +1177,7 @@ var data = [
     },
     {
         "number": "104",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Shadows\">The Shadows</a>",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Shadows</a>",
         "song": "\"<a href=\"/wiki/Please_Don%27t_Tease\">Please Don't Tease</a>\"",
         "date": "28 July 1960",
         "woc": "1",
@@ -1189,7 +1188,7 @@ var data = [
     },
     {
         "number": "105",
-        "artist": "<a href=\"/wiki/Johnny_Kidd_%26_The_Pirates\">Johnny Kidd &amp; The Pirates</a>",
+        "artist": "<a href=\"/wiki/Johnny_Kidd_%26_the_Pirates\">Johnny Kidd and the Pirates</a>",
         "song": "\"<a href=\"/wiki/Shakin%27_All_Over\">Shakin' All Over</a>\"",
         "date": "4 August 1960",
         "woc": "1",
@@ -1199,7 +1198,7 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Shadows\">The Shadows</a>",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Shadows</a>",
         "song": "\"<a href=\"/wiki/Please_Don%27t_Tease\">Please Don't Tease</a>\"",
         "date": "11 August 1960",
         "woc": "2",
@@ -1231,7 +1230,7 @@ var data = [
     {
         "number": "108",
         "artist": "<a href=\"/wiki/Roy_Orbison\">Roy Orbison</a>",
-        "song": "\"<a href=\"/wiki/Only_the_Lonely\">Only the Lonely (Know How I Feel)</a>\"",
+        "song": "\"<a href=\"/wiki/Only_the_Lonely\">Only the Lonely</a>\"",
         "date": "20 October 1960",
         "woc": "2",
         "appearances": [
@@ -1245,13 +1244,12 @@ var data = [
         "date": "3 November 1960",
         "woc": "8",
         "appearances": [
-            121,
-            1033
+            121
         ]
     },
     {
         "number": "110",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Shadows\">The Shadows</a>",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Shadows</a>",
         "song": "\"<a href=\"/wiki/I_Love_You_(Cliff_Richard_song)\">I Love You</a>\"",
         "date": "29 December 1960",
         "woc": "2",
@@ -1312,7 +1310,7 @@ var data = [
     {
         "number": "116",
         "artist": "<a href=\"/wiki/The_Marcels\">The Marcels</a>",
-        "song": "\"<a href=\"/wiki/Blue_Moon_(song)\">Blue Moon</a>\"",
+        "song": "\"<a href=\"/wiki/Blue_Moon_(1934_song)\">Blue Moon</a>\"",
         "date": "4 May 1961",
         "woc": "2",
         "appearances": [
@@ -1454,7 +1452,7 @@ var data = [
     {
         "number": "129",
         "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis Presley</a>",
-        "song": "\"<a href=\"/wiki/Little_Sister_(Elvis_Presley_song)\">Little Sister</a>\" / \"<a href=\"/wiki/(Marie%27s_the_Name)_His_Latest_Flame\">(Marie's the Name) His Latest Flame</a>\"",
+        "song": "\"<a href=\"/wiki/(Marie%27s_the_Name)_His_Latest_Flame\">(Marie's the Name) His Latest Flame</a>\" / \"<a href=\"/wiki/Little_Sister_(Elvis_Presley_song)\">Little Sister</a>\"",
         "date": "9 November 1961",
         "woc": "4",
         "appearances": [
@@ -1473,7 +1471,7 @@ var data = [
     },
     {
         "number": "131",
-        "artist": "<a href=\"/wiki/Danny_Williams_(musician)\">Danny Williams</a>",
+        "artist": "<a href=\"/wiki/Danny_Williams_(singer)\">Danny Williams</a>",
         "song": "\"<a href=\"/wiki/Moon_River\">Moon River</a>\"",
         "date": "28 December 1961",
         "woc": "2",
@@ -1483,7 +1481,7 @@ var data = [
     },
     {
         "number": "132",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Shadows\">The Shadows</a>",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Shadows</a>",
         "song": "\"<a href=\"/wiki/The_Young_Ones_(song)\">The Young Ones</a>\"",
         "date": "11 January 1962",
         "woc": "6",
@@ -1494,7 +1492,7 @@ var data = [
     {
         "number": "133",
         "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis Presley</a>",
-        "song": "\"<a href=\"/wiki/Rock-A-Hula_Baby\">Rock-A-Hula Baby</a>\" / \"<a href=\"/wiki/Can%27t_Help_Falling_in_Love\">Can't Help Falling in Love</a>\"",
+        "song": "\"<a href=\"/wiki/Can%27t_Help_Falling_in_Love\">Can't Help Falling in Love</a>\" / \"<a href=\"/wiki/Rock-A-Hula_Baby\">Rock-A-Hula Baby</a>\"",
         "date": "22 February 1962",
         "woc": "4",
         "appearances": [
@@ -1603,7 +1601,7 @@ var data = [
     },
     {
         "number": "144",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Shadows\">The Shadows</a>",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Shadows</a>",
         "song": "\"<a href=\"/wiki/The_Next_Time\">The Next Time</a>\" / \"<a href=\"/wiki/Bachelor_Boy\">Bachelor Boy</a>\"",
         "date": "3 January 1963",
         "woc": "3",
@@ -1643,7 +1641,7 @@ var data = [
     },
     {
         "number": "148",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Shadows\">The Shadows</a>",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Shadows</a>",
         "song": "\"<a href=\"/wiki/Summer_Holiday_(song)\">Summer Holiday</a>\"",
         "date": "14 March 1963",
         "woc": "2",
@@ -1664,7 +1662,7 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Shadows\">The Shadows</a>",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard and the Shadows</a>",
         "song": "\"<a href=\"/wiki/Summer_Holiday_(song)\">Summer Holiday</a>\"",
         "date": "4 April 1963",
         "woc": "1",
@@ -1675,7 +1673,7 @@ var data = [
     },
     {
         "number": "150",
-        "artist": "<a href=\"/wiki/Gerry_%26_The_Pacemakers\">Gerry &amp; The Pacemakers</a>",
+        "artist": "<a href=\"/wiki/Gerry_and_the_Pacemakers\">Gerry and the Pacemakers</a>",
         "song": "\"<a href=\"/wiki/How_Do_You_Do_It%3F\">How Do You Do It?</a>\"",
         "date": "11 April 1963",
         "woc": "3",
@@ -1695,7 +1693,7 @@ var data = [
     },
     {
         "number": "152",
-        "artist": "<a href=\"/wiki/Gerry_%26_The_Pacemakers\">Gerry &amp; The Pacemakers</a>",
+        "artist": "<a href=\"/wiki/Gerry_and_the_Pacemakers\">Gerry and the Pacemakers</a>",
         "song": "\"<a href=\"/wiki/I_Like_It_(Gerry_%26_the_Pacemakers_song)\">I Like It</a>\"",
         "date": "20 June 1963",
         "woc": "4",
@@ -1706,7 +1704,7 @@ var data = [
     {
         "number": "153",
         "artist": "<a href=\"/wiki/Frank_Ifield\">Frank Ifield</a>",
-        "song": "\"<a href=\"/wiki/Confessin%27\">Confessin' (That I Love You)</a>\"",
+        "song": "\"<a href=\"/wiki/Confessin%27\">Confessin'</a>\"",
         "date": "18 July 1963",
         "woc": "2",
         "appearances": [
@@ -1735,7 +1733,7 @@ var data = [
     },
     {
         "number": "156",
-        "artist": "<a href=\"/wiki/Billy_J._Kramer\">Billy J. Kramer</a> &amp; <a href=\"/wiki/The_Dakotas_(band)\">The Dakotas</a>",
+        "artist": "<a href=\"/wiki/Billy_J._Kramer\">Billy J. Kramer</a> and <a href=\"/wiki/The_Dakotas_(band)\">the Dakotas</a>",
         "song": "\"<a href=\"/wiki/Bad_to_Me\">Bad to Me</a>\"",
         "date": "22 August 1963",
         "woc": "3",
@@ -1756,7 +1754,7 @@ var data = [
     },
     {
         "number": "158",
-        "artist": "<a href=\"/wiki/The_Tremeloes\">Brian Poole and The Tremeloes</a>",
+        "artist": "<a href=\"/wiki/The_Tremeloes\">Brian Poole and the Tremeloes</a>",
         "song": "\"<a href=\"/wiki/Do_You_Love_Me\">Do You Love Me</a>\"",
         "date": "10 October 1963",
         "woc": "3",
@@ -1766,7 +1764,7 @@ var data = [
     },
     {
         "number": "159",
-        "artist": "<a href=\"/wiki/Gerry_%26_The_Pacemakers\">Gerry &amp; The Pacemakers</a>",
+        "artist": "<a href=\"/wiki/Gerry_and_the_Pacemakers\">Gerry and the Pacemakers</a>",
         "song": "\"<a href=\"/wiki/You%27ll_Never_Walk_Alone\">You'll Never Walk Alone</a>\"",
         "date": "31 October 1963",
         "woc": "4",
@@ -1837,7 +1835,7 @@ var data = [
     },
     {
         "number": "165",
-        "artist": "<a href=\"/wiki/Billy_J._Kramer\">Billy J. Kramer</a> &amp; <a href=\"/wiki/The_Dakotas_(band)\">The Dakotas</a>",
+        "artist": "<a href=\"/wiki/Billy_J._Kramer\">Billy J. Kramer</a> and <a href=\"/wiki/The_Dakotas_(band)\">the Dakotas</a>",
         "song": "\"<a href=\"/wiki/Little_Children_(song)\">Little Children</a>\"",
         "date": "19 March 1964",
         "woc": "2",
@@ -1857,7 +1855,7 @@ var data = [
     },
     {
         "number": "167",
-        "artist": "<a href=\"/wiki/Peter_%26_Gordon\">Peter &amp; Gordon</a>",
+        "artist": "<a href=\"/wiki/Peter_and_Gordon\">Peter and Gordon</a>",
         "song": "\"<a href=\"/wiki/A_World_Without_Love\">A World Without Love</a>\"",
         "date": "23 April 1964",
         "woc": "2",
@@ -1888,7 +1886,7 @@ var data = [
     {
         "number": "170",
         "artist": "<a href=\"/wiki/Cilla_Black\">Cilla Black</a>",
-        "song": "\"<a href=\"/wiki/You%27re_My_World\">You're My World (Il Mio Mondo)</a>\"",
+        "song": "\"<a href=\"/wiki/You%27re_My_World\">You're My World</a>\"",
         "date": "28 May 1964",
         "woc": "4",
         "appearances": [
@@ -1908,7 +1906,7 @@ var data = [
     {
         "number": "172",
         "artist": "<a href=\"/wiki/The_Animals\">The Animals</a>",
-        "song": "\"<a href=\"/wiki/The_House_of_the_Rising_Sun\">House of the Rising Sun</a>\"",
+        "song": "\"<a href=\"/wiki/The_House_of_the_Rising_Sun\">The House of the Rising Sun</a>\"",
         "date": "9 July 1964",
         "woc": "1",
         "appearances": [
@@ -2039,8 +2037,8 @@ var data = [
     },
     {
         "number": "184",
-        "artist": "<a href=\"/wiki/Georgie_Fame\">Georgie Fame</a>",
-        "song": "\"<a href=\"/wiki/Yeh,_Yeh\">Yeh Yeh</a>\"",
+        "artist": "<a href=\"/wiki/Georgie_Fame_and_the_Blue_Flames\">Georgie Fame and the Blue Flames</a>",
+        "song": "\"<a href=\"/wiki/Yeh,_Yeh\">Yeh, Yeh</a>\"",
         "date": "14 January 1965",
         "woc": "2",
         "appearances": [
@@ -2130,7 +2128,7 @@ var data = [
     {
         "number": "193",
         "artist": "<a href=\"/wiki/The_Beatles\">The Beatles</a>",
-        "song": "\"<a href=\"/wiki/Ticket_to_Ride\">Ticket to Ride</a>\"",
+        "song": "\"<a href=\"/wiki/Ticket_to_Ride_(song)\">Ticket to Ride</a>\"",
         "date": "22 April 1965",
         "woc": "3",
         "appearances": [
@@ -2150,7 +2148,7 @@ var data = [
     {
         "number": "195",
         "artist": "<a href=\"/wiki/Jackie_Trent\">Jackie Trent</a>",
-        "song": "\"<a href=\"/wiki/Where_Are_You_Now_(My_Love)\">Where Are You Now (My Love)</a>\"",
+        "song": "\"<a href=\"/wiki/Where_Are_You_Now_(Jackie_Trent_song)\">Where Are You Now</a>\"",
         "date": "20 May 1965",
         "woc": "1",
         "appearances": [
@@ -2374,7 +2372,7 @@ var data = [
     {
         "number": "215",
         "artist": "<a href=\"/wiki/The_Rolling_Stones\">The Rolling Stones</a>",
-        "song": "\"<a href=\"/wiki/Paint_It_Black\">Paint It, Black</a>\"",
+        "song": "\"<a href=\"/wiki/Paint_It_Black\">Paint It Black</a>\"",
         "date": "26 May 1966",
         "woc": "1",
         "appearances": [
@@ -2413,8 +2411,8 @@ var data = [
     },
     {
         "number": "219",
-        "artist": "<a href=\"/wiki/Georgie_Fame\">Georgie Fame</a> and the Blue Flames",
-        "song": "\"<a href=\"/wiki/Getaway_(Georgie_Fame_song)\">Getaway</a>\"",
+        "artist": "<a href=\"/wiki/Georgie_Fame_and_the_Blue_Flames\">Georgie Fame and the Blue Flames</a>",
+        "song": "\"<a href=\"/wiki/Getaway_(Georgie_Fame_song)\">Get Away</a>\"",
         "date": "21 July 1966",
         "woc": "1",
         "appearances": [
@@ -2533,7 +2531,7 @@ var data = [
     },
     {
         "number": "231",
-        "artist": "<a href=\"/wiki/Nancy_Sinatra\">Nancy Sinatra</a> and <a href=\"/wiki/Frank_Sinatra\">Frank Sinatra</a>",
+        "artist": "<a href=\"/wiki/Frank_Sinatra\">Frank</a> and <a href=\"/wiki/Nancy_Sinatra\">Nancy Sinatra</a>",
         "song": "\"<a href=\"/wiki/Somethin%27_Stupid\">Somethin' Stupid</a>\"",
         "date": "13 April 1967",
         "woc": "2",
@@ -2544,7 +2542,7 @@ var data = [
     {
         "number": "232",
         "artist": "<a href=\"/wiki/Sandie_Shaw\">Sandie Shaw</a>",
-        "song": "\"<a href=\"/wiki/Puppet_on_a_String\">Puppet on a String</a>\"",
+        "song": "\"<a href=\"/wiki/Puppet_on_a_String_(Sandie_Shaw_song)\">Puppet on a String</a>\"",
         "date": "27 April 1967",
         "woc": "3",
         "appearances": [
@@ -2664,7 +2662,7 @@ var data = [
     {
         "number": "244",
         "artist": "<a href=\"/wiki/Manfred_Mann\">Manfred Mann</a>",
-        "song": "\"<a href=\"/wiki/Mighty_Quinn_(song)\">Mighty Quinn</a>\"",
+        "song": "\"<a href=\"/wiki/Quinn_the_Eskimo_(Mighty_Quinn)\">Mighty Quinn</a>\"",
         "date": "14 February 1968",
         "woc": "2",
         "appearances": [
@@ -2714,7 +2712,7 @@ var data = [
     {
         "number": "249",
         "artist": "<a href=\"/wiki/Louis_Armstrong\">Louis Armstrong</a>",
-        "song": "\"<a href=\"/wiki/What_a_Wonderful_World\">What a Wonderful World</a>\" / \"<a href=\"/wiki/Cabaret_(Cabaret_song)\">Cabaret</a>\"",
+        "song": "\"<a href=\"/wiki/What_a_Wonderful_World\">What a Wonderful World</a>\"",
         "date": "24 April 1968",
         "woc": "4",
         "appearances": [
@@ -2723,7 +2721,7 @@ var data = [
     },
     {
         "number": "250",
-        "artist": "<a href=\"/wiki/Gary_Puckett_%26_The_Union_Gap\">Gary Puckett &amp; The Union Gap</a>",
+        "artist": "<a href=\"/wiki/Gary_Puckett_%26_The_Union_Gap\">Gary Puckett and the Union Gap</a>",
         "song": "\"<a href=\"/wiki/Young_Girl_(Gary_Puckett_%26_The_Union_Gap_song)\">Young Girl</a>\"",
         "date": "22 May 1968",
         "woc": "4",
@@ -2774,7 +2772,7 @@ var data = [
     },
     {
         "number": "255",
-        "artist": "<a href=\"/wiki/Crazy_World_of_Arthur_Brown_(band)\">Crazy World of Arthur Brown</a>",
+        "artist": "<a href=\"/wiki/The_Crazy_World_of_Arthur_Brown\">The Crazy World of Arthur Brown</a>",
         "song": "\"<a href=\"/wiki/Fire_(Arthur_Brown_song)\">Fire</a>\"",
         "date": "14 August 1968",
         "woc": "1",
@@ -2900,7 +2898,7 @@ var data = [
     {
         "number": "264",
         "artist": "<a href=\"/wiki/Fleetwood_Mac\">Fleetwood Mac</a>",
-        "song": "\"<a href=\"/wiki/Albatross_(composition)\">Albatross</a>\"",
+        "song": "\"<a href=\"/wiki/Albatross_(instrumental)\">Albatross</a>\"",
         "date": "29 January 1969",
         "woc": "1",
         "appearances": [
@@ -2949,7 +2947,7 @@ var data = [
     },
     {
         "number": "269",
-        "artist": "<a href=\"/wiki/Desmond_Dekker\">Desmond Dekker</a> &amp; <a href=\"/wiki/The_Aces_(Jamaican_group)\">The Aces</a>",
+        "artist": "<a href=\"/wiki/Desmond_Dekker\">Desmond Dekker</a> and <a href=\"/wiki/The_Aces_(Jamaican_group)\">the Aces</a>",
         "song": "\"<a href=\"/wiki/Israelites_(song)\">Israelites</a>\"",
         "date": "16 April 1969",
         "woc": "1",
@@ -3010,8 +3008,8 @@ var data = [
     {
         "number": "275",
         "artist": "<a href=\"/wiki/Zager_and_Evans\">Zager and Evans</a>",
-        "song": "\"<a href=\"/wiki/In_the_Year_2525\">In The Year 2525 (Exordium and Terminus)</a>\"",
-        "date": "30 August 1969",
+        "song": "\"<a href=\"/wiki/In_the_Year_2525\">In the Year 2525</a>\"",
+        "date": "24 August 1969",
         "woc": "3",
         "appearances": [
             296
@@ -3021,7 +3019,7 @@ var data = [
         "number": "276",
         "artist": "<a href=\"/wiki/Creedence_Clearwater_Revival\">Creedence Clearwater Revival</a>",
         "song": "\"<a href=\"/wiki/Bad_Moon_Rising\">Bad Moon Rising</a>\"",
-        "date": "20 September 1969",
+        "date": "14 September 1969",
         "woc": "3",
         "appearances": [
             297
@@ -3031,7 +3029,7 @@ var data = [
         "number": "277",
         "artist": "<a href=\"/wiki/Jane_Birkin\">Jane Birkin</a> and <a href=\"/wiki/Serge_Gainsbourg\">Serge Gainsbourg</a>",
         "song": "\"<a href=\"/wiki/Je_t%27aime..._moi_non_plus\">Je t'aime... moi non plus</a>\"",
-        "date": "11 October 1969",
+        "date": "5 October 1969",
         "woc": "1",
         "appearances": [
             298
@@ -3041,7 +3039,7 @@ var data = [
         "number": "278",
         "artist": "<a href=\"/wiki/Bobbie_Gentry\">Bobbie Gentry</a>",
         "song": "\"<a href=\"/wiki/I%27ll_Never_Fall_in_Love_Again\">I'll Never Fall in Love Again</a>\"",
-        "date": "18 October 1969",
+        "date": "12 October 1969",
         "woc": "1",
         "appearances": [
             299
@@ -3051,7 +3049,7 @@ var data = [
         "number": "279",
         "artist": "<a href=\"/wiki/The_Archies\">The Archies</a>",
         "song": "\"<a href=\"/wiki/Sugar,_Sugar\">Sugar, Sugar</a>\"",
-        "date": "25 October 1969",
+        "date": "19 October 1969",
         "woc": "8",
         "appearances": [
             300
@@ -3061,7 +3059,7 @@ var data = [
         "number": "280",
         "artist": "<a href=\"/wiki/Rolf_Harris\">Rolf Harris</a>",
         "song": "\"<a href=\"/wiki/Two_Little_Boys\">Two Little Boys</a>\"",
-        "date": "20 December 1969",
+        "date": "14 December 1969",
         "woc": "6",
         "appearances": [
             301
@@ -3119,7 +3117,7 @@ var data = [
     },
     {
         "number": "286",
-        "artist": "<a href=\"/wiki/1970_FIFA_World_Cup_squads#.C2.A0England\">England World Cup Squad \"70\"</a>",
+        "artist": "<a href=\"/wiki/England_National_Football_Team\">England World Cup Squad</a>",
         "song": "\"<a href=\"/wiki/Back_Home_(England_song)\">Back Home</a>\"",
         "date": "16 May 1970",
         "woc": "3",
@@ -3140,7 +3138,7 @@ var data = [
     {
         "number": "288",
         "artist": "<a href=\"/wiki/Mungo_Jerry\">Mungo Jerry</a>",
-        "song": "\"<a href=\"/wiki/In_the_Summertime_(Mungo_Jerry_song)\">In the Summertime</a>\"",
+        "song": "\"<a href=\"/wiki/In_the_Summertime\">In the Summertime</a>\"",
         "date": "13 June 1970",
         "woc": "7",
         "appearances": [
@@ -3159,7 +3157,7 @@ var data = [
     },
     {
         "number": "290",
-        "artist": "<a href=\"/wiki/Smokey_Robinson\">Smokey Robinson</a> and <a href=\"/wiki/The_Miracles\">The Miracles</a>",
+        "artist": "<a href=\"/wiki/The_Miracles\">Smokey Robinson and the Miracles</a>",
         "song": "\"<a href=\"/wiki/The_Tears_of_a_Clown\">The Tears of a Clown</a>\"",
         "date": "12 September 1970",
         "woc": "1",
@@ -3179,7 +3177,7 @@ var data = [
     },
     {
         "number": "292",
-        "artist": "<a href=\"/wiki/Matthews%27_Southern_Comfort\">Matthews' Southern Comfort</a>",
+        "artist": "<a href=\"/wiki/Matthews_Southern_Comfort\">Matthews Southern Comfort</a>",
         "song": "\"<a href=\"/wiki/Woodstock_(song)\">Woodstock</a>\"",
         "date": "31 October 1970",
         "woc": "3",
@@ -3189,8 +3187,8 @@ var data = [
     },
     {
         "number": "293",
-        "artist": "<a href=\"/wiki/The_Jimi_Hendrix_Experience\">Jimi Hendrix Experience</a>",
-        "song": "\"<a href=\"/wiki/Voodoo_Child_(Slight_Return)\">Voodoo Child</a>\"",
+        "artist": "<a href=\"/wiki/The_Jimi_Hendrix_Experience\">The Jimi Hendrix Experience</a>",
+        "song": "\"<a href=\"/wiki/Voodoo_Child_(Slight_Return)\">Voodoo Child (Slight Return)</a>\"",
         "date": "21 November 1970",
         "woc": "1",
         "appearances": [
@@ -3224,8 +3222,7 @@ var data = [
         "date": "30 January 1971",
         "woc": "5",
         "appearances": [
-            317,
-            948
+            317
         ]
     },
     {
@@ -3250,8 +3247,8 @@ var data = [
     },
     {
         "number": "299",
-        "artist": "<a href=\"/wiki/Dave_and_Ansell_Collins\">Dave and Ansel Collins</a>",
-        "song": "\"<a href=\"/wiki/Double_Barrel\">Double Barrel</a>\"",
+        "artist": "<a href=\"/wiki/Dave_and_Ansell_Collins\">Dave and Ansell Collins</a>",
+        "song": "\"<a href=\"/wiki/Double_Barrel_(song)\">Double Barrel</a>\"",
         "date": "1 May 1971",
         "woc": "2",
         "appearances": [
@@ -3260,7 +3257,7 @@ var data = [
     },
     {
         "number": "300",
-        "artist": "<a href=\"/wiki/Tony_Orlando_and_Dawn\">Tony Orlando and Dawn</a>",
+        "artist": "<a href=\"/wiki/Tony_Orlando_and_Dawn\">Dawn</a>",
         "song": "\"<a href=\"/wiki/Knock_Three_Times\">Knock Three Times</a>\"",
         "date": "15 May 1971",
         "woc": "5",
@@ -3311,7 +3308,7 @@ var data = [
     {
         "number": "305",
         "artist": "<a href=\"/wiki/Rod_Stewart\">Rod Stewart</a>",
-        "song": "\"<a href=\"/wiki/Reason_to_Believe\">Reason to Believe</a>\"/\"<a href=\"/wiki/Maggie_May\">Maggie May</a>\"",
+        "song": "\"<a href=\"/wiki/Reason_to_Believe\">Reason to Believe</a>\" / \"<a href=\"/wiki/Maggie_May\">Maggie May</a>\"",
         "date": "9 October 1971",
         "woc": "5",
         "appearances": [
@@ -3401,7 +3398,7 @@ var data = [
     {
         "number": "314",
         "artist": "<a href=\"/wiki/Don_McLean\">Don McLean</a>",
-        "song": "\"<a href=\"/wiki/Vincent_(song)\">Vincent</a>\"",
+        "song": "\"<a href=\"/wiki/Vincent_(Don_McLean_song)\">Vincent</a>\"",
         "date": "17 June 1972",
         "woc": "2",
         "appearances": [
@@ -3421,7 +3418,7 @@ var data = [
     {
         "number": "316",
         "artist": "<a href=\"/wiki/Donny_Osmond\">Donny Osmond</a>",
-        "song": "\"<a href=\"/wiki/Puppy_Love_(song)\">Puppy Love</a>\"",
+        "song": "\"<a href=\"/wiki/Puppy_Love_(Paul_Anka_song)#Donny_Osmond_version\">Puppy Love</a>\"",
         "date": "8 July 1972",
         "woc": "5",
         "appearances": [
@@ -3430,7 +3427,7 @@ var data = [
     },
     {
         "number": "317",
-        "artist": "<a href=\"/wiki/Alice_Cooper\">Alice Cooper</a>",
+        "artist": "<a href=\"/wiki/Alice_Cooper_(band)\">Alice Cooper</a>",
         "song": "\"<a href=\"/wiki/School%27s_Out_(song)\">School's Out</a>\"",
         "date": "12 August 1972",
         "woc": "3",
@@ -3510,8 +3507,8 @@ var data = [
     },
     {
         "number": "325",
-        "artist": "<a href=\"/wiki/The_Sweet\">Sweet</a>",
-        "song": "\"<a href=\"/wiki/Block_Buster!\">Blockbuster</a>\"",
+        "artist": "<a href=\"/wiki/The_Sweet\">The Sweet</a>",
+        "song": "\"<a href=\"/wiki/Block_Buster!\">Blockbuster!</a>\"",
         "date": "27 January 1973",
         "woc": "5",
         "appearances": [
@@ -3550,7 +3547,7 @@ var data = [
     },
     {
         "number": "329",
-        "artist": "<a href=\"/wiki/Tony_Orlando_and_Dawn\">Dawn</a> featuring <a href=\"/wiki/Tony_Orlando\">Tony Orlando</a>",
+        "artist": "<a href=\"/wiki/Tony_Orlando_and_Dawn\">Tony Orlando and Dawn</a>",
         "song": "\"<a href=\"/wiki/Tie_a_Yellow_Ribbon_Round_the_Ole_Oak_Tree\">Tie a Yellow Ribbon Round the Ole Oak Tree</a>\"",
         "date": "21 April 1973",
         "woc": "4",
@@ -3591,7 +3588,7 @@ var data = [
     {
         "number": "333",
         "artist": "<a href=\"/wiki/Slade\">Slade</a>",
-        "song": "\"<a href=\"/wiki/Skweeze_Me_Pleeze_Me\">Skweeze Me Pleeze Me</a>\"",
+        "song": "\"<a href=\"/wiki/Skweeze_Me,_Pleeze_Me\">Skweeze Me, Pleeze Me</a>\"",
         "date": "30 June 1973",
         "woc": "3",
         "appearances": [
@@ -3611,7 +3608,7 @@ var data = [
     {
         "number": "335",
         "artist": "<a href=\"/wiki/Gary_Glitter\">Gary Glitter</a>",
-        "song": "\"<a href=\"/wiki/I%27m_the_Leader_of_the_Gang_(I_Am)\">I'm the Leader of the Gang (I Am!)</a>\"",
+        "song": "\"<a href=\"/wiki/I%27m_the_Leader_of_the_Gang_(I_Am)\">I'm the Leader of the Gang (I Am)</a>\"",
         "date": "28 July 1973",
         "woc": "4",
         "appearances": [
@@ -3631,7 +3628,7 @@ var data = [
     {
         "number": "337",
         "artist": "<a href=\"/wiki/Wizzard\">Wizzard</a>",
-        "song": "\"<a href=\"/wiki/Angel_Fingers\">Angel Fingers (A Teen Ballad)</a>\"",
+        "song": "\"<a href=\"/wiki/Angel_Fingers_(A_Teen_Ballad)\">Angel Fingers</a>\"",
         "date": "22 September 1973",
         "woc": "1",
         "appearances": [
@@ -3641,7 +3638,7 @@ var data = [
     {
         "number": "338",
         "artist": "<a href=\"/wiki/Simon_Park_Orchestra\">Simon Park Orchestra</a>",
-        "song": "\"<a href=\"/wiki/Eye_Level\">Eye Level (Theme From The Thames TV Series \"Van Der Valk\")</a>\"",
+        "song": "\"<a href=\"/wiki/Eye_Level\">Eye Level</a>\"",
         "date": "29 September 1973",
         "woc": "4",
         "appearances": [
@@ -3680,7 +3677,7 @@ var data = [
     },
     {
         "number": "342",
-        "artist": "<a href=\"/wiki/The_New_Seekers\">New Seekers feat. Lyn Paul</a>",
+        "artist": "<a href=\"/wiki/The_New_Seekers\">The New Seekers</a>",
         "song": "\"<a href=\"/wiki/You_Won%27t_Find_Another_Fool_Like_Me\">You Won't Find Another Fool Like Me</a>\"",
         "date": "19 January 1974",
         "woc": "1",
@@ -3761,7 +3758,7 @@ var data = [
     {
         "number": "350",
         "artist": "<a href=\"/wiki/Ray_Stevens\">Ray Stevens</a>",
-        "song": "\"<a href=\"/wiki/The_Streak\">The Streak</a>\"",
+        "song": "\"<a href=\"/wiki/The_Streak_(song)\">The Streak</a>\"",
         "date": "15 June 1974",
         "woc": "1",
         "appearances": [
@@ -4091,7 +4088,7 @@ var data = [
     {
         "number": "383",
         "artist": "<a href=\"/wiki/ABBA\">ABBA</a>",
-        "song": "\"<a href=\"/wiki/Mamma_Mia_(song)\">Mamma Mia</a>\"",
+        "song": "\"<a href=\"/wiki/Mamma_Mia_(ABBA_song)\">Mamma Mia</a>\"",
         "date": "31 January 1976",
         "woc": "2",
         "appearances": [
@@ -4150,7 +4147,7 @@ var data = [
     },
     {
         "number": "389",
-        "artist": "<a href=\"/wiki/J._J._Barrie\">J. J. Barrie</a>",
+        "artist": "<a href=\"/wiki/J.J._Barrie\">J.J. Barrie</a>",
         "song": "\"<a href=\"/wiki/No_Charge\">No Charge</a>\"",
         "date": "5 June 1976",
         "woc": "1",
@@ -4161,7 +4158,7 @@ var data = [
     {
         "number": "390",
         "artist": "<a href=\"/wiki/The_Wurzels\">The Wurzels</a>",
-        "song": "\"<a href=\"/wiki/Brand_New_Key\">The Combine Harvester (Brand New Key)</a>\"",
+        "song": "\"<a href=\"/wiki/The_Combine_Harvester\">Combine Harvester</a>\"",
         "date": "12 June 1976",
         "woc": "2",
         "appearances": [
@@ -4170,7 +4167,7 @@ var data = [
     },
     {
         "number": "391",
-        "artist": "<a href=\"/wiki/The_Real_Thing_(soul_group)\">Real Thing</a>",
+        "artist": "<a href=\"/wiki/The_Real_Thing_(soul_group)\">The Real Thing</a>",
         "song": "\"<a href=\"/wiki/You_to_Me_Are_Everything\">You to Me Are Everything</a>\"",
         "date": "26 June 1976",
         "woc": "3",
@@ -4181,7 +4178,7 @@ var data = [
     {
         "number": "392",
         "artist": "<a href=\"/wiki/Demis_Roussos\">Demis Roussos</a>",
-        "song": "\"<a href=\"/wiki/The_Roussos_Phenomenon\">Excerpts From \"The Roussos Phenomenon\" (EP)</a>\"",
+        "song": "<a href=\"/wiki/The_Roussos_Phenomenon\">The Roussos Phenomenon</a> (EP)",
         "date": "17 July 1976",
         "woc": "1",
         "appearances": [
@@ -4190,7 +4187,7 @@ var data = [
     },
     {
         "number": "393",
-        "artist": "<a href=\"/wiki/Elton_John\">Elton John</a> &amp; <a href=\"/wiki/Kiki_Dee\">Kiki Dee</a>",
+        "artist": "<a href=\"/wiki/Elton_John\">Elton John</a> and <a href=\"/wiki/Kiki_Dee\">Kiki Dee</a>",
         "song": "\"<a href=\"/wiki/Don%27t_Go_Breaking_My_Heart\">Don't Go Breaking My Heart</a>\"",
         "date": "24 July 1976",
         "woc": "6",
@@ -4210,8 +4207,8 @@ var data = [
     },
     {
         "number": "395",
-        "artist": "<a href=\"/wiki/Pussycat_(Dutch_band)\">Pussycat</a>",
-        "song": "\"<a href=\"/wiki/Mississippi_(song)\">Mississippi</a>\"",
+        "artist": "<a href=\"/wiki/Pussycat_(band)\">Pussycat</a>",
+        "song": "\"<a href=\"/wiki/Mississippi_(Pussycat_song)\">Mississippi</a>\"",
         "date": "16 October 1976",
         "woc": "4",
         "appearances": [
@@ -4311,7 +4308,7 @@ var data = [
     {
         "number": "405",
         "artist": "<a href=\"/wiki/Rod_Stewart\">Rod Stewart</a>",
-        "song": "\"<a href=\"/wiki/I_Don%27t_Want_to_Talk_About_It\">I Don't Want to Talk About It</a>\" / \"<a href=\"/wiki/The_First_Cut_Is_the_Deepest\">The First Cut Is the Deepest</a>\"",
+        "song": "\"<a href=\"/wiki/I_Don%27t_Want_to_Talk_About_It\">I Don't Want to Talk About It</a>\" / \"<a href=\"/wiki/The_First_Cut_Is_the_Deepest\">The First Cut Is the Deepest</a>\" ",
         "date": "21 May 1977",
         "woc": "4",
         "appearances": [
@@ -4371,7 +4368,7 @@ var data = [
     {
         "number": "411",
         "artist": "<a href=\"/wiki/The_Floaters\">The Floaters</a>",
-        "song": "\"<a href=\"/wiki/Float_On_(Floaters_song)\">Float On</a>\"",
+        "song": "\"<a href=\"/wiki/Float_On_(The_Floaters_song)\">Float On</a>\"",
         "date": "27 August 1977",
         "woc": "1",
         "appearances": [
@@ -4412,7 +4409,7 @@ var data = [
         "number": "415",
         "artist": "<a href=\"/wiki/ABBA\">ABBA</a>",
         "song": "\"<a href=\"/wiki/The_Name_of_the_Game_(ABBA_song)\">The Name of the Game</a>\"",
-        "date": "4 November 1977",
+        "date": "5 November 1977",
         "woc": "4",
         "appearances": [
             436
@@ -4420,7 +4417,7 @@ var data = [
     },
     {
         "number": "416",
-        "artist": "<a href=\"/wiki/Wings_(band)\">Wings</a>",
+        "artist": "<a href=\"/wiki/Paul_McCartney_and_Wings\">Wings</a>",
         "song": "\"<a href=\"/wiki/Mull_of_Kintyre_(song)\">Mull of Kintyre</a>\" / \"<a href=\"/wiki/Girls%27_School_(song)\">Girls' School</a>\"",
         "date": "3 December 1977",
         "woc": "9",
@@ -4471,7 +4468,7 @@ var data = [
     {
         "number": "421",
         "artist": "<a href=\"/wiki/Brian_and_Michael\">Brian and Michael</a>",
-        "song": "\"<a href=\"/wiki/Matchstalk_Men_%26_Matchstalk_Cats_%26_Dogs_(Lowry%27s_Song)\">Matchstalk Men &amp; Matchstalk Cats &amp; Dogs (Lowry's Song)</a>\"",
+        "song": "\"<a href=\"/wiki/Matchstalk_Men_%26_Matchstalk_Cats_%26_Dogs_(Lowry%27s_Song)\">Matchstalk Men &amp; Matchstalk Cats &amp; Dogs</a>\"",
         "date": "8 April 1978",
         "woc": "3",
         "appearances": [
@@ -4491,7 +4488,7 @@ var data = [
     {
         "number": "423",
         "artist": "<a href=\"/wiki/Boney_M.\">Boney M.</a>",
-        "song": "\"<a href=\"/wiki/Rivers_of_Babylon\">Rivers of Babylon</a>\"",
+        "song": "\"<a href=\"/wiki/Rivers_of_Babylon\">Rivers of Babylon</a>\" / \"<a href=\"/wiki/Brown_Girl_in_the_Ring_(song)\">Brown Girl in the Ring</a>\"",
         "date": "13 May 1978",
         "woc": "5",
         "appearances": [
@@ -4580,7 +4577,7 @@ var data = [
     },
     {
         "number": "432",
-        "artist": "<a href=\"/wiki/Ian_Dury_and_The_Blockheads\">Ian Dury and The Blockheads</a>",
+        "artist": "<a href=\"/wiki/The_Blockheads\">Ian Dury and the Blockheads</a>",
         "song": "\"<a href=\"/wiki/Hit_Me_with_Your_Rhythm_Stick\">Hit Me with Your Rhythm Stick</a>\"",
         "date": "27 January 1979",
         "woc": "1",
@@ -4691,7 +4688,7 @@ var data = [
     {
         "number": "443",
         "artist": "<a href=\"/wiki/The_Police\">The Police</a>",
-        "song": "\"<a href=\"/wiki/Message_in_a_Bottle_(song)\">Message in a Bottle</a>\"",
+        "song": "\"<a href=\"/wiki/Message_in_a_Bottle_(The_Police_song)\">Message in a Bottle</a>\"",
         "date": "29 September 1979",
         "woc": "3",
         "appearances": [
@@ -4750,7 +4747,7 @@ var data = [
     },
     {
         "number": "449",
-        "artist": "<a href=\"/wiki/Pretenders_(band)\">Pretenders</a>",
+        "artist": "<a href=\"/wiki/The_Pretenders\">Pretenders</a>",
         "song": "\"<a href=\"/wiki/Brass_in_Pocket\">Brass in Pocket</a>\"",
         "date": "19 January 1980",
         "woc": "2",
@@ -4760,8 +4757,8 @@ var data = [
     },
     {
         "number": "450",
-        "artist": "<a href=\"/wiki/The_Specials\">The Special A.K.A.</a> feat. <a href=\"/wiki/Rico_Rodriguez_(musician)\">Rico</a>",
-        "song": "<a href=\"/wiki/Too_Much_Too_Young_(EP)\">The Special A.K.A. Live!</a>",
+        "artist": "<a href=\"/wiki/The_Specials\">The Special A.K.A.</a>",
+        "song": "<a href=\"/wiki/Too_Much_Too_Young_(EP)\">Too Much Too Young - The Special A.K.A. Live!</a> (EP) ",
         "date": "2 February 1980",
         "woc": "2",
         "appearances": [
@@ -4801,7 +4798,7 @@ var data = [
     {
         "number": "454",
         "artist": "<a href=\"/wiki/The_Jam\">The Jam</a>",
-        "song": "\"<a href=\"/wiki/Going_Underground\">Going Underground</a>\" / \"<a href=\"/wiki/Dreams_of_Children\">Dreams of Children</a>\"",
+        "song": "\"<a href=\"/wiki/Going_Underground\">Going Underground\" / \"Dreams of Children</a>\"",
         "date": "22 March 1980",
         "woc": "3",
         "appearances": [
@@ -4810,8 +4807,8 @@ var data = [
     },
     {
         "number": "455",
-        "artist": "<a href=\"/wiki/The_Spinners_(American_band)\">Detroit Spinners</a>",
-        "song": "\"<a href=\"/wiki/Working_My_Way_Back_to_You\">Working My Way Back to You \u2013 Forgive Me Girl</a>\"",
+        "artist": "<a href=\"/wiki/The_Spinners_(American_R%26B_group)\">The Detroit Spinners</a>",
+        "song": "\"<a href=\"/wiki/Working_My_Way_Back_to_You#The_Spinners_version\">Working My Way Back to You \u2013 Forgive Me Girl</a>\"",
         "date": "12 April 1980",
         "woc": "2",
         "appearances": [
@@ -4861,7 +4858,7 @@ var data = [
     {
         "number": "460",
         "artist": "<a href=\"/wiki/Don_McLean\">Don McLean</a>",
-        "song": "\"<a href=\"/wiki/Crying_(Roy_Orbison_song)\">Crying</a>\"",
+        "song": "\"<a href=\"/wiki/Crying_(Roy_Orbison_song)#Don_McLean_version\">Crying</a>\"",
         "date": "21 June 1980",
         "woc": "3",
         "appearances": [
@@ -4870,7 +4867,7 @@ var data = [
     },
     {
         "number": "461",
-        "artist": "<a href=\"/wiki/Olivia_Newton-John\">Olivia Newton-John</a> and the <a href=\"/wiki/Electric_Light_Orchestra\">Electric Light Orchestra</a>",
+        "artist": "<a href=\"/wiki/Olivia_Newton-John\">Olivia Newton-John</a> and <a href=\"/wiki/Electric_Light_Orchestra\">Electric Light Orchestra</a>",
         "song": "\"<a href=\"/wiki/Xanadu_(Olivia_Newton-John_and_Electric_Light_Orchestra_song)\">Xanadu</a>\"",
         "date": "12 July 1980",
         "woc": "2",
@@ -5021,7 +5018,7 @@ var data = [
     {
         "number": "476",
         "artist": "<a href=\"/wiki/Roxy_Music\">Roxy Music</a>",
-        "song": "\"<a href=\"/wiki/Jealous_Guy\">Jealous Guy</a>\"",
+        "song": "\"<a href=\"/wiki/Jealous_Guy#Roxy_Music_version\">Jealous Guy</a>\"",
         "date": "14 March 1981",
         "woc": "2",
         "appearances": [
@@ -5031,7 +5028,7 @@ var data = [
     {
         "number": "477",
         "artist": "<a href=\"/wiki/Shakin%27_Stevens\">Shakin' Stevens</a>",
-        "song": "\"<a href=\"/wiki/This_Ole_House\">This Ole House</a>\"",
+        "song": "\"<a href=\"/wiki/This_Ole_House#Shakin&#39;_Stevens_version\">This Ole House</a>\"",
         "date": "28 March 1981",
         "woc": "3",
         "appearances": [
@@ -5091,7 +5088,7 @@ var data = [
     {
         "number": "483",
         "artist": "<a href=\"/wiki/Shakin%27_Stevens\">Shakin' Stevens</a>",
-        "song": "\"<a href=\"/wiki/Green_Door\">Green Door</a>\"",
+        "song": "\"<a href=\"/wiki/Green_Door#Shakin&#39;_Stevens_version\">Green Door</a>\"",
         "date": "1 August 1981",
         "woc": "4",
         "appearances": [
@@ -5111,7 +5108,7 @@ var data = [
     {
         "number": "485",
         "artist": "<a href=\"/wiki/Soft_Cell\">Soft Cell</a>",
-        "song": "\"<a href=\"/wiki/Tainted_Love\">Tainted Love</a>\"",
+        "song": "\"<a href=\"/wiki/Tainted_Love#Soft_Cell_version_(1981)\">Tainted Love</a>\"",
         "date": "5 September 1981",
         "woc": "2",
         "appearances": [
@@ -5130,8 +5127,8 @@ var data = [
     },
     {
         "number": "487",
-        "artist": "<a href=\"/wiki/Dave_Stewart_(keyboardist)\">Dave Stewart</a> and <a href=\"/wiki/Barbara_Gaskin\">Barbara Gaskin</a>",
-        "song": "\"<a href=\"/wiki/It%27s_My_Party_(Lesley_Gore_song)\">It's My Party</a>\"",
+        "artist": "<a href=\"/wiki/Dave_Stewart_(keyboardist)\">Dave Stewart</a> with <a href=\"/wiki/Barbara_Gaskin\">Barbara Gaskin</a>",
+        "song": "\"<a href=\"/wiki/It%27s_My_Party_(Lesley_Gore_song)#Dave_Stewart_and_Barbara_Gaskin_version\">It's My Party</a>\"",
         "date": "17 October 1981",
         "woc": "4",
         "appearances": [
@@ -5161,7 +5158,7 @@ var data = [
     {
         "number": "490",
         "artist": "<a href=\"/wiki/Julio_Iglesias\">Julio Iglesias</a>",
-        "song": "\"<a href=\"/wiki/Begin_the_Beguine\">Begin The Beguine (Volver A Empezar)</a>\"",
+        "song": "\"<a href=\"/wiki/Begin_the_Beguine#Julio_Iglesias_version\">Begin the Beguine (Volver a Empezar)</a>\"",
         "date": "5 December 1981",
         "woc": "1",
         "appearances": [
@@ -5191,7 +5188,7 @@ var data = [
     {
         "number": "493",
         "artist": "<a href=\"/wiki/Shakin%27_Stevens\">Shakin' Stevens</a>",
-        "song": "\"<a href=\"/wiki/Oh_Julie\">Oh Julie</a>\"",
+        "song": "\"<a href=\"/wiki/Oh_Julie_(Shakin%27_Stevens_song)\">Oh Julie</a>\"",
         "date": "30 January 1982",
         "woc": "1",
         "appearances": [
@@ -5201,7 +5198,7 @@ var data = [
     {
         "number": "494",
         "artist": "<a href=\"/wiki/Kraftwerk\">Kraftwerk</a>",
-        "song": "\"<a href=\"/wiki/Computer_Love_(Kraftwerk_song)\">Computer Love</a>\" / \"<a href=\"/wiki/Das_Model\">The Model</a>\"",
+        "song": "\"<a href=\"/wiki/Das_Model\">The Model</a>\" / \"<a href=\"/wiki/Computer_Love_(Kraftwerk_song)\">Computer Love</a>\"",
         "date": "6 February 1982",
         "woc": "1",
         "appearances": [
@@ -5260,7 +5257,7 @@ var data = [
     },
     {
         "number": "500",
-        "artist": "<a href=\"/wiki/Nicole_(German_singer)\">Nicole</a>",
+        "artist": "<a href=\"/wiki/Nicole_Seibert\">Nicole</a>",
         "song": "\"<a href=\"/wiki/Ein_bi%C3%9Fchen_Frieden\">A Little Peace</a>\"",
         "date": "15 May 1982",
         "woc": "2",
@@ -5281,7 +5278,7 @@ var data = [
     {
         "number": "502",
         "artist": "<a href=\"/wiki/Adam_Ant\">Adam Ant</a>",
-        "song": "\"<a href=\"/wiki/Goody_Two-Shoes_(song)\">Goody Two Shoes</a>\"",
+        "song": "\"<a href=\"/wiki/Goody_Two_Shoes_(song)\">Goody Two Shoes</a>\"",
         "date": "12 June 1982",
         "woc": "2",
         "appearances": [
@@ -5320,7 +5317,7 @@ var data = [
     },
     {
         "number": "506",
-        "artist": "<a href=\"/wiki/Dexys_Midnight_Runners\">Dexys Midnight Runners and the Emerald Express</a>",
+        "artist": "<a href=\"/wiki/Dexys_Midnight_Runners\">Dexys Midnight Runners</a>",
         "song": "\"<a href=\"/wiki/Come_On_Eileen\">Come On Eileen</a>\"",
         "date": "7 August 1982",
         "woc": "4",
@@ -5391,7 +5388,7 @@ var data = [
     {
         "number": "513",
         "artist": "<a href=\"/wiki/Phil_Collins\">Phil Collins</a>",
-        "song": "\"<a href=\"/wiki/You_Can%27t_Hurry_Love\">You Can't Hurry Love</a>\"",
+        "song": "\"<a href=\"/wiki/You_Can%27t_Hurry_Love#Phil_Collins_version\">You Can't Hurry Love</a>\"",
         "date": "15 January 1983",
         "woc": "2",
         "appearances": [
@@ -5521,7 +5518,7 @@ var data = [
     {
         "number": "526",
         "artist": "<a href=\"/wiki/UB40\">UB40</a>",
-        "song": "\"<a href=\"/wiki/Red_Red_Wine\">Red Red Wine</a>\"",
+        "song": "\"<a href=\"/wiki/Red_Red_Wine#UB40_version\">Red Red Wine</a>\"",
         "date": "3 September 1983",
         "woc": "3",
         "appearances": [
@@ -5551,7 +5548,7 @@ var data = [
     {
         "number": "529",
         "artist": "<a href=\"/wiki/The_Flying_Pickets\">The Flying Pickets</a>",
-        "song": "\"<a href=\"/wiki/Only_You_(Yazoo_song)\">Only You</a>\"",
+        "song": "\"<a href=\"/wiki/Only_You_(Yazoo_song)#The_Flying_Pickets_version\">Only You</a>\"",
         "date": "10 December 1983",
         "woc": "5",
         "appearances": [
@@ -5580,7 +5577,7 @@ var data = [
     },
     {
         "number": "532",
-        "artist": "<a href=\"/wiki/Nena\">Nena</a>",
+        "artist": "<a href=\"/wiki/Nena_(band)\">Nena</a>",
         "song": "\"<a href=\"/wiki/99_Luftballons\">99 Red Balloons</a>\"",
         "date": "3 March 1984",
         "woc": "3",
@@ -5661,7 +5658,7 @@ var data = [
     {
         "number": "540",
         "artist": "<a href=\"/wiki/Chaka_Khan\">Chaka Khan</a>",
-        "song": "\"<a href=\"/wiki/I_Feel_for_You\">I Feel for You</a>\"",
+        "song": "\"<a href=\"/wiki/I_Feel_for_You#Chaka_Khan_version\">I Feel for You</a>\"",
         "date": "10 November 1984",
         "woc": "3",
         "appearances": [
@@ -5730,8 +5727,8 @@ var data = [
     },
     {
         "number": "547",
-        "artist": "<a href=\"/wiki/Philip_Bailey\">Philip Bailey</a> (duet with <a href=\"/wiki/Phil_Collins\">Phil Collins</a>)",
-        "song": "\"<a href=\"/wiki/Easy_Lover\">Easy Lover</a>\"",
+        "artist": "<a href=\"/wiki/Philip_Bailey\">Philip Bailey</a> and <a href=\"/wiki/Phil_Collins\">Phil Collins</a>",
+        "song": "\"<a href=\"/wiki/Easy_Lover_(Philip_Bailey_and_Phil_Collins_song)\">Easy Lover</a>\"",
         "date": "23 March 1985",
         "woc": "4",
         "appearances": [
@@ -5781,7 +5778,7 @@ var data = [
     {
         "number": "552",
         "artist": "<a href=\"/wiki/Sister_Sledge\">Sister Sledge</a>",
-        "song": "\"<a href=\"/wiki/Frankie_(song)\">Frankie</a>\"",
+        "song": "\"<a href=\"/wiki/Frankie_(Sister_Sledge_song)\">Frankie</a>\"",
         "date": "29 June 1985",
         "woc": "4",
         "appearances": [
@@ -5800,7 +5797,7 @@ var data = [
     },
     {
         "number": "554",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Into_the_Groove\">Into the Groove</a>\"",
         "date": "3 August 1985",
         "woc": "4",
@@ -5811,7 +5808,7 @@ var data = [
     {
         "number": "555",
         "artist": "<a href=\"/wiki/UB40\">UB40</a> and <a href=\"/wiki/Chrissie_Hynde\">Chrissie Hynde</a>",
-        "song": "\"<a href=\"/wiki/I_Got_You_Babe\">I Got You Babe</a>\"",
+        "song": "\"<a href=\"/wiki/I_Got_You_Babe#UB40_and_Chrissie_Hynde_version\">I Got You Babe</a>\"",
         "date": "31 August 1985",
         "woc": "1",
         "appearances": [
@@ -5821,7 +5818,7 @@ var data = [
     {
         "number": "556",
         "artist": "<a href=\"/wiki/David_Bowie\">David Bowie</a> and <a href=\"/wiki/Mick_Jagger\">Mick Jagger</a>",
-        "song": "\"<a href=\"/wiki/Dancing_in_the_Street\">Dancing in the Street</a>\"",
+        "song": "\"<a href=\"/wiki/Dancing_in_the_Street#David_Bowie_and_Mick_Jagger_version\">Dancing in the Street</a>\"",
         "date": "7 September 1985",
         "woc": "4",
         "appearances": [
@@ -5900,7 +5897,7 @@ var data = [
     },
     {
         "number": "564",
-        "artist": "<a href=\"/wiki/A-ha\">a-ha</a>",
+        "artist": "<a href=\"/wiki/A-ha\">A-ha</a>",
         "song": "\"<a href=\"/wiki/The_Sun_Always_Shines_on_T.V.\">The Sun Always Shines on T.V.</a>\"",
         "date": "25 January 1986",
         "woc": "2",
@@ -5921,7 +5918,7 @@ var data = [
     {
         "number": "566",
         "artist": "<a href=\"/wiki/Diana_Ross\">Diana Ross</a>",
-        "song": "\"<a href=\"/wiki/Chain_Reaction_(song)\">Chain Reaction</a>\"",
+        "song": "\"<a href=\"/wiki/Chain_Reaction_(Diana_Ross_song)\">Chain Reaction</a>\"",
         "date": "8 March 1986",
         "woc": "3",
         "appearances": [
@@ -5930,8 +5927,8 @@ var data = [
     },
     {
         "number": "567",
-        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Young_Ones_(TV_series)\">The Young Ones</a>",
-        "song": "\"<a href=\"/wiki/Living_Doll_(song)\">Living Doll</a>\"",
+        "artist": "<a href=\"/wiki/Cliff_Richard\">Cliff Richard</a> and <a href=\"/wiki/The_Young_Ones_(TV_series)\">the Young Ones</a> featuring <a href=\"/wiki/Hank_Marvin\">Hank Marvin</a>",
+        "song": "\"<a href=\"/wiki/Living_Doll_(song)#1986_version\">Living Doll</a>\"",
         "date": "29 March 1986",
         "woc": "3",
         "appearances": [
@@ -5971,7 +5968,7 @@ var data = [
     {
         "number": "571",
         "artist": "<a href=\"/wiki/Doctor_and_the_Medics\">Doctor and the Medics</a>",
-        "song": "\"<a href=\"/wiki/Spirit_in_the_Sky\">Spirit in the Sky</a>\"",
+        "song": "\"<a href=\"/wiki/Spirit_in_the_Sky#Doctor_and_the_Medics_version\">Spirit in the Sky</a>\"",
         "date": "7 June 1986",
         "woc": "3",
         "appearances": [
@@ -5990,7 +5987,7 @@ var data = [
     },
     {
         "number": "573",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Papa_Don%27t_Preach\">Papa Don't Preach</a>\"",
         "date": "12 July 1986",
         "woc": "3",
@@ -6020,8 +6017,8 @@ var data = [
     },
     {
         "number": "576",
-        "artist": "<a href=\"/wiki/The_Communards\">The Communards</a>",
-        "song": "\"<a href=\"/wiki/Don%27t_Leave_Me_This_Way\">Don't Leave Me This Way</a>\"",
+        "artist": "<a href=\"/wiki/The_Communards\">The Communards</a> with <a href=\"/wiki/Sarah_Jane_Morris_(singer)\">Sarah Jane Morris</a>",
+        "song": "\"<a href=\"/wiki/Don%27t_Leave_Me_This_Way#The_Communards_version\">Don't Leave Me This Way</a>\"",
         "date": "13 September 1986",
         "woc": "4",
         "appearances": [
@@ -6030,7 +6027,7 @@ var data = [
     },
     {
         "number": "577",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/True_Blue_(Madonna_song)\">True Blue</a>\"",
         "date": "11 October 1986",
         "woc": "1",
@@ -6051,7 +6048,7 @@ var data = [
     {
         "number": "579",
         "artist": "<a href=\"/wiki/Berlin_(band)\">Berlin</a>",
-        "song": "\"<a href=\"/wiki/Take_My_Breath_Away\">Take My Breath Away (Love Theme from Top Gun)</a>\"",
+        "song": "\"<a href=\"/wiki/Take_My_Breath_Away\">Take My Breath Away</a>\"",
         "date": "8 November 1986",
         "woc": "4",
         "appearances": [
@@ -6071,7 +6068,7 @@ var data = [
     {
         "number": "581",
         "artist": "<a href=\"/wiki/The_Housemartins\">The Housemartins</a>",
-        "song": "\"<a href=\"/wiki/Caravan_of_Love\">Caravan of Love</a>\"",
+        "song": "\"<a href=\"/wiki/Caravan_of_Love_(song)#The_Housemartins_version\">Caravan of Love</a>\"",
         "date": "20 December 1986",
         "woc": "1",
         "appearances": [
@@ -6081,7 +6078,7 @@ var data = [
     {
         "number": "582",
         "artist": "<a href=\"/wiki/Jackie_Wilson\">Jackie Wilson</a>",
-        "song": "\"<a href=\"/wiki/Reet_Petite\">Reet Petite (The Sweetest Girl in Town)</a>\"",
+        "song": "\"<a href=\"/wiki/Reet_Petite\">Reet Petite</a>\"",
         "date": "27 December 1986",
         "woc": "4",
         "appearances": [
@@ -6091,7 +6088,7 @@ var data = [
     {
         "number": "583",
         "artist": "<a href=\"/wiki/Steve_%22Silk%22_Hurley\">Steve \"Silk\" Hurley</a>",
-        "song": "\"<a href=\"/wiki/Jack_Your_Body\">Jack Your Body</a>\"",
+        "song": "\"<a href=\"/wiki/Jack_Your_Body\">Jack Your Body</a>\" ",
         "date": "24 January 1987",
         "woc": "2",
         "appearances": [
@@ -6121,7 +6118,7 @@ var data = [
     {
         "number": "586",
         "artist": "<a href=\"/wiki/Boy_George\">Boy George</a>",
-        "song": "\"<a href=\"/wiki/Everything_I_Own\">Everything I Own</a>\"",
+        "song": "\"<a href=\"/wiki/Everything_I_Own#Boy_George_version\">Everything I Own</a>\"",
         "date": "14 March 1987",
         "woc": "2",
         "appearances": [
@@ -6141,7 +6138,7 @@ var data = [
     {
         "number": "588",
         "artist": "<a href=\"/wiki/Ferry_Aid\">Ferry Aid</a>",
-        "song": "\"<a href=\"/wiki/Let_It_Be_(Beatles_song)\">Let It Be</a>\"",
+        "song": "\"<a href=\"/wiki/Let_It_Be_(Beatles_song)#Ferry_Aid_version\">Let It Be</a>\"",
         "date": "4 April 1987",
         "woc": "3",
         "appearances": [
@@ -6150,7 +6147,7 @@ var data = [
     },
     {
         "number": "589",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/La_Isla_Bonita\">La Isla Bonita</a>\"",
         "date": "25 April 1987",
         "woc": "2",
@@ -6200,7 +6197,7 @@ var data = [
     },
     {
         "number": "594",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Who%27s_That_Girl_(Madonna_song)\">Who's That Girl</a>\"",
         "date": "25 July 1987",
         "woc": "1",
@@ -6211,7 +6208,7 @@ var data = [
     {
         "number": "595",
         "artist": "<a href=\"/wiki/Los_Lobos\">Los Lobos</a>",
-        "song": "\"<a href=\"/wiki/La_Bamba_(song)\">La Bamba</a>\"",
+        "song": "\"<a href=\"/wiki/La_Bamba_(song)#Los_Lobos_version\">La Bamba</a>\"",
         "date": "1 August 1987",
         "woc": "2",
         "appearances": [
@@ -6241,7 +6238,7 @@ var data = [
     {
         "number": "598",
         "artist": "<a href=\"/wiki/MARRS\">MARRS</a>",
-        "song": "\"<a href=\"/wiki/Pump_Up_the_Volume_(song)\">Pump Up the Volume</a>\" / \"Anitina (The First Time I See She Dance)\"",
+        "song": "\"<a href=\"/wiki/Pump_Up_the_Volume_(song)\">Pump Up the Volume</a>\"",
         "date": "3 October 1987",
         "woc": "2",
         "appearances": [
@@ -6291,7 +6288,7 @@ var data = [
     {
         "number": "603",
         "artist": "<a href=\"/wiki/Tiffany_Darwish\">Tiffany</a>",
-        "song": "\"<a href=\"/wiki/I_Think_We%27re_Alone_Now\">I Think We're Alone Now</a>\"",
+        "song": "\"<a href=\"/wiki/I_Think_We%27re_Alone_Now#Tiffany_version\">I Think We're Alone Now</a>\"",
         "date": "30 January 1988",
         "woc": "3",
         "appearances": [
@@ -6311,7 +6308,7 @@ var data = [
     {
         "number": "605",
         "artist": "<a href=\"/wiki/Aswad_(band)\">Aswad</a>",
-        "song": "\"<a href=\"/wiki/Don%27t_Turn_Around\">Don't Turn Around</a>\"",
+        "song": "\"<a href=\"/wiki/Don%27t_Turn_Around#Aswad_version\">Don't Turn Around</a>\"",
         "date": "26 March 1988",
         "woc": "2",
         "appearances": [
@@ -6330,8 +6327,8 @@ var data = [
     },
     {
         "number": "607",
-        "artist": "<a href=\"/wiki/S-Express\">S-Express</a>",
-        "song": "\"<a href=\"/wiki/Theme_from_S-Express\">Theme from S-Express</a>\"",
+        "artist": "<a href=\"/wiki/S%27Express\">S'Express</a>",
+        "song": "\"<a href=\"/wiki/Theme_from_S%27Express\">Theme from S'Express</a>\"",
         "date": "30 April 1988",
         "woc": "2",
         "appearances": [
@@ -6350,8 +6347,8 @@ var data = [
     },
     {
         "number": "609",
-        "artist": "<a href=\"/wiki/Wet_Wet_Wet\">Wet Wet Wet</a><br /><a href=\"/wiki/Billy_Bragg\">Billy Bragg</a> and <a href=\"/wiki/Cara_Tivey\">Cara Tivey</a>",
-        "song": "\"<a href=\"/wiki/With_a_Little_Help_from_My_Friends\">With a Little Help from My Friends</a>\"<br />\"<a href=\"/wiki/She%27s_Leaving_Home\">She's Leaving Home</a>\"",
+        "artist": "<a href=\"/wiki/Wet_Wet_Wet\">Wet Wet Wet</a> / <a href=\"/wiki/Billy_Bragg\">Billy Bragg</a> and <a href=\"/wiki/Cara_Tivey\">Cara Tivey</a>",
+        "song": "\"<a href=\"/wiki/With_a_Little_Help_from_My_Friends\">With a Little Help from My Friends</a>\" / \"<a href=\"/wiki/She%27s_Leaving_Home\">She's Leaving Home</a>\"",
         "date": "21 May 1988",
         "woc": "4",
         "appearances": [
@@ -6370,7 +6367,7 @@ var data = [
     },
     {
         "number": "611",
-        "artist": "<a href=\"/wiki/Bros\">Bros</a>",
+        "artist": "<a href=\"/wiki/Bros_(British_band)\">Bros</a>",
         "song": "\"<a href=\"/wiki/I_Owe_You_Nothing\">I Owe You Nothing</a>\"",
         "date": "25 June 1988",
         "woc": "2",
@@ -6391,7 +6388,7 @@ var data = [
     {
         "number": "613",
         "artist": "<a href=\"/wiki/Yazz\">Yazz and the Plastic Population</a>",
-        "song": "\"<a href=\"/wiki/The_Only_Way_Is_Up\">The Only Way Is Up</a>\"",
+        "song": "\"<a href=\"/wiki/The_Only_Way_Is_Up#Yazz_version\">The Only Way Is Up</a>\"",
         "date": "6 August 1988",
         "woc": "5",
         "appearances": [
@@ -6401,7 +6398,7 @@ var data = [
     {
         "number": "614",
         "artist": "<a href=\"/wiki/Phil_Collins\">Phil Collins</a>",
-        "song": "\"<a href=\"/wiki/A_Groovy_Kind_of_Love\">A Groovy Kind of Love</a>\"",
+        "song": "\"<a href=\"/wiki/A_Groovy_Kind_of_Love#Phil_Collins_version\">A Groovy Kind of Love</a>\"",
         "date": "10 September 1988",
         "woc": "2",
         "appearances": [
@@ -6411,7 +6408,7 @@ var data = [
     {
         "number": "615",
         "artist": "<a href=\"/wiki/The_Hollies\">The Hollies</a>",
-        "song": "\"<a href=\"/wiki/He_Ain%27t_Heavy,_He%27s_My_Brother\">He Ain't Heavy, He's My Brother</a>\"",
+        "song": "\"<a href=\"/wiki/He_Ain%27t_Heavy,_He%27s_My_Brother#The_Hollies_version\">He Ain't Heavy, He's My Brother</a>\"",
         "date": "24 September 1988",
         "woc": "2",
         "appearances": [
@@ -6480,7 +6477,7 @@ var data = [
     },
     {
         "number": "622",
-        "artist": "<a href=\"/wiki/Marc_Almond\">Marc Almond</a> feat. <a href=\"/wiki/Gene_Pitney\">Gene Pitney</a>",
+        "artist": "<a href=\"/wiki/Marc_Almond\">Marc Almond</a> featuring <a href=\"/wiki/Gene_Pitney\">Gene Pitney</a>",
         "song": "\"<a href=\"/wiki/Something%27s_Gotten_Hold_of_My_Heart\">Something's Gotten Hold of My Heart</a>\"",
         "date": "28 January 1989",
         "woc": "4",
@@ -6510,7 +6507,7 @@ var data = [
     },
     {
         "number": "625",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Like_a_Prayer_(song)\">Like a Prayer</a>\"",
         "date": "25 March 1989",
         "woc": "3",
@@ -6541,7 +6538,7 @@ var data = [
     {
         "number": "628",
         "artist": "<a href=\"/wiki/The_Christians_(band)\">The Christians</a>, <a href=\"/wiki/Holly_Johnson\">Holly Johnson</a>, <a href=\"/wiki/Paul_McCartney\">Paul McCartney</a>, <a href=\"/wiki/Gerry_Marsden\">Gerry Marsden</a> and <a href=\"/wiki/Stock_Aitken_Waterman\">Stock Aitken Waterman</a>",
-        "song": "\"<a href=\"/wiki/Ferry_Cross_the_Mersey\">Ferry 'Cross the Mersey</a>\"",
+        "song": "\"<a href=\"/wiki/Ferry_Cross_the_Mersey#Charity_record_for_The_Hillsborough_Disaster_Fund\">Ferry 'Cross the Mersey</a>\"",
         "date": "20 May 1989",
         "woc": "3",
         "appearances": [
@@ -6551,7 +6548,7 @@ var data = [
     {
         "number": "629",
         "artist": "<a href=\"/wiki/Jason_Donovan\">Jason Donovan</a>",
-        "song": "\"<a href=\"/wiki/Sealed_with_a_Kiss\">Sealed with a Kiss</a>\"",
+        "song": "\"<a href=\"/wiki/Sealed_with_a_Kiss#Jason_Donovan_version\">Sealed with a Kiss</a>\"",
         "date": "10 June 1989",
         "woc": "2",
         "appearances": [
@@ -6560,7 +6557,7 @@ var data = [
     },
     {
         "number": "630",
-        "artist": "<a href=\"/wiki/Soul_II_Soul\">Soul II Soul</a> feat. <a href=\"/wiki/Caron_Wheeler\">Caron Wheeler</a>",
+        "artist": "<a href=\"/wiki/Soul_II_Soul\">Soul II Soul</a>",
         "song": "\"<a href=\"/wiki/Back_to_Life_(However_Do_You_Want_Me)\">Back to Life (However Do You Want Me)</a>\"",
         "date": "24 June 1989",
         "woc": "4",
@@ -6591,7 +6588,7 @@ var data = [
     {
         "number": "633",
         "artist": "<a href=\"/wiki/Black_Box_(band)\">Black Box</a>",
-        "song": "\"<a href=\"/wiki/Ride_On_Time\">Ride On Time</a>\"",
+        "song": "\"<a href=\"/wiki/Ride_on_Time\">Ride on Time</a>\"",
         "date": "9 September 1989",
         "woc": "6",
         "appearances": [
@@ -6641,7 +6638,7 @@ var data = [
     {
         "number": "638",
         "artist": "<a href=\"/wiki/Band_Aid_II\">Band Aid II</a>",
-        "song": "\"<a href=\"/wiki/Do_They_Know_It%27s_Christmas%3F\">Do They Know It's Christmas?</a>\"",
+        "song": "\"<a href=\"/wiki/Do_They_Know_It%27s_Christmas%3F#Band_Aid_II\">Do They Know It's Christmas?</a>\"",
         "date": "23 December 1989",
         "woc": "3",
         "appearances": [
@@ -6700,7 +6697,7 @@ var data = [
     },
     {
         "number": "644",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Vogue_(Madonna_song)\">Vogue</a>\"",
         "date": "14 April 1990",
         "woc": "4",
@@ -6710,7 +6707,7 @@ var data = [
     },
     {
         "number": "645",
-        "artist": "<a href=\"/wiki/Adamski\">Adamski</a> featuring <a href=\"/wiki/Seal_(musician)\">Seal</a>",
+        "artist": "<a href=\"/wiki/Adamski\">Adamski</a>",
         "song": "\"<a href=\"/wiki/Killer_(Adamski_song)\">Killer</a>\"",
         "date": "12 May 1990",
         "woc": "4",
@@ -6720,7 +6717,7 @@ var data = [
     },
     {
         "number": "646",
-        "artist": "<a href=\"/wiki/England_national_football_team\">England</a> <a href=\"/wiki/New_Order_(band)\">New Order</a>",
+        "artist": "<a href=\"/wiki/New_Order_(band)\">Englandneworder</a>",
         "song": "\"<a href=\"/wiki/World_in_Motion\">World in Motion</a>\"",
         "date": "9 June 1990",
         "woc": "2",
@@ -6751,7 +6748,7 @@ var data = [
     {
         "number": "649",
         "artist": "<a href=\"/wiki/Timmy_Mallett#Music\">Bombalurina</a>",
-        "song": "\"<a href=\"/wiki/Itsy_Bitsy_Teenie_Weenie_Yellow_Polka_Dot_Bikini\">Itsy Bitsy Teenie Weenie Yellow Polka Dot Bikini</a>\"",
+        "song": "\"<a href=\"/wiki/Itsy_Bitsy_Teenie_Weenie_Yellow_Polka_Dot_Bikini#Bombalurina_version\">Itsy Bitsy Teenie Weenie Yellow Polka Dot Bikini</a>\"",
         "date": "25 August 1990",
         "woc": "3",
         "appearances": [
@@ -6760,8 +6757,8 @@ var data = [
     },
     {
         "number": "650",
-        "artist": "<a href=\"/wiki/Steve_Miller_(musician)\">The Steve Miller Band</a>",
-        "song": "\"<a href=\"/wiki/The_Joker_(Steve_Miller_Band_song)\">The Joker</a>\"",
+        "artist": "<a href=\"/wiki/Steve_Miller_Band\">Steve Miller Band</a>",
+        "song": "\"<a href=\"/wiki/The_Joker_(Steve_Miller_Band_song)\">The Joker</a>\" ",
         "date": "15 September 1990",
         "woc": "2",
         "appearances": [
@@ -6830,7 +6827,7 @@ var data = [
     },
     {
         "number": "657",
-        "artist": "<a href=\"/wiki/Enigma_(musical_project)\">Enigma</a>",
+        "artist": "<a href=\"/wiki/Enigma_(German_band)\">Enigma</a>",
         "song": "\"<a href=\"/wiki/Sadeness_(Part_I)\">Sadeness (Part I)</a>\"",
         "date": "19 January 1991",
         "woc": "1",
@@ -6850,7 +6847,7 @@ var data = [
     },
     {
         "number": "659",
-        "artist": "<a href=\"/wiki/The_KLF\">The KLF</a> ft. The Children of The Revolution",
+        "artist": "<a href=\"/wiki/The_KLF\">The KLF</a>",
         "song": "\"<a href=\"/wiki/3_a.m._Eternal\">3 a.m. Eternal</a>\"",
         "date": "2 February 1991",
         "woc": "2",
@@ -6880,7 +6877,7 @@ var data = [
     },
     {
         "number": "662",
-        "artist": "<a href=\"/wiki/Hale_and_Pace\">Hale and Pace</a>",
+        "artist": "<a href=\"/wiki/Hale_and_Pace\">Hale and Pace and the Stonkers</a>",
         "song": "\"<a href=\"/wiki/The_Stonk\">The Stonk</a>\"",
         "date": "23 March 1991",
         "woc": "1",
@@ -6921,7 +6918,7 @@ var data = [
     {
         "number": "666",
         "artist": "<a href=\"/wiki/Jason_Donovan\">Jason Donovan</a>",
-        "song": "\"<a href=\"/wiki/Any_Dream_Will_Do_(song)\">Any Dream Will Do</a>\"",
+        "song": "\"<a href=\"/wiki/Any_Dream_Will_Do_(song)#Jason_Donovan_version\">Any Dream Will Do</a>\"",
         "date": "29 June 1991",
         "woc": "2",
         "appearances": [
@@ -6950,7 +6947,7 @@ var data = [
     },
     {
         "number": "669",
-        "artist": "<a href=\"/wiki/Vic_Reeves\">Vic Reeves</a> &amp; <a href=\"/wiki/The_Wonder_Stuff\">The Wonder Stuff</a>",
+        "artist": "<a href=\"/wiki/Vic_Reeves\">Vic Reeves</a> and <a href=\"/wiki/The_Wonder_Stuff\">The Wonder Stuff</a>",
         "song": "\"<a href=\"/wiki/Dizzy_(Tommy_Roe_song)\">Dizzy</a>\"",
         "date": "9 November 1991",
         "woc": "2",
@@ -6970,8 +6967,8 @@ var data = [
     },
     {
         "number": "671",
-        "artist": "<a href=\"/wiki/George_Michael\">George Michael</a> &amp; <a href=\"/wiki/Elton_John\">Elton John</a>",
-        "song": "\"<a href=\"/wiki/Don%27t_Let_the_Sun_Go_Down_on_Me\">Don't Let the Sun Go Down on Me</a>\"",
+        "artist": "<a href=\"/wiki/George_Michael\">George Michael</a> and <a href=\"/wiki/Elton_John\">Elton John</a>",
+        "song": "\"<a href=\"/wiki/Don%27t_Let_the_Sun_Go_Down_on_Me#George_Michael_and_Elton_John_version\">Don't Let the Sun Go Down on Me</a>\"",
         "date": "7 December 1991",
         "woc": "2",
         "appearances": [
@@ -7021,7 +7018,7 @@ var data = [
     {
         "number": "676",
         "artist": "<a href=\"/wiki/KWS_(band)\">KWS</a>",
-        "song": "\"<a href=\"/wiki/Please_Don%27t_Go_(KC_and_the_Sunshine_Band_song)\">Please Don't Go</a>\" / \"Game Boy\"",
+        "song": "\"<a href=\"/wiki/Please_Don%27t_Go_(KC_and_the_Sunshine_Band_song)#KWS_version\">Please Don't Go</a>\"",
         "date": "9 May 1992",
         "woc": "5",
         "appearances": [
@@ -7030,7 +7027,7 @@ var data = [
     },
     {
         "number": "677",
-        "artist": "<a href=\"/wiki/Erasure\">Erasure</a>",
+        "artist": "<a href=\"/wiki/Erasure_(duo)\">Erasure</a>",
         "song": "<a href=\"/wiki/Abba-esque\">Abba-esque</a> (EP)",
         "date": "13 June 1992",
         "woc": "5",
@@ -7081,7 +7078,7 @@ var data = [
     {
         "number": "682",
         "artist": "<a href=\"/wiki/Boyz_II_Men\">Boyz II Men</a>",
-        "song": "\"<a href=\"/wiki/End_of_the_Road\">End of the Road</a>\"",
+        "song": "\"<a href=\"/wiki/End_of_the_Road_(Boyz_II_Men_song)\">End of the Road</a>\"",
         "date": "31 October 1992",
         "woc": "3",
         "appearances": [
@@ -7140,8 +7137,8 @@ var data = [
     },
     {
         "number": "688",
-        "artist": "<a href=\"/wiki/George_Michael\">George Michael</a> &amp; <a href=\"/wiki/Queen_(band)\">Queen</a> with <a href=\"/wiki/Lisa_Stansfield\">Lisa Stansfield</a>",
-        "song": "\"<a href=\"/wiki/Five_Live_(George_Michael_and_Queen_EP)\">Five Live</a>\"",
+        "artist": "<a href=\"/wiki/George_Michael\">George Michael</a> and <a href=\"/wiki/Queen_(band)\">Queen</a> with <a href=\"/wiki/Lisa_Stansfield\">Lisa Stansfield</a>",
+        "song": "<a href=\"/wiki/Five_Live_(George_Michael_and_Queen_EP)\">Five Live</a> (EP)",
         "date": "1 May 1993",
         "woc": "3",
         "appearances": [
@@ -7161,7 +7158,7 @@ var data = [
     {
         "number": "690",
         "artist": "<a href=\"/wiki/UB40\">UB40</a>",
-        "song": "\"<a href=\"/wiki/(I_Can%27t_Help)_Falling_in_Love_With_You\">(I Can't Help) Falling in Love With You</a>\"",
+        "song": "\"<a href=\"/wiki/Can%27t_Help_Falling_in_Love#UB40_version\">(I Can't Help) Falling in Love With You</a>\"",
         "date": "12 June 1993",
         "woc": "2",
         "appearances": [
@@ -7201,7 +7198,7 @@ var data = [
     {
         "number": "694",
         "artist": "<a href=\"/wiki/Culture_Beat\">Culture Beat</a>",
-        "song": "\"<a href=\"/wiki/Mr_Vain\">Mr Vain</a>\"",
+        "song": "\"<a href=\"/wiki/Mr._Vain\">Mr. Vain</a>\"",
         "date": "28 August 1993",
         "woc": "4",
         "appearances": [
@@ -7210,7 +7207,7 @@ var data = [
     },
     {
         "number": "695",
-        "artist": "<a href=\"/wiki/DJ_Jazzy_Jeff_%26_The_Fresh_Prince\">DJ Jazzy Jeff &amp; The Fresh Prince</a>",
+        "artist": "<a href=\"/wiki/DJ_Jazzy_Jeff_%26_the_Fresh_Prince\">DJ Jazzy Jeff &amp; the Fresh Prince</a>",
         "song": "\"<a href=\"/wiki/Boom!_Shake_the_Room\">Boom! Shake the Room</a>\"",
         "date": "25 September 1993",
         "woc": "2",
@@ -7221,7 +7218,7 @@ var data = [
     {
         "number": "696",
         "artist": "<a href=\"/wiki/Take_That\">Take That</a> featuring <a href=\"/wiki/Lulu_(singer)\">Lulu</a>",
-        "song": "\"<a href=\"/wiki/Relight_My_Fire\">Relight My Fire</a>\"",
+        "song": "\"<a href=\"/wiki/Relight_My_Fire#Take_That_version\">Relight My Fire</a>\"",
         "date": "9 October 1993",
         "woc": "2",
         "appearances": [
@@ -7272,7 +7269,7 @@ var data = [
     },
     {
         "number": "700",
-        "artist": "<a href=\"/wiki/Chaka_Demus_%26_Pliers\">Chaka Demus &amp; Pliers</a>",
+        "artist": "<a href=\"/wiki/Chaka_Demus_%26_Pliers\">Chaka Demus &amp; Pliers</a> featuring Jack Radics and <a href=\"/wiki/Taxi_Gang\">Taxi Gang</a>",
         "song": "\"<a href=\"/wiki/Twist_and_Shout\">Twist and Shout</a>\"",
         "date": "8 January 1994",
         "woc": "2",
@@ -7363,7 +7360,7 @@ var data = [
     {
         "number": "709",
         "artist": "<a href=\"/wiki/Wet_Wet_Wet\">Wet Wet Wet</a>",
-        "song": "\"<a href=\"/wiki/Love_Is_All_Around_(The_Troggs_song)\">Love Is All Around</a>\"",
+        "song": "\"<a href=\"/wiki/Love_Is_All_Around#Wet_Wet_Wet_version\">Love Is All Around</a>\"",
         "date": "4 June 1994",
         "woc": "15",
         "appearances": [
@@ -7392,8 +7389,8 @@ var data = [
     },
     {
         "number": "712",
-        "artist": "<a href=\"/wiki/Pato_Banton\">Pato Banton</a>",
-        "song": "\"<a href=\"/wiki/Baby,_Come_Back_(the_Equals_song)\">Baby Come Back</a>\"",
+        "artist": "<a href=\"/wiki/Pato_Banton\">Pato Banton</a> featuring <a href=\"/wiki/Ali_Campbell\">Ali</a> and <a href=\"/wiki/Robin_Campbell_(musician)\">Robin Campbell</a>",
+        "song": "\"<a href=\"/wiki/Baby,_Come_Back_(The_Equals_song)#Pato_Banton_featuring_Ali_and_Robin_Campbell_version\">Baby Come Back</a>\"",
         "date": "29 October 1994",
         "woc": "4",
         "appearances": [
@@ -7423,7 +7420,7 @@ var data = [
     {
         "number": "715",
         "artist": "<a href=\"/wiki/Rednex\">Rednex</a>",
-        "song": "\"<a href=\"/wiki/Cotton-Eyed_Joe#Rednex_version\">Cotton Eye Joe</a>\"",
+        "song": "\"<a href=\"/wiki/Cotton_Eye_Joe_(Rednex_song)\">Cotton Eye Joe</a>\"",
         "date": "14 January 1995",
         "woc": "3",
         "appearances": [
@@ -7433,7 +7430,7 @@ var data = [
     {
         "number": "716",
         "artist": "<a href=\"/wiki/Celine_Dion\">Celine Dion</a>",
-        "song": "\"<a href=\"/wiki/Think_Twice_(song)\">Think Twice</a>\"",
+        "song": "\"<a href=\"/wiki/Think_Twice_(Celine_Dion_song)\">Think Twice</a>\"",
         "date": "4 February 1995",
         "woc": "7",
         "appearances": [
@@ -7442,7 +7439,7 @@ var data = [
     },
     {
         "number": "717",
-        "artist": "<a href=\"/wiki/Cher\">Cher</a>, <a href=\"/wiki/Chrissie_Hynde\">Chrissie Hynde</a> &amp; <a href=\"/wiki/Neneh_Cherry\">Neneh Cherry</a> with <a href=\"/wiki/Eric_Clapton\">Eric Clapton</a>",
+        "artist": "<a href=\"/wiki/Cher\">Cher</a>, <a href=\"/wiki/Chrissie_Hynde\">Chrissie Hynde</a> and <a href=\"/wiki/Neneh_Cherry\">Neneh Cherry</a> with <a href=\"/wiki/Eric_Clapton\">Eric Clapton</a>",
         "song": "\"<a href=\"/wiki/Love_Can_Build_a_Bridge\">Love Can Build a Bridge</a>\"",
         "date": "25 March 1995",
         "woc": "1",
@@ -7452,7 +7449,7 @@ var data = [
     },
     {
         "number": "718",
-        "artist": "<a href=\"/wiki/Outhere_Brothers\">Outhere Brothers</a>",
+        "artist": "<a href=\"/wiki/The_Outhere_Brothers\">The Outhere Brothers</a>",
         "song": "\"<a href=\"/wiki/Don%27t_Stop_(Wiggle_Wiggle)\">Don't Stop (Wiggle Wiggle)</a>\"",
         "date": "1 April 1995",
         "woc": "1",
@@ -7492,8 +7489,8 @@ var data = [
     },
     {
         "number": "722",
-        "artist": "<a href=\"/wiki/Robson_%26_Jerome\">Robson Green &amp; Jerome Flynn</a>",
-        "song": "\"<a href=\"/wiki/Unchained_Melody\">Unchained Melody</a>\" / \"<a href=\"/wiki/(There%27ll_Be_Bluebirds_Over)_The_White_Cliffs_of_Dover\">(There'll Be Bluebirds Over) The White Cliffs of Dover</a>\"",
+        "artist": "<a href=\"/wiki/Robson_%26_Jerome\">Robson &amp; Jerome</a>",
+        "song": "\"<a href=\"/wiki/Unchained_Melody\">Unchained Melody</a>\" / \"<a href=\"/wiki/(There%27ll_Be_Bluebirds_Over)_The_White_Cliffs_of_Dover\">White Cliffs of Dover</a>\"",
         "date": "20 May 1995",
         "woc": "7",
         "appearances": [
@@ -7502,7 +7499,7 @@ var data = [
     },
     {
         "number": "723",
-        "artist": "<a href=\"/wiki/Outhere_Brothers\">Outhere Brothers</a>",
+        "artist": "<a href=\"/wiki/The_Outhere_Brothers\">The Outhere Brothers</a>",
         "song": "\"<a href=\"/wiki/Boom_Boom_Boom\">Boom Boom Boom</a>\"",
         "date": "8 July 1995",
         "woc": "4",
@@ -7523,7 +7520,7 @@ var data = [
     {
         "number": "725",
         "artist": "<a href=\"/wiki/Blur_(band)\">Blur</a>",
-        "song": "\"<a href=\"/wiki/Country_House\">Country House</a>\"",
+        "song": "\"<a href=\"/wiki/Country_House_(song)\">Country House</a>\"",
         "date": "26 August 1995",
         "woc": "2",
         "appearances": [
@@ -7542,7 +7539,7 @@ var data = [
     },
     {
         "number": "727",
-        "artist": "<a href=\"/wiki/Shaggy_(artist)\">Shaggy</a>",
+        "artist": "<a href=\"/wiki/Shaggy_(musician)\">Shaggy</a>",
         "song": "\"<a href=\"/wiki/Boombastic_(song)\">Boombastic</a>\"",
         "date": "23 September 1995",
         "woc": "1",
@@ -7573,7 +7570,7 @@ var data = [
     {
         "number": "730",
         "artist": "<a href=\"/wiki/Robson_%26_Jerome\">Robson &amp; Jerome</a>",
-        "song": "\"<a href=\"/wiki/I_Believe_(1953_song)\">I Believe</a>\" / \"<a href=\"/wiki/Up_on_the_Roof_(song)\">Up on the Roof</a>\"",
+        "song": "\"<a href=\"/wiki/I_Believe_(Frankie_Laine_song)\">I Believe</a>\" / \"<a href=\"/wiki/Up_on_the_Roof_(song)\">Up on the Roof</a>\"",
         "date": "11 November 1995",
         "woc": "4",
         "appearances": [
@@ -7623,7 +7620,7 @@ var data = [
     {
         "number": "735",
         "artist": "<a href=\"/wiki/Take_That\">Take That</a>",
-        "song": "\"<a href=\"/wiki/How_Deep_Is_Your_Love_(Bee_Gees_song)\">How Deep Is Your Love</a>\"",
+        "song": "\"<a href=\"/wiki/How_Deep_Is_Your_Love_(Bee_Gees_song)#Take_That_version\">How Deep Is Your Love</a>\"",
         "date": "9 March 1996",
         "woc": "3",
         "appearances": [
@@ -7672,13 +7669,14 @@ var data = [
     },
     {
         "number": "740",
-        "artist": "<a href=\"/wiki/David_Baddiel\">Baddiel</a>, <a href=\"/wiki/Frank_Skinner\">Skinner</a> &amp; <a href=\"/wiki/The_Lightning_Seeds\">The Lightning Seeds</a>",
-        "song": "\"<a href=\"/wiki/Three_Lions\">Three Lions</a>\"",
+        "artist": "<a href=\"/wiki/David_Baddiel\">Baddiel</a>, <a href=\"/wiki/Frank_Skinner\">Skinner</a> and <a href=\"/wiki/The_Lightning_Seeds\">The Lightning Seeds</a>",
+        "song": "\"<a href=\"/wiki/Three_Lions_(song)\">Three Lions</a>\"",
         "date": "1 June 1996",
         "woc": "1",
         "appearances": [
             762,
-            764
+            764,
+            1397
         ]
     },
     {
@@ -7694,13 +7692,14 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/David_Baddiel\">Baddiel</a>, <a href=\"/wiki/Frank_Skinner\">Skinner</a> &amp; <a href=\"/wiki/The_Lightning_Seeds\">The Lightning Seeds</a>",
-        "song": "\"<a href=\"/wiki/Three_Lions\">Three Lions</a>\"",
+        "artist": "<a href=\"/wiki/David_Baddiel\">Baddiel</a>, <a href=\"/wiki/Frank_Skinner\">Skinner</a> and <a href=\"/wiki/The_Lightning_Seeds\">The Lightning Seeds</a>",
+        "song": "\"<a href=\"/wiki/Three_Lions_(song)\">Three Lions</a>\"",
         "date": "6 July 1996",
         "woc": "1",
         "appearances": [
             762,
-            764
+            764,
+            1397
         ]
     },
     {
@@ -7727,7 +7726,7 @@ var data = [
     {
         "number": "743",
         "artist": "<a href=\"/wiki/Spice_Girls\">Spice Girls</a>",
-        "song": "\"<a href=\"/wiki/Wannabe_(song)\">Wannabe</a>\"",
+        "song": "\"<a href=\"/wiki/Wannabe\">Wannabe</a>\"",
         "date": "27 July 1996",
         "woc": "7",
         "appearances": [
@@ -7777,7 +7776,7 @@ var data = [
     {
         "number": "748",
         "artist": "<a href=\"/wiki/Boyzone\">Boyzone</a>",
-        "song": "\"<a href=\"/wiki/Words_(Bee_Gees_song)\">Words</a>\"",
+        "song": "\"<a href=\"/wiki/Words_(Bee_Gees_song)#Boyzone_version\">Words</a>\"",
         "date": "19 October 1996",
         "woc": "1",
         "appearances": [
@@ -7797,7 +7796,7 @@ var data = [
     {
         "number": "750",
         "artist": "<a href=\"/wiki/Robson_%26_Jerome\">Robson &amp; Jerome</a>",
-        "song": "\"<a href=\"/wiki/What_Becomes_of_the_Brokenhearted\">What Becomes of the Brokenhearted</a>\" / \"<a href=\"/wiki/Saturday_Night_at_the_Movies_(song)\">Saturday Night at the Movies</a>\" / \"<a href=\"/wiki/You%27ll_Never_Walk_Alone_(song)\">You'll Never Walk Alone</a>\"",
+        "song": "\"<a href=\"/wiki/What_Becomes_of_the_Brokenhearted\">What Becomes of the Brokenhearted</a>\" / \"<a href=\"/wiki/Saturday_Night_at_the_Movies_(song)\">Saturday Night at the Movies</a>\" / \"<a href=\"/wiki/You%27ll_Never_Walk_Alone\">You'll Never Walk Alone</a>\"",
         "date": "9 November 1996",
         "woc": "2",
         "appearances": [
@@ -7837,7 +7836,7 @@ var data = [
     {
         "number": "754",
         "artist": "<a href=\"/wiki/Dunblane_massacre#Musical_tributes\">Dunblane</a>",
-        "song": "\"<a href=\"/wiki/Knockin%27_on_Heaven%27s_Door#Dunblane_tribute_version\">Knockin' on Heaven's Door</a>\" / \"Throw These Guns Away\"",
+        "song": "\"<a href=\"/wiki/Knockin%27_on_Heaven%27s_Door#Dunblane_tribute\">Knockin' on Heaven's Door</a>\"",
         "date": "21 December 1996",
         "woc": "1",
         "appearances": [
@@ -7857,7 +7856,7 @@ var data = [
     {
         "number": "756",
         "artist": "<a href=\"/wiki/Tori_Amos\">Tori Amos</a>",
-        "song": "\"<a href=\"/wiki/Professional_Widow\">Professional Widow</a>\" (<a href=\"/wiki/Armand_Van_Helden\">Armand's</a> Star Trunk Funkin' Mix)",
+        "song": "\"<a href=\"/wiki/Professional_Widow\">Professional Widow (It's Got to Be Big)</a>\"",
         "date": "18 January 1997",
         "woc": "1",
         "appearances": [
@@ -7887,7 +7886,7 @@ var data = [
     {
         "number": "759",
         "artist": "<a href=\"/wiki/LL_Cool_J\">LL Cool J</a>",
-        "song": "\"<a href=\"/wiki/Ain%27t_Nobody#LL_Cool_J_version\">Ain't Nobody</a>\"",
+        "song": "\"<a href=\"/wiki/Ain%27t_Nobody#LL_Cool_J_remix\">Ain't Nobody</a>\"",
         "date": "8 February 1997",
         "woc": "1",
         "appearances": [
@@ -7996,7 +7995,7 @@ var data = [
     },
     {
         "number": "770",
-        "artist": "<a href=\"/wiki/Sean_Combs\">Puff Daddy</a> &amp; <a href=\"/wiki/Faith_Evans\">Faith Evans</a> featuring <a href=\"/wiki/112_(band)\">112</a>",
+        "artist": "<a href=\"/wiki/Sean_Combs\">Puff Daddy</a> and <a href=\"/wiki/Faith_Evans\">Faith Evans</a> featuring <a href=\"/wiki/112_(band)\">112</a>",
         "song": "\"<a href=\"/wiki/I%27ll_Be_Missing_You\">I'll Be Missing You</a>\"",
         "date": "28 June 1997",
         "woc": "3",
@@ -8017,7 +8016,7 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/Sean_Combs\">Puff Daddy</a> &amp; <a href=\"/wiki/Faith_Evans\">Faith Evans</a> featuring <a href=\"/wiki/112_(band)\">112</a>",
+        "artist": "<a href=\"/wiki/Sean_Combs\">Puff Daddy</a> and <a href=\"/wiki/Faith_Evans\">Faith Evans</a> featuring <a href=\"/wiki/112_(band)\">112</a>",
         "song": "\"<a href=\"/wiki/I%27ll_Be_Missing_You\">I'll Be Missing You</a>\"",
         "date": "26 July 1997",
         "woc": "3",
@@ -8141,7 +8140,7 @@ var data = [
     {
         "number": "782",
         "artist": "<a href=\"/wiki/Usher_(entertainer)\">Usher</a>",
-        "song": "\"<a href=\"/wiki/You_Make_Me_Wanna\">You Make Me Wanna</a>\"",
+        "song": "\"<a href=\"/wiki/You_Make_Me_Wanna...\">You Make Me Wanna...</a>\"",
         "date": "31 January 1998",
         "woc": "1",
         "appearances": [
@@ -8172,7 +8171,7 @@ var data = [
     {
         "number": "785",
         "artist": "<a href=\"/wiki/Cornershop_(band)\">Cornershop</a>",
-        "song": "\"<a href=\"/wiki/Brimful_of_Asha\">Brimful of Asha</a> (The <a href=\"/wiki/Norman_Cook\">Norman Cook</a> Remix)\"",
+        "song": "\"<a href=\"/wiki/Brimful_of_Asha\">Brimful of Asha</a>\"",
         "date": "28 February 1998",
         "woc": "1",
         "appearances": [
@@ -8181,7 +8180,7 @@ var data = [
     },
     {
         "number": "786",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Frozen_(Madonna_song)\">Frozen</a>\"",
         "date": "7 March 1998",
         "woc": "1",
@@ -8202,7 +8201,7 @@ var data = [
     },
     {
         "number": "787",
-        "artist": "<a href=\"/wiki/Run-D.M.C.\">Run-D.M.C.</a> vs <a href=\"/wiki/Jason_Nevins\">Jason Nevins</a>",
+        "artist": "<a href=\"/wiki/Run-DMC\">Run-DMC</a> vs. <a href=\"/wiki/Jason_Nevins\">Jason Nevins</a>",
         "song": "\"<a href=\"/wiki/It%27s_like_That_(Run-D.M.C._song)\">It's Like That</a>\"",
         "date": "21 March 1998",
         "woc": "6",
@@ -8265,7 +8264,7 @@ var data = [
     {
         "number": "792",
         "artist": "<a href=\"/wiki/BWitched\">BWitched</a>",
-        "song": "\"<a href=\"/wiki/C%27est_la_Vie_(BWitched_song)\">C'est La Vie</a>\"",
+        "song": "\"<a href=\"/wiki/C%27est_la_Vie_(BWitched_song)\">C'est la Vie</a>\"",
         "date": "6 June 1998",
         "woc": "2",
         "appearances": [
@@ -8274,8 +8273,8 @@ var data = [
     },
     {
         "number": "793",
-        "artist": "<a href=\"/wiki/David_Baddiel\">Baddiel</a>, <a href=\"/wiki/Frank_Skinner\">Skinner</a> &amp; <a href=\"/wiki/The_Lightning_Seeds\">The Lightning Seeds</a>",
-        "song": "\"<a href=\"/wiki/Three_Lions\">3 Lions '98</a>\"",
+        "artist": "<a href=\"/wiki/David_Baddiel\">Baddiel</a>, <a href=\"/wiki/Frank_Skinner\">Skinner</a> and <a href=\"/wiki/The_Lightning_Seeds\">The Lightning Seeds</a>",
+        "song": "\"<a href=\"/wiki/Three_Lions_(song)\">3 Lions '98</a>\"",
         "date": "20 June 1998",
         "woc": "3",
         "appearances": [
@@ -8295,7 +8294,7 @@ var data = [
     {
         "number": "795",
         "artist": "<a href=\"/wiki/Another_Level_(band)\">Another Level</a>",
-        "song": "\"<a href=\"/wiki/Freak_Me\">Freak Me</a>\"",
+        "song": "\"<a href=\"/wiki/Freak_Me#Another_Level_version\">Freak Me</a>\"",
         "date": "18 July 1998",
         "woc": "1",
         "appearances": [
@@ -8364,8 +8363,8 @@ var data = [
     },
     {
         "number": "802",
-        "artist": "<a href=\"/wiki/Melanie_Brown\">Melanie B</a> featuring <a href=\"/wiki/Missy_Elliott\">Missy Elliott</a>",
-        "song": "\"<a href=\"/wiki/I_Want_You_Back_(Melanie_B_song)\">I Want You Back</a>\"",
+        "artist": "<a href=\"/wiki/Mel_B\">Melanie B</a> featuring <a href=\"/wiki/Missy_Elliott\">Missy Elliott</a>",
+        "song": "\"<a href=\"/wiki/I_Want_You_Back_(Mel_B_song)\">I Want You Back</a>\"",
         "date": "26 September 1998",
         "woc": "1",
         "appearances": [
@@ -8434,7 +8433,7 @@ var data = [
     },
     {
         "number": "809",
-        "artist": "<a href=\"/wiki/Isaac_Hayes\">Chef</a>",
+        "artist": "<a href=\"/wiki/Chef_(South_Park)\">Chef</a>",
         "song": "\"<a href=\"/wiki/Chocolate_Salty_Balls\">Chocolate Salty Balls (P.S. I Love You)</a>\"",
         "date": "2 January 1999",
         "woc": "1",
@@ -8444,7 +8443,7 @@ var data = [
     },
     {
         "number": "810",
-        "artist": "<a href=\"/wiki/Steps_(group)\">Steps</a>",
+        "artist": "<a href=\"/wiki/Steps_(pop_group)\">Steps</a>",
         "song": "\"<a href=\"/wiki/Heartbeat_(Steps_song)\">Heartbeat</a>\" / \"<a href=\"/wiki/Tragedy_(Bee_Gees_song)#Steps_version\">Tragedy</a>\"",
         "date": "9 January 1999",
         "woc": "1",
@@ -8465,7 +8464,7 @@ var data = [
     {
         "number": "812",
         "artist": "<a href=\"/wiki/911_(UK_band)\">911</a>",
-        "song": "\"<a href=\"/wiki/A_Little_Bit_More\">A Little Bit More</a>\"",
+        "song": "\"<a href=\"/wiki/A_Little_Bit_More#911_version\">A Little Bit More</a>\"",
         "date": "23 January 1999",
         "woc": "1",
         "appearances": [
@@ -8484,7 +8483,7 @@ var data = [
     },
     {
         "number": "814",
-        "artist": "<a href=\"/wiki/Armand_Van_Helden\">Armand Van Helden</a> feat. <a href=\"/wiki/Duane_Harden\">Duane Harden</a>",
+        "artist": "<a href=\"/wiki/Armand_van_Helden\">Armand van Helden</a> featuring <a href=\"/wiki/Duane_Harden\">Duane Harden</a>",
         "song": "\"<a href=\"/wiki/You_Don%27t_Know_Me_(Armand_Van_Helden_song)\">You Don't Know Me</a>\"",
         "date": "6 February 1999",
         "woc": "1",
@@ -8605,7 +8604,7 @@ var data = [
     {
         "number": "826",
         "artist": "<a href=\"/wiki/Baz_Luhrmann\">Baz Luhrmann</a>",
-        "song": "\"<a href=\"/wiki/Wear_Sunscreen\">Everybody's Free (To Wear Sunscreen)</a>\"",
+        "song": "\"<a href=\"/wiki/Wear_Sunscreen#Baz_Luhrmann_version\">Everybody's Free (To Wear Sunscreen)</a>\"",
         "date": "12 June 1999",
         "woc": "1",
         "appearances": [
@@ -8625,7 +8624,7 @@ var data = [
     {
         "number": "828",
         "artist": "<a href=\"/wiki/Vengaboys\">Vengaboys</a>",
-        "song": "\"<a href=\"/wiki/Boom_Boom_Boom_Boom\">Boom Boom Boom Boom</a>\"",
+        "song": "\"<a href=\"/wiki/Boom,_Boom,_Boom,_Boom!!\">Boom, Boom, Boom, Boom!!</a>\"",
         "date": "26 June 1999",
         "woc": "1",
         "appearances": [
@@ -8635,7 +8634,7 @@ var data = [
     {
         "number": "829",
         "artist": "<a href=\"/wiki/ATB\">ATB</a>",
-        "song": "\"<a href=\"/wiki/9pm_(Till_I_Come)\">9pm (Till I Come)</a>\"",
+        "song": "\"<a href=\"/wiki/9_PM_(Till_I_Come)\">9 PM (Till I Come)</a>\"",
         "date": "3 July 1999",
         "woc": "2",
         "appearances": [
@@ -8685,7 +8684,7 @@ var data = [
     {
         "number": "834",
         "artist": "<a href=\"/wiki/Lou_Bega\">Lou Bega</a>",
-        "song": "\"<a href=\"/wiki/Mambo_No._5\">Mambo No.5 (A Little Bit Of...)</a>\"",
+        "song": "\"<a href=\"/wiki/Mambo_No._5\">Mambo No. 5 (A Little Bit Of...)</a>\"",
         "date": "4 September 1999",
         "woc": "2",
         "appearances": [
@@ -8695,7 +8694,7 @@ var data = [
     {
         "number": "835",
         "artist": "<a href=\"/wiki/Vengaboys\">Vengaboys</a>",
-        "song": "\"<a href=\"/wiki/We%27re_Going_to_Ibiza\">We're Going to Ibiza</a>\"",
+        "song": "\"<a href=\"/wiki/We%27re_Going_to_Ibiza!\">We're Going to Ibiza!</a>\"",
         "date": "18 September 1999",
         "woc": "1",
         "appearances": [
@@ -8844,7 +8843,7 @@ var data = [
     },
     {
         "number": "850",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/American_Pie_(song)#Madonna_version\">American Pie</a>\"",
         "date": "11 March 2000",
         "woc": "1",
@@ -8874,7 +8873,7 @@ var data = [
     },
     {
         "number": "853",
-        "artist": "<a href=\"/wiki/Melanie_Chisholm\">Melanie C</a> featuring <a href=\"/wiki/Lisa_Lopes\">Lisa \"Left Eye\" Lopes</a>",
+        "artist": "<a href=\"/wiki/Melanie_C\">Melanie C</a> featuring <a href=\"/wiki/Lisa_Lopes\">Lisa \"Left Eye\" Lopes</a>",
         "song": "\"<a href=\"/wiki/Never_Be_the_Same_Again\">Never Be the Same Again</a>\"",
         "date": "1 April 2000",
         "woc": "1",
@@ -8915,7 +8914,7 @@ var data = [
     {
         "number": "857",
         "artist": "<a href=\"/wiki/Oxide_%26_Neutrino\">Oxide &amp; Neutrino</a>",
-        "song": "\"<a href=\"/wiki/Bound_4_Da_Reload_(Casualty)\">Bound 4 Da Reload (Casualty)</a>\"",
+        "song": "\"<a href=\"/wiki/Bound_4_da_Reload_(Casualty)\">Bound 4 da Reload (Casualty)</a>\"",
         "date": "6 May 2000",
         "woc": "1",
         "appearances": [
@@ -8945,7 +8944,7 @@ var data = [
     {
         "number": "860",
         "artist": "<a href=\"/wiki/Billie_Piper\">Billie Piper</a>",
-        "song": "\"<a href=\"/wiki/Day_%26_Night_(song)\">Day &amp; Night</a>\"",
+        "song": "\"<a href=\"/wiki/Day_%26_Night_(Billie_Piper_song)\">Day &amp; Night</a>\"",
         "date": "27 May 2000",
         "woc": "1",
         "appearances": [
@@ -9014,7 +9013,7 @@ var data = [
     },
     {
         "number": "867",
-        "artist": "<a href=\"/wiki/Five_(band)\">Five</a> + <a href=\"/wiki/Queen_(band)\">Queen</a>",
+        "artist": "<a href=\"/wiki/Five_(band)\">Five</a> and <a href=\"/wiki/Queen_(band)\">Queen</a>",
         "song": "\"<a href=\"/wiki/We_Will_Rock_You#Five_+_Queen_version\">We Will Rock You</a>\"",
         "date": "29 July 2000",
         "woc": "1",
@@ -9044,7 +9043,7 @@ var data = [
     },
     {
         "number": "870",
-        "artist": "<a href=\"/wiki/Melanie_Chisholm\">Melanie C</a>",
+        "artist": "<a href=\"/wiki/Melanie_C\">Melanie C</a>",
         "song": "\"<a href=\"/wiki/I_Turn_to_You_(Melanie_C_song)\">I Turn to You</a>\"",
         "date": "19 August 2000",
         "woc": "1",
@@ -9054,7 +9053,7 @@ var data = [
     },
     {
         "number": "871",
-        "artist": "<a href=\"/wiki/Spiller\">Spiller</a> featuring <a href=\"/wiki/Sophie_Ellis-Bextor\">Sophie Ellis-Bextor</a>",
+        "artist": "<a href=\"/wiki/Spiller\">Spiller</a>",
         "song": "\"<a href=\"/wiki/Groovejet_(If_This_Ain%27t_Love)\">Groovejet (If This Ain't Love)</a>\"",
         "date": "26 August 2000",
         "woc": "1",
@@ -9064,7 +9063,7 @@ var data = [
     },
     {
         "number": "872",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Music_(Madonna_song)\">Music</a>\"",
         "date": "2 September 2000",
         "woc": "1",
@@ -9095,7 +9094,7 @@ var data = [
     {
         "number": "875",
         "artist": "<a href=\"/wiki/Mariah_Carey\">Mariah Carey</a> featuring <a href=\"/wiki/Westlife\">Westlife</a>",
-        "song": "\"<a href=\"/wiki/Against_All_Odds_(Take_a_Look_at_Me_Now)\">Against All Odds</a>\"",
+        "song": "\"<a href=\"/wiki/Against_All_Odds_(Take_a_Look_at_Me_Now)#Mariah_Carey_and_Westlife_version\">Against All Odds</a>\"",
         "date": "30 September 2000",
         "woc": "2",
         "appearances": [
@@ -9184,8 +9183,8 @@ var data = [
     },
     {
         "number": "884",
-        "artist": "<a href=\"/wiki/S_Club\">S Club 7</a>",
-        "song": "\"<a href=\"/wiki/Never_Had_a_Dream_Come_True\">Never Had a Dream Come True</a>\"",
+        "artist": "<a href=\"/wiki/S_Club_7\">S Club 7</a>",
+        "song": "\"<a href=\"/wiki/Never_Had_a_Dream_Come_True_(S_Club_7_song)\">Never Had a Dream Come True</a>\"",
         "date": "9 December 2000",
         "woc": "1",
         "appearances": [
@@ -9194,7 +9193,7 @@ var data = [
     },
     {
         "number": "885",
-        "artist": "<a href=\"/wiki/Eminem\">Eminem</a> featuring <a href=\"/wiki/Dido_(singer)\">Dido</a>",
+        "artist": "<a href=\"/wiki/Eminem\">Eminem</a>",
         "song": "\"<a href=\"/wiki/Stan_(song)\">Stan</a>\"",
         "date": "16 December 2000",
         "woc": "1",
@@ -9214,7 +9213,7 @@ var data = [
     },
     {
         "number": "887",
-        "artist": "<a href=\"/wiki/Rui_da_Silva\">Rui da Silva</a>",
+        "artist": "<a href=\"/wiki/Rui_da_Silva_(DJ)\">Rui da Silva</a> featuring <a href=\"/wiki/Cass_Fox\">Cassandra</a>",
         "song": "\"<a href=\"/wiki/Touch_Me_(Rui_Da_Silva_song)\">Touch Me</a>\"",
         "date": "13 January 2001",
         "woc": "1",
@@ -9235,7 +9234,7 @@ var data = [
     {
         "number": "889",
         "artist": "<a href=\"/wiki/Limp_Bizkit\">Limp Bizkit</a>",
-        "song": "\"<a href=\"/wiki/Rollin%27_(Air_Raid_Vehicle)\">Rollin' (Air Raid Vehicle)</a>\"",
+        "song": "\"<a href=\"/wiki/Rollin%27_(Limp_Bizkit_song)\">Rollin'</a>\"",
         "date": "27 January 2001",
         "woc": "2",
         "appearances": [
@@ -9254,7 +9253,7 @@ var data = [
     },
     {
         "number": "891",
-        "artist": "<a href=\"/wiki/Shaggy_(musician)\">Shaggy</a> featuring <a href=\"/wiki/Rikrok\">Rikrok</a>",
+        "artist": "<a href=\"/wiki/Shaggy_(musician)\">Shaggy</a> featuring <a href=\"/wiki/Ricardo_%22RikRok%22_Ducent\">RikRok</a>",
         "song": "\"<a href=\"/wiki/It_Wasn%27t_Me\">It Wasn't Me</a>\"",
         "date": "10 March 2001",
         "woc": "1",
@@ -9309,8 +9308,7 @@ var data = [
         "date": "5 May 2001",
         "woc": "1",
         "appearances": [
-            924,
-            926
+            924
         ]
     },
     {
@@ -9325,18 +9323,17 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/S_Club\">S Club 7</a>",
+        "artist": "<a href=\"/wiki/S_Club_7\">S Club 7</a>",
         "song": "\"<a href=\"/wiki/Don%27t_Stop_Movin%27_(S_Club_7_song)\">Don't Stop Movin'</a>\"",
         "date": "26 May 2001",
         "woc": "1",
         "appearances": [
-            924,
             926
         ]
     },
     {
         "number": "898",
-        "artist": "<a href=\"/wiki/DJ_Pied_Piper_and_the_Masters_of_Ceremonies\">DJ Pied Piper</a>",
+        "artist": "<a href=\"/wiki/DJ_Pied_Piper_and_the_Masters_of_Ceremonies\">DJ Pied Piper and the Masters of Ceremonies</a>",
         "song": "\"<a href=\"/wiki/Do_You_Really_Like_It%3F\">Do You Really Like It?</a>\"",
         "date": "2 June 2001",
         "woc": "1",
@@ -9377,7 +9374,7 @@ var data = [
     {
         "number": "902",
         "artist": "<a href=\"/wiki/Roger_Sanchez\">Roger Sanchez</a>",
-        "song": "\"<a href=\"/wiki/Another_Chance\">Another Chance</a>\"",
+        "song": "\"<a href=\"/wiki/Another_Chance_(Roger_Sanchez_song)\">Another Chance</a>\"",
         "date": "14 July 2001",
         "woc": "1",
         "appearances": [
@@ -9437,7 +9434,7 @@ var data = [
     {
         "number": "908",
         "artist": "<a href=\"/wiki/Bob_the_Builder\">Bob the Builder</a>",
-        "song": "\"<a href=\"/wiki/Mambo_No._5#Other_cover_versions\">Mambo No. 5</a>\"",
+        "song": "\"<a href=\"/wiki/Mambo_No._5#Bob_the_Builder_version\">Mambo No. 5</a>\"",
         "date": "15 September 2001",
         "woc": "1",
         "appearances": [
@@ -9496,7 +9493,7 @@ var data = [
     },
     {
         "number": "914",
-        "artist": "<a href=\"/wiki/S_Club\">S Club 7</a>",
+        "artist": "<a href=\"/wiki/S_Club_7\">S Club 7</a>",
         "song": "\"<a href=\"/wiki/Have_You_Ever_(S_Club_7_song)\">Have You Ever</a>\"",
         "date": "1 December 2001",
         "woc": "1",
@@ -9549,11 +9546,10 @@ var data = [
     {
         "number": "918",
         "artist": "<a href=\"/wiki/George_Harrison\">George Harrison</a>",
-        "song": "\"<a href=\"/wiki/My_Sweet_Lord\">My Sweet Lord</a>\"",
+        "song": "\"<a href=\"/wiki/My_Sweet_Lord\">My Sweet Lord</a>\" (reissue)",
         "date": "26 January 2002",
         "woc": "1",
         "appearances": [
-            317,
             948
         ]
     },
@@ -9590,7 +9586,7 @@ var data = [
     {
         "number": "922",
         "artist": "<a href=\"/wiki/Gareth_Gates\">Gareth Gates</a>",
-        "song": "\"<a href=\"/wiki/Unchained_Melody#Other_notable_versions\">Unchained Melody</a>\"",
+        "song": "\"<a href=\"/wiki/Unchained_Melody#Gareth_Gates_version\">Unchained Melody</a>\"",
         "date": "30 March 2002",
         "woc": "4",
         "appearances": [
@@ -9610,7 +9606,7 @@ var data = [
     {
         "number": "924",
         "artist": "<a href=\"/wiki/Sugababes\">Sugababes</a>",
-        "song": "\"<a href=\"/wiki/Freak_Like_Me\">Freak Like Me</a>\"",
+        "song": "\"<a href=\"/wiki/Freak_like_Me#Sugababes_version\">Freak Like Me</a>\"",
         "date": "4 May 2002",
         "woc": "1",
         "appearances": [
@@ -9669,7 +9665,7 @@ var data = [
     },
     {
         "number": "930",
-        "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis Presley</a> vs. <a href=\"/wiki/Junkie_XL\">JXL</a>",
+        "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis</a> vs. <a href=\"/wiki/Tom_Holkenborg\">JXL</a>",
         "song": "\"<a href=\"/wiki/A_Little_Less_Conversation\">A Little Less Conversation</a>\"",
         "date": "22 June 2002",
         "woc": "4",
@@ -9760,7 +9756,7 @@ var data = [
     {
         "number": "939",
         "artist": "<a href=\"/wiki/Nelly\">Nelly</a> featuring <a href=\"/wiki/Kelly_Rowland\">Kelly Rowland</a>",
-        "song": "\"<a href=\"/wiki/Dilemma_(song)\">Dilemma</a>\"",
+        "song": "\"<a href=\"/wiki/Dilemma_(Nelly_song)\">Dilemma</a>\"",
         "date": "26 October 2002",
         "woc": "2",
         "appearances": [
@@ -9869,7 +9865,7 @@ var data = [
     },
     {
         "number": "950",
-        "artist": "<a href=\"/wiki/Gareth_Gates\">Gareth Gates</a> and <a href=\"/wiki/The_Kumars_at_No._42\">The Kumars</a>",
+        "artist": "<a href=\"/wiki/Gareth_Gates\">Gareth Gates</a> featuring <a href=\"/wiki/The_Kumars_at_No._42\">The Kumars</a>",
         "song": "\"<a href=\"/wiki/Spirit_in_the_Sky#Gareth_Gates_.28with_the_Kumars.29_version\">Spirit in the Sky</a>\"",
         "date": "22 March 2003",
         "woc": "2",
@@ -9910,7 +9906,7 @@ var data = [
     {
         "number": "954",
         "artist": "<a href=\"/wiki/R._Kelly\">R. Kelly</a>",
-        "song": "\"<a href=\"/wiki/Ignition_(Remix)\">Ignition (Remix)</a>\"",
+        "song": "\"<a href=\"/wiki/Ignition_(Remix)\">Ignition</a>\"",
         "date": "17 May 2003",
         "woc": "4",
         "appearances": [
@@ -9989,7 +9985,7 @@ var data = [
     },
     {
         "number": "962",
-        "artist": "<a href=\"/wiki/Fatman_Scoop\">Fatman Scoop</a>",
+        "artist": "<a href=\"/wiki/Fatman_Scoop\">Fatman Scoop</a> featuring the Crooklyn Clan",
         "song": "\"<a href=\"/wiki/Be_Faithful\">Be Faithful</a>\"",
         "date": "1 November 2003",
         "woc": "2",
@@ -10039,7 +10035,7 @@ var data = [
     },
     {
         "number": "967",
-        "artist": "<a href=\"/wiki/Kelly_Osbourne\">Kelly Osbourne</a> and <a href=\"/wiki/Ozzy_Osbourne\">Ozzy Osbourne</a>",
+        "artist": "<a href=\"/wiki/Ozzy_Osbourne\">Ozzy</a> and <a href=\"/wiki/Kelly_Osbourne\">Kelly Osbourne</a>",
         "song": "\"<a href=\"/wiki/Changes_(Black_Sabbath_song)\">Changes</a>\"",
         "date": "20 December 2003",
         "woc": "1",
@@ -10049,7 +10045,7 @@ var data = [
     },
     {
         "number": "968",
-        "artist": "<a href=\"/wiki/Michael_Andrews_(musician)\">Michael Andrews</a> and <a href=\"/wiki/Gary_Jules\">Gary Jules</a>",
+        "artist": "<a href=\"/wiki/Michael_Andrews_(musician)\">Michael Andrews</a> featuring <a href=\"/wiki/Gary_Jules\">Gary Jules</a>",
         "song": "\"<a href=\"/wiki/Mad_World\">Mad World</a>\"",
         "date": "27 December 2003",
         "woc": "3",
@@ -10059,7 +10055,7 @@ var data = [
     },
     {
         "number": "969",
-        "artist": "<a href=\"/wiki/Michelle_McManus\">Michelle McManus</a>",
+        "artist": "<a href=\"/wiki/Michelle_McManus\">Michelle</a>",
         "song": "\"<a href=\"/wiki/All_This_Time_(Michelle_McManus_song)\">All This Time</a>\"",
         "date": "17 January 2004",
         "woc": "3",
@@ -10120,7 +10116,7 @@ var data = [
     {
         "number": "975",
         "artist": "<a href=\"/wiki/DJ_Casper\">DJ Casper</a>",
-        "song": "\"<a href=\"/wiki/Cha_Cha_Slide\">Cha Cha Slide (Part 2)</a>\"",
+        "song": "\"<a href=\"/wiki/Cha_Cha_Slide\">Cha Cha Slide</a>\"",
         "date": "20 March 2004",
         "woc": "1",
         "appearances": [
@@ -10129,7 +10125,7 @@ var data = [
     },
     {
         "number": "976",
-        "artist": "<a href=\"/wiki/Usher_(entertainer)\">Usher</a> featuring <a href=\"/wiki/Ludacris\">Ludacris</a> and <a href=\"/wiki/Lil_Jon\">Lil Jon</a>",
+        "artist": "<a href=\"/wiki/Usher_(entertainer)\">Usher</a> featuring <a href=\"/wiki/Lil_Jon\">Lil Jon</a> and <a href=\"/wiki/Ludacris\">Ludacris</a>",
         "song": "\"<a href=\"/wiki/Yeah!_(Usher_song)\">Yeah!</a>\"",
         "date": "27 March 2004",
         "woc": "2",
@@ -10140,7 +10136,7 @@ var data = [
     {
         "number": "977",
         "artist": "<a href=\"/wiki/McFly_(band)\">McFly</a>",
-        "song": "\"<a href=\"/wiki/Five_Colours_in_Her_Hair\">Five Colours in Her Hair</a>\"",
+        "song": "\"<a href=\"/wiki/5_Colours_in_Her_Hair\">5 Colours in Her Hair</a>\"",
         "date": "10 April 2004",
         "woc": "2",
         "appearances": [
@@ -10169,7 +10165,7 @@ var data = [
     },
     {
         "number": "980",
-        "artist": "<a href=\"/wiki/Mario_Winans\">Mario Winans</a> featuring <a href=\"/wiki/P._Diddy\">P. Diddy</a> and <a href=\"/wiki/Enya\">Enya</a>",
+        "artist": "<a href=\"/wiki/Mario_Winans\">Mario Winans</a> featuring <a href=\"/wiki/Enya\">Enya</a> and <a href=\"/wiki/P._Diddy\">P. Diddy</a>",
         "song": "\"<a href=\"/wiki/I_Don%27t_Wanna_Know_(Mario_Winans_song)\">I Don't Wanna Know</a>\"",
         "date": "12 June 2004",
         "woc": "2",
@@ -10190,7 +10186,7 @@ var data = [
     {
         "number": "982",
         "artist": "<a href=\"/wiki/McFly\">McFly</a>",
-        "song": "\"<a href=\"/wiki/Obviously\">Obviously</a>\"",
+        "song": "\"<a href=\"/wiki/Obviously_(song)\">Obviously</a>\"",
         "date": "3 July 2004",
         "woc": "1",
         "appearances": [
@@ -10209,7 +10205,7 @@ var data = [
     },
     {
         "number": "984",
-        "artist": "<a href=\"/wiki/Shapeshifters_(band)\">Shapeshifters</a>",
+        "artist": "<a href=\"/wiki/Shapeshifters_(band)\">The Shapeshifters</a>",
         "song": "\"<a href=\"/wiki/Lola%27s_Theme\">Lola's Theme</a>\"",
         "date": "24 July 2004",
         "woc": "1",
@@ -10230,7 +10226,7 @@ var data = [
     {
         "number": "986",
         "artist": "<a href=\"/wiki/Busted_(band)\">Busted</a>",
-        "song": "\"<a href=\"/wiki/Thunderbirds/3am\">Thunderbirds\" / \"3am</a>\"",
+        "song": "\"<a href=\"/wiki/Thunderbirds/3am\">Thunderbirds\" / \"3AM</a>\"",
         "date": "7 August 2004",
         "woc": "2",
         "appearances": [
@@ -10342,7 +10338,7 @@ var data = [
     {
         "number": "996",
         "artist": "<a href=\"/wiki/Girls_Aloud\">Girls Aloud</a>",
-        "song": "\"<a href=\"/wiki/I%27ll_Stand_by_You\">I'll Stand by You</a>\"",
+        "song": "\"<a href=\"/wiki/I%27ll_Stand_by_You#Girls_Aloud_version\">I'll Stand by You</a>\"",
         "date": "27 November 2004",
         "woc": "2",
         "appearances": [
@@ -10362,7 +10358,7 @@ var data = [
     {
         "number": "998",
         "artist": "<a href=\"/wiki/Steve_Brookstein\">Steve Brookstein</a>",
-        "song": "\"<a href=\"/wiki/Against_All_Odds_(Take_a_Look_at_Me_Now)\">Against All Odds</a>\"",
+        "song": "\"<a href=\"/wiki/Against_All_Odds_(Take_a_Look_at_Me_Now)#Steve_Brookstein_version\">Against All Odds</a>\"",
         "date": "8 January 2005",
         "woc": "1",
         "appearances": [
@@ -10372,18 +10368,17 @@ var data = [
     {
         "number": "999",
         "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis Presley</a>",
-        "song": "\"<a href=\"/wiki/Jailhouse_Rock_(song)\">Jailhouse Rock</a>\"",
+        "song": "\"<a href=\"/wiki/Jailhouse_Rock_(song)\">Jailhouse Rock</a>\" (reissue)",
         "date": "15 January 2005",
         "woc": "1",
         "appearances": [
-            78,
             1030
         ]
     },
     {
         "number": "1000",
         "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis Presley</a>",
-        "song": "\"<a href=\"/wiki/One_Night/I_Got_Stung\">One Night\" / \"I Got Stung</a>\"",
+        "song": "\"<a href=\"/wiki/One_Night_(Elvis_Presley_song)\">One Night\" / \"I Got Stung</a>\" (reissue)",
         "date": "22 January 2005",
         "woc": "1",
         "appearances": [
@@ -10403,11 +10398,10 @@ var data = [
     {
         "number": "1002",
         "artist": "<a href=\"/wiki/Elvis_Presley\">Elvis Presley</a>",
-        "song": "\"<a href=\"/wiki/It%27s_Now_or_Never_(song)\">It's Now or Never</a>\"",
+        "song": "\"<a href=\"/wiki/It%27s_Now_or_Never_(song)\">It's Now or Never</a>\" (reissue)",
         "date": "5 February 2005",
         "woc": "1",
         "appearances": [
-            121,
             1033
         ]
     },
@@ -10474,7 +10468,7 @@ var data = [
     {
         "number": "1009",
         "artist": "<a href=\"/wiki/Tony_Christie\">Tony Christie</a> featuring <a href=\"/wiki/Peter_Kay\">Peter Kay</a>",
-        "song": "\"<a href=\"/wiki/Is_This_the_Way_to_Amarillo\">Is This the Way to Amarillo</a>\"",
+        "song": "\"<a href=\"/wiki/(Is_This_the_Way_to)_Amarillo\">(Is This the Way to) Amarillo</a>\"",
         "date": "26 March 2005",
         "woc": "7",
         "appearances": [
@@ -10504,7 +10498,7 @@ var data = [
     {
         "number": "1012",
         "artist": "<a href=\"/wiki/Crazy_Frog\">Crazy Frog</a>",
-        "song": "\"<a href=\"/wiki/Axel_F\">Axel F</a>\"",
+        "song": "\"<a href=\"/wiki/Axel_F#Crazy_Frog_version\">Axel F</a>\"",
         "date": "4 June 2005",
         "woc": "4",
         "appearances": [
@@ -10553,7 +10547,7 @@ var data = [
     },
     {
         "number": "1017",
-        "artist": "<a href=\"/wiki/Gorillaz\">Gorillaz</a> featuring <a href=\"/wiki/Shaun_Ryder\">Shaun Ryder</a>",
+        "artist": "<a href=\"/wiki/Gorillaz\">Gorillaz</a>",
         "song": "\"<a href=\"/wiki/Dare_(song)\">Dare</a>\"",
         "date": "10 September 2005",
         "woc": "1",
@@ -10563,7 +10557,7 @@ var data = [
     },
     {
         "number": "1018",
-        "artist": "<a href=\"/wiki/Pussycat_Dolls\">Pussycat Dolls</a> featuring <a href=\"/wiki/Busta_Rhymes\">Busta Rhymes</a>",
+        "artist": "<a href=\"/wiki/The_Pussycat_Dolls\">The Pussycat Dolls</a> featuring <a href=\"/wiki/Busta_Rhymes\">Busta Rhymes</a>",
         "song": "\"<a href=\"/wiki/Don%27t_Cha\">Don't Cha</a>\"",
         "date": "17 September 2005",
         "woc": "3",
@@ -10603,7 +10597,7 @@ var data = [
     },
     {
         "number": "1022",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Hung_Up\">Hung Up</a>\"",
         "date": "19 November 2005",
         "woc": "3",
@@ -10613,7 +10607,7 @@ var data = [
     },
     {
         "number": "1023",
-        "artist": "<a href=\"/wiki/Pussycat_Dolls\">Pussycat Dolls</a>",
+        "artist": "<a href=\"/wiki/The_Pussycat_Dolls\">The Pussycat Dolls</a>",
         "song": "\"<a href=\"/wiki/Stickwitu\">Stickwitu</a>\"",
         "date": "10 December 2005",
         "woc": "2",
@@ -10653,7 +10647,7 @@ var data = [
     },
     {
         "number": "1027",
-        "artist": "<a href=\"/wiki/The_Notorious_B.I.G.\">The Notorious B.I.G.</a> featuring <a href=\"/wiki/Sean_Combs\">Diddy</a>, <a href=\"/wiki/Nelly\">Nelly</a>, <a href=\"/wiki/Jagged_Edge_(band)\">Jagged Edge</a> and <a href=\"/wiki/Avery_Storm\">Avery Storm</a>",
+        "artist": "<a href=\"/wiki/The_Notorious_B.I.G.\">The Notorious B.I.G.</a> featuring <a href=\"/wiki/Sean_Combs\">Diddy</a>, <a href=\"/wiki/Nelly\">Nelly</a>, <a href=\"/wiki/Jagged_Edge_(American_group)\">Jagged Edge</a> and <a href=\"/wiki/Avery_Storm\">Avery Storm</a>",
         "song": "\"<a href=\"/wiki/Nasty_Girl_(The_Notorious_B.I.G._song)\">Nasty Girl</a>\"",
         "date": "4 February 2006",
         "woc": "2",
@@ -10673,7 +10667,7 @@ var data = [
     },
     {
         "number": "1029",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a>",
         "song": "\"<a href=\"/wiki/Sorry_(Madonna_song)\">Sorry</a>\"",
         "date": "4 March 2006",
         "woc": "1",
@@ -10694,7 +10688,7 @@ var data = [
     {
         "number": "1031",
         "artist": "<a href=\"/wiki/Orson_(band)\">Orson</a>",
-        "song": "\"<a href=\"/wiki/No_Tomorrow_(song)\">No Tomorrow</a>\"",
+        "song": "\"<a href=\"/wiki/No_Tomorrow_(Orson_song)\">No Tomorrow</a>\"",
         "date": "25 March 2006",
         "woc": "1",
         "appearances": [
@@ -10955,7 +10949,7 @@ var data = [
     },
     {
         "number": "1056",
-        "artist": "<a href=\"/wiki/Beyonc%C3%A9\">Beyonc\u00e9</a> &amp; <a href=\"/wiki/Shakira\">Shakira</a>",
+        "artist": "<a href=\"/wiki/Beyonc%C3%A9\">Beyonc\u00e9</a> and <a href=\"/wiki/Shakira\">Shakira</a>",
         "song": "\"<a href=\"/wiki/Beautiful_Liar\">Beautiful Liar</a>\"",
         "date": "28 April 2007",
         "woc": "3",
@@ -10985,7 +10979,7 @@ var data = [
     },
     {
         "number": "1059",
-        "artist": "<a href=\"/wiki/Timbaland\">Timbaland</a> featuring <a href=\"/wiki/Keri_Hilson\">Keri Hilson</a> and D.O.E.",
+        "artist": "<a href=\"/wiki/Timbaland\">Timbaland</a> featuring <a href=\"/wiki/Keri_Hilson\">Keri Hilson</a>",
         "song": "\"<a href=\"/wiki/The_Way_I_Are\">The Way I Are</a>\"",
         "date": "4 August 2007",
         "woc": "2",
@@ -11056,7 +11050,7 @@ var data = [
     {
         "number": "1066",
         "artist": "<a href=\"/wiki/Leon_Jackson\">Leon Jackson</a>",
-        "song": "\"<a href=\"/wiki/When_You_Believe\">When You Believe</a>\"",
+        "song": "\"<a href=\"/wiki/When_You_Believe#Leon_Jackson_version\">When You Believe</a>\"",
         "date": "29 December 2007",
         "woc": "3",
         "appearances": [
@@ -11065,7 +11059,7 @@ var data = [
     },
     {
         "number": "1067",
-        "artist": "<a href=\"/wiki/Basshunter\">Basshunter</a> featuring <a href=\"/wiki/DJ_Mental_Theo%27s_Bazzheadz\">DJ Mental Theo's Bazzheadz</a>",
+        "artist": "<a href=\"/wiki/Basshunter\">Basshunter</a> featuring <a href=\"/wiki/Mental_Theo\">DJ Mental Theo's Bazzheadz</a>",
         "song": "\"<a href=\"/wiki/Now_You%27re_Gone_(Basshunter_song)\">Now You're Gone</a>\"",
         "date": "19 January 2008",
         "woc": "5",
@@ -11095,7 +11089,7 @@ var data = [
     },
     {
         "number": "1070",
-        "artist": "<a href=\"/wiki/Madonna_(entertainer)\">Madonna</a> featuring <a href=\"/wiki/Justin_Timberlake\">Justin Timberlake</a> and <a href=\"/wiki/Timbaland\">Timbaland</a>",
+        "artist": "<a href=\"/wiki/Madonna\">Madonna</a> featuring <a href=\"/wiki/Justin_Timberlake\">Justin Timberlake</a>",
         "song": "\"<a href=\"/wiki/4_Minutes\">4 Minutes</a>\"",
         "date": "26 April 2008",
         "woc": "4",
@@ -11215,7 +11209,7 @@ var data = [
     },
     {
         "number": "1082",
-        "artist": "<a href=\"/wiki/List_of_The_X_Factor_finalists_(UK_series_5)\">The X Factor Finalists</a>",
+        "artist": "<a href=\"/wiki/List_of_The_X_Factor_finalists_(UK_series_5)\">The X Factor Finalists 2008</a>",
         "song": "\"<a href=\"/wiki/Hero_(Mariah_Carey_song)#The_X_Factor_UK_2008_finalists_version\">Hero</a>\"",
         "date": "8 November 2008",
         "woc": "3",
@@ -11305,8 +11299,8 @@ var data = [
     },
     {
         "number": "1091",
-        "artist": "<a href=\"/wiki/Ruth_Jones_(actress)\">Vanessa Jenkins</a> and <a href=\"/wiki/Rob_Brydon\">Bryn West</a> featuring <a href=\"/wiki/Tom_Jones_(singer)\">Sir Tom Jones</a> and <a href=\"/wiki/Robin_Gibb\">Robin Gibb</a>",
-        "song": "\"<a href=\"/wiki/Islands_in_the_Stream_(song)#Comic_Relief_version\">Islands in the Stream</a>\"",
+        "artist": "<a href=\"/wiki/Ruth_Jones_(actress)\">Vanessa Jenkins</a> and <a href=\"/wiki/Rob_Brydon\">Bryn West</a> featuring <a href=\"/wiki/Tom_Jones_(singer)\">Tom Jones</a> and <a href=\"/wiki/Robin_Gibb\">Robin Gibb</a>",
+        "song": "\"<a href=\"/wiki/Islands_in_the_Stream_(song)#Comic_Relief_version\">(Barry) Islands in the Stream</a>\"",
         "date": "21 March 2009",
         "woc": "1",
         "appearances": [
@@ -11356,7 +11350,7 @@ var data = [
     },
     {
         "number": "1096",
-        "artist": "<a href=\"/wiki/Armand_Van_Helden\">Armand Van Helden</a> vs <a href=\"/wiki/Dizzee_Rascal\">Dizzee Rascal</a>",
+        "artist": "<a href=\"/wiki/Dizzee_Rascal\">Dizzee Rascal</a> featuring <a href=\"/wiki/Armand_Van_Helden\">Armand Van Helden</a>",
         "song": "\"<a href=\"/wiki/Bonkers_(song)\">Bonkers</a>\"",
         "date": "30 May 2009",
         "woc": "2",
@@ -11438,7 +11432,7 @@ var data = [
     },
     {
         "number": "1103",
-        "artist": "<a href=\"/wiki/Tinchy_Stryder\">Tinchy Stryder</a> featuring <a href=\"/wiki/Amelle_Berrabah\">Amelle</a>",
+        "artist": "<a href=\"/wiki/Tinchy_Stryder\">Tinchy Stryder</a> featuring <a href=\"/wiki/Amelle_Berrabah\">Amelle Berrabah</a>",
         "song": "\"<a href=\"/wiki/Never_Leave_You\">Never Leave You</a>\"",
         "date": "15 August 2009",
         "woc": "1",
@@ -11469,7 +11463,7 @@ var data = [
     },
     {
         "number": "1105",
-        "artist": "<a href=\"/wiki/Dizzee_Rascal\">Dizzee Rascal</a> featuring <a href=\"/wiki/Calvin_Harris\">Calvin Harris</a>",
+        "artist": "<a href=\"/wiki/Dizzee_Rascal\">Dizzee Rascal</a> featuring <a href=\"/wiki/Chrom3\">Chrome</a>",
         "song": "\"<a href=\"/wiki/Holiday_(Dizzee_Rascal_song)\">Holiday</a>\"",
         "date": "5 September 2009",
         "woc": "1",
@@ -11509,7 +11503,7 @@ var data = [
     },
     {
         "number": "1109",
-        "artist": "<a href=\"/wiki/Chipmunk_(rapper)\">Chipmunk</a> featuring <a href=\"/wiki/Ms_D\">Dayo Olatunji</a>",
+        "artist": "<a href=\"/wiki/Chipmunk_(rapper)\">Chipmunk</a>",
         "song": "\"<a href=\"/wiki/Oopsy_Daisy\">Oopsy Daisy</a>\"",
         "date": "17 October 2009",
         "woc": "1",
@@ -11601,7 +11595,7 @@ var data = [
     {
         "number": "1118",
         "artist": "<a href=\"/wiki/Joe_McElderry\">Joe McElderry</a>",
-        "song": "\"<a href=\"/wiki/The_Climb_(Miley_Cyrus_song)#Joe_McElderry_version\">The Climb</a>\"",
+        "song": "\"<a href=\"/wiki/The_Climb_(song)#Joe_McElderry_version\">The Climb</a>\"",
         "date": "2 January 2010",
         "woc": "1",
         "appearances": [
@@ -11642,7 +11636,7 @@ var data = [
     {
         "number": "1121",
         "artist": "<a href=\"/wiki/Helping_Haiti\">Helping Haiti</a>",
-        "song": "\"<a href=\"/wiki/Everybody_Hurts_(Helping_Haiti_song)\">Everybody Hurts</a>\"",
+        "song": "\"<a href=\"/wiki/Everybody_Hurts#Helping_Haiti_song\">Everybody Hurts</a>\"",
         "date": "20 February 2010",
         "woc": "2",
         "appearances": [
@@ -11913,7 +11907,7 @@ var data = [
     },
     {
         "number": "1147",
-        "artist": "<a href=\"/wiki/Cheryl_Cole\">Cheryl Cole</a>",
+        "artist": "<a href=\"/wiki/Cheryl_(singer)\">Cheryl Cole</a>",
         "song": "\"<a href=\"/wiki/Promise_This\">Promise This</a>\"",
         "date": "6 November 2010",
         "woc": "1",
@@ -12014,7 +12008,7 @@ var data = [
     {
         "number": "1157",
         "artist": "<a href=\"/wiki/Adele\">Adele</a>",
-        "song": "\"<a href=\"/wiki/Someone_Like_You_(Adele_song)\">Someone Like You</a>\"",
+        "song": "\"<a href=\"/wiki/Someone_like_You_(Adele_song)\">Someone Like You</a>\"",
         "date": "26 February 2011",
         "woc": "4",
         "appearances": [
@@ -12035,7 +12029,7 @@ var data = [
     {
         "number": "re",
         "artist": "<a href=\"/wiki/Adele\">Adele</a>",
-        "song": "\"<a href=\"/wiki/Someone_Like_You_(Adele_song)\">Someone Like You</a>\"",
+        "song": "\"<a href=\"/wiki/Someone_like_You_(Adele_song)\">Someone Like You</a>\"",
         "date": "2 April 2011",
         "woc": "1",
         "appearances": [
@@ -12257,8 +12251,8 @@ var data = [
     },
     {
         "number": "1179",
-        "artist": "<a href=\"/wiki/List_of_The_X_Factor_finalists_(UK_series_8)\">The X Factor Finalists 2011</a>",
-        "song": "\"<a href=\"/wiki/Wishing_on_a_Star#The_X_Factor_UK_finalists_2011_version\">Wishing on a Star</a>\"",
+        "artist": "<a href=\"/wiki/List_of_The_X_Factor_finalists_(UK_series_8)\">The X Factor Finalists 2011</a> featuring <a href=\"/wiki/JLS\">JLS</a> and <a href=\"/wiki/One_Direction\">One Direction</a>",
+        "song": "\"<a href=\"/wiki/Wishing_on_a_Star#The_X_Factor_UK_2011_contestants_version\">Wishing on a Star</a>\"",
         "date": "10 December 2011",
         "woc": "1",
         "appearances": [
@@ -12287,7 +12281,7 @@ var data = [
     },
     {
         "number": "1182",
-        "artist": "<a href=\"/wiki/Military_Wives\">Military Wives</a> with <a href=\"/wiki/Gareth_Malone\">Gareth Malone</a> and <a href=\"/wiki/Paul_Mealor\">Paul Mealor</a>",
+        "artist": "<a href=\"/wiki/Military_Wives\">Military Wives</a> with <a href=\"/wiki/Gareth_Malone\">Gareth Malone</a>",
         "song": "\"<a href=\"/wiki/Wherever_You_Are_(Military_Wives_song)\">Wherever You Are</a>\"",
         "date": "31 December 2011",
         "woc": "1",
@@ -12337,7 +12331,7 @@ var data = [
     },
     {
         "number": "1187",
-        "artist": "<a href=\"/wiki/David_Guetta\">David Guetta</a> featuring <a href=\"/wiki/Sia_Furler\">Sia</a>",
+        "artist": "<a href=\"/wiki/David_Guetta\">David Guetta</a> featuring <a href=\"/wiki/Sia\">Sia</a>",
         "song": "\"<a href=\"/wiki/Titanium_(song)\">Titanium</a>\"",
         "date": "11 February 2012",
         "woc": "1",
@@ -12449,7 +12443,7 @@ var data = [
     },
     {
         "number": "1197",
-        "artist": "<a href=\"/wiki/Gary_Barlow\">Gary Barlow</a> and the Commonwealth Band featuring <a href=\"/wiki/Military_Wives\">Military Wives</a>",
+        "artist": "<a href=\"/wiki/Gary_Barlow\">Gary Barlow</a> and the Commonwealth Band",
         "song": "\"<a href=\"/wiki/Sing_(Gary_Barlow_song)\">Sing</a>\"",
         "date": "16 June 2012",
         "woc": "1",
@@ -12459,8 +12453,8 @@ var data = [
     },
     {
         "number": "1198",
-        "artist": "<a href=\"/wiki/Cheryl_Cole\">Cheryl</a>",
-        "song": "\"<a href=\"/wiki/Call_My_Name_(Cheryl_Cole_song)\">Call My Name</a>\"",
+        "artist": "<a href=\"/wiki/Cheryl_(singer)\">Cheryl</a>",
+        "song": "\"<a href=\"/wiki/Call_My_Name_(Cheryl_song)\">Call My Name</a>\"",
         "date": "23 June 2012",
         "woc": "1",
         "appearances": [
@@ -12602,7 +12596,7 @@ var data = [
     {
         "number": "1211",
         "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> featuring <a href=\"/wiki/Florence_Welch\">Florence Welch</a>",
-        "song": "\"<a href=\"/wiki/Sweet_Nothing\">Sweet Nothing</a>\"",
+        "song": "\"<a href=\"/wiki/Sweet_Nothing_(Calvin_Harris_song)\">Sweet Nothing</a>\"",
         "date": "27 October 2012",
         "woc": "1",
         "appearances": [
@@ -12652,7 +12646,7 @@ var data = [
     {
         "number": "1216",
         "artist": "<a href=\"/wiki/Gabrielle_Aplin\">Gabrielle Aplin</a>",
-        "song": "\"<a href=\"/wiki/The_Power_of_Love_(Frankie_Goes_to_Hollywood_song)#Gabrielle_Aplin_version_(2012)\">The Power of Love</a>\"",
+        "song": "\"<a href=\"/wiki/The_Power_of_Love_(Frankie_Goes_to_Hollywood_song)#Gabrielle_Aplin_version\">The Power of Love</a>\"",
         "date": "15 December 2012",
         "woc": "1",
         "appearances": [
@@ -12724,7 +12718,7 @@ var data = [
     {
         "number": "1222",
         "artist": "<a href=\"/wiki/Avicii\">Avicii</a> vs. <a href=\"/wiki/Nicky_Romero\">Nicky Romero</a>",
-        "song": "\"<a href=\"/wiki/I_Could_Be_the_One_(Avicii_and_Nicky_Romero_song)\">I Could Be the One</a>\"",
+        "song": "\"<a href=\"/wiki/I_Could_Be_the_One\">I Could Be the One</a>\"",
         "date": "23 February 2013",
         "woc": "1",
         "appearances": [
@@ -12803,7 +12797,7 @@ var data = [
     },
     {
         "number": "1230",
-        "artist": "<a href=\"/wiki/Naughty_Boy\">Naughty Boy</a> featuring <a href=\"/wiki/Sam_Smith_(singer)\">Sam Smith</a>",
+        "artist": "<a href=\"/wiki/Naughty_Boy\">Naughty Boy</a> featuring <a href=\"/wiki/Sam_Smith\">Sam Smith</a>",
         "song": "\"<a href=\"/wiki/La_La_La_(Naughty_Boy_song)\">La La La</a>\"",
         "date": "1 June 2013",
         "woc": "1",
@@ -12835,7 +12829,7 @@ var data = [
     {
         "number": "1233",
         "artist": "<a href=\"/wiki/John_Newman_(singer)\">John Newman</a>",
-        "song": "\"<a href=\"/wiki/Love_Me_Again_(song)\">Love Me Again</a>\"",
+        "song": "\"<a href=\"/wiki/Love_Me_Again_(John_Newman_song)\">Love Me Again</a>\"",
         "date": "13 July 2013",
         "woc": "1",
         "appearances": [
@@ -12938,7 +12932,7 @@ var data = [
     {
         "number": "1241",
         "artist": "<a href=\"/wiki/Lorde\">Lorde</a>",
-        "song": "\"<a href=\"/wiki/Royals_(song)\">Royals</a>\"",
+        "song": "\"<a href=\"/wiki/Royals_(Lorde_song)\">Royals</a>\"",
         "date": "2 November 2013",
         "woc": "1",
         "appearances": [
@@ -12987,7 +12981,7 @@ var data = [
     },
     {
         "number": "1246",
-        "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> and <a href=\"/wiki/Alesso\">Alesso</a> featuring <a href=\"/wiki/Hurts\">Hurts</a>",
+        "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> and <a href=\"/wiki/Alesso\">Alesso</a> featuring <a href=\"/wiki/Hurts_(duo)\">Hurts</a>",
         "song": "\"<a href=\"/wiki/Under_Control_(Calvin_Harris_and_Alesso_song)\">Under Control</a>\"",
         "date": "7 December 2013",
         "woc": "1",
@@ -13061,7 +13055,7 @@ var data = [
     },
     {
         "number": "1251",
-        "artist": "<a href=\"/wiki/Sam_Smith_(singer)\">Sam Smith</a>",
+        "artist": "<a href=\"/wiki/Sam_Smith\">Sam Smith</a>",
         "song": "\"<a href=\"/wiki/Money_on_My_Mind\">Money on My Mind</a>\"",
         "date": "1 March 2014",
         "woc": "1",
@@ -13093,7 +13087,7 @@ var data = [
     },
     {
         "number": "1253",
-        "artist": "<a href=\"/wiki/DVBBS\">DVBBS</a> and <a href=\"/wiki/Borgeous\">Borgeous</a> featuring <a href=\"/wiki/Tinie_Tempah\">Tinie Tempah</a>",
+        "artist": "<a href=\"/wiki/Dvbbs\">Dvbbs</a> and <a href=\"/wiki/Borgeous\">Borgeous</a> featuring <a href=\"/wiki/Tinie_Tempah\">Tinie Tempah</a>",
         "song": "\"<a href=\"/wiki/Tsunami_(Jump)\">Tsunami (Jump)</a>\"",
         "date": "22 March 2014",
         "woc": "1",
@@ -13133,7 +13127,7 @@ var data = [
     },
     {
         "number": "1257",
-        "artist": "<a href=\"/wiki/Sigma_(group)\">Sigma</a> featuring <a href=\"/wiki/Daniel_Pearce\">Daniel Pearce</a>",
+        "artist": "<a href=\"/wiki/Sigma_(group)\">Sigma</a>",
         "song": "\"<a href=\"/wiki/Nobody_to_Love\">Nobody to Love</a>\"",
         "date": "19 April 2014",
         "woc": "1",
@@ -13195,7 +13189,7 @@ var data = [
     },
     {
         "number": "1262",
-        "artist": "<a href=\"/wiki/Sam_Smith_(singer)\">Sam Smith</a>",
+        "artist": "<a href=\"/wiki/Sam_Smith\">Sam Smith</a>",
         "song": "\"<a href=\"/wiki/Stay_with_Me_(Sam_Smith_song)\">Stay with Me</a>\"",
         "date": "31 May 2014",
         "woc": "1",
@@ -13205,7 +13199,7 @@ var data = [
     },
     {
         "number": "1263",
-        "artist": "<a href=\"/wiki/SecondCity\">SecondCity</a>",
+        "artist": "<a href=\"/wiki/Secondcity\">Secondcity</a>",
         "song": "\"<a href=\"/wiki/I_Wanna_Feel\">I Wanna Feel</a>\"",
         "date": "7 June 2014",
         "woc": "1",
@@ -13275,7 +13269,7 @@ var data = [
     },
     {
         "number": "1270",
-        "artist": "<a href=\"/wiki/Cheryl_Cole\">Cheryl Cole</a> featuring <a href=\"/wiki/Tinie_Tempah\">Tinie Tempah</a>",
+        "artist": "<a href=\"/wiki/Cheryl_(singer)\">Cheryl</a> featuring <a href=\"/wiki/Tinie_Tempah\">Tinie Tempah</a>",
         "song": "\"<a href=\"/wiki/Crazy_Stupid_Love_(song)\">Crazy Stupid Love</a>\"",
         "date": "2 August 2014",
         "woc": "1",
@@ -13296,7 +13290,7 @@ var data = [
     {
         "number": "1272",
         "artist": "<a href=\"/wiki/Nico_%26_Vinz\">Nico &amp; Vinz</a>",
-        "song": "\"<a href=\"/wiki/Am_I_Wrong_(song)\">Am I Wrong</a>\"",
+        "song": "\"<a href=\"/wiki/Am_I_Wrong\">Am I Wrong</a>\"",
         "date": "16 August 2014",
         "woc": "2",
         "appearances": [
@@ -13377,7 +13371,7 @@ var data = [
     {
         "number": "1280",
         "artist": "<a href=\"/wiki/Cheryl_Cole\">Cheryl</a>",
-        "song": "\"<a href=\"/wiki/I_Don%27t_Care_(Cheryl_Cole_song)\">I Don't Care</a>\"",
+        "song": "\"<a href=\"/wiki/I_Don%27t_Care_(Cheryl_song)\">I Don't Care</a>\"",
         "date": "15 November 2014",
         "woc": "1",
         "appearances": [
@@ -13479,8 +13473,8 @@ var data = [
     },
     {
         "number": "1288",
-        "artist": "<a href=\"/wiki/Sam_Smith_(singer)\">Sam Smith</a> featuring <a href=\"/wiki/John_Legend\">John Legend</a>",
-        "song": "\"<a href=\"/wiki/Lay_Me_Down_(Sam_Smith_song)\">Lay Me Down</a>\"",
+        "artist": "<a href=\"/wiki/Sam_Smith\">Sam Smith</a> featuring <a href=\"/wiki/John_Legend\">John Legend</a>",
+        "song": "\"<a href=\"/wiki/Lay_Me_Down_(Sam_Smith_song)#Red_Nose_Day_2015_release\">Lay Me Down</a>\"",
         "date": "21 March 2015",
         "woc": "2",
         "appearances": [
@@ -13509,7 +13503,7 @@ var data = [
     },
     {
         "number": "1291",
-        "artist": "<a href=\"/wiki/OMI_(singer)\">OMI</a>",
+        "artist": "<a href=\"/wiki/Omi_(singer)\">Omi</a>",
         "song": "\"<a href=\"/wiki/Cheerleader_(song)\">Cheerleader</a>\"",
         "date": "9 May 2015",
         "woc": "4",
@@ -13560,7 +13554,7 @@ var data = [
     {
         "number": "1296",
         "artist": "<a href=\"/wiki/Little_Mix\">Little Mix</a>",
-        "song": "\"<a href=\"/wiki/Black_Magic_(song)\">Black Magic</a>\"",
+        "song": "\"<a href=\"/wiki/Black_Magic_(Little_Mix_song)\">Black Magic</a>\"",
         "date": "23 July 2015",
         "woc": "3",
         "appearances": [
@@ -13643,7 +13637,7 @@ var data = [
     },
     {
         "number": "1303",
-        "artist": "<a href=\"/wiki/Sam_Smith_(singer)\">Sam Smith</a>",
+        "artist": "<a href=\"/wiki/Sam_Smith\">Sam Smith</a>",
         "song": "\"<a href=\"/wiki/Writing%27s_on_the_Wall_(Sam_Smith_song)\">Writing's on the Wall</a>\"",
         "date": "8 October 2015",
         "woc": "1",
@@ -13695,18 +13689,17 @@ var data = [
     },
     {
         "number": "1307",
-        "artist": "<a href=\"/wiki/Justin_Bieber\">Justin Bieber</a>",
-        "song": "\"<a href=\"/wiki/Love_Yourself\">Love Yourself</a>\"",
+        "artist": "\"<a href=\"/wiki/Love_Yourself\">Love Yourself</a>\"",
+        "song": "<a href=\"/wiki/Def_Jam_Records\">Def Jam</a>",
         "date": "10 December 2015",
         "woc": "3",
         "appearances": [
-            1358,
-            1360
+            1358
         ]
     },
     {
         "number": "1308",
-        "artist": "<a href=\"/wiki/Lewisham_and_Greenwich_NHS_Trust#Choir\">Lewisham and Greenwich NHS Choir</a>",
+        "artist": "<a href=\"/wiki/Lewisham_and_Greenwich_NHS_Trust#Choir\">The Lewisham and Greenwich NHS Choir</a>",
         "song": "\"<a href=\"/wiki/A_Bridge_over_You\">A Bridge over You</a>\"",
         "date": "31 December 2015",
         "woc": "1",
@@ -13721,14 +13714,13 @@ var data = [
         "date": "7 January 2016",
         "woc": "3",
         "appearances": [
-            1358,
             1360
         ]
     },
     {
         "number": "1309",
         "artist": "<a href=\"/wiki/Shawn_Mendes\">Shawn Mendes</a>",
-        "song": "\"<a href=\"/wiki/Stitches_(song)\">Stitches</a>\"",
+        "song": "\"<a href=\"/wiki/Stitches_(Shawn_Mendes_song)\">Stitches</a>\"",
         "date": "28 January 2016",
         "woc": "2",
         "appearances": [
@@ -13737,7 +13729,7 @@ var data = [
     },
     {
         "number": "1310",
-        "artist": "<a href=\"/wiki/Zayn_Malik\">ZAYN</a>",
+        "artist": "<a href=\"/wiki/Zayn_Malik\">Zayn</a>",
         "song": "\"<a href=\"/wiki/Pillowtalk_(song)\">Pillowtalk</a>\"",
         "date": "11 February 2016",
         "woc": "1",
@@ -13788,7 +13780,7 @@ var data = [
     {
         "number": "1315",
         "artist": "<a href=\"/wiki/The_Chainsmokers\">The Chainsmokers</a> featuring <a href=\"/wiki/Halsey_(singer)\">Halsey</a>",
-        "song": "\"<a href=\"/wiki/Closer_(The_Chainsmokers_song)\">Closer</a>\"",
+        "song": "\"<a href=\"/wiki/Closer_(Chainsmokers_song)\">Closer</a>\"",
         "date": "8 September 2016",
         "woc": "4",
         "appearances": [
@@ -13817,7 +13809,7 @@ var data = [
     },
     {
         "number": "1318",
-        "artist": "<a href=\"/wiki/Clean_Bandit\">Clean Bandit</a> featuring <a href=\"/wiki/Sean_Paul\">Sean Paul</a> and <a href=\"/wiki/Anne-Marie_(singer)\">Anne-Marie</a>",
+        "artist": "<a href=\"/wiki/Clean_Bandit\">Clean Bandit</a> featuring <a href=\"/wiki/Sean_Paul\">Sean Paul</a> and <a href=\"/wiki/Anne-Marie\">Anne-Marie</a>",
         "song": "\"<a href=\"/wiki/Rockabye_(song)\">Rockabye</a>\"",
         "date": "17 November 2016",
         "woc": "9",
@@ -13880,7 +13872,7 @@ var data = [
     {
         "number": "1323",
         "artist": "<a href=\"/wiki/Luis_Fonsi\">Luis Fonsi</a> and <a href=\"/wiki/Daddy_Yankee\">Daddy Yankee</a> featuring <a href=\"/wiki/Justin_Bieber\">Justin Bieber</a>",
-        "song": "\"<a href=\"/wiki/Despacito\">Despacito (Remix)</a>\"",
+        "song": "\"<a href=\"/wiki/Despacito\">Despacito</a>\"",
         "date": "18 May 2017",
         "woc": "6",
         "appearances": [
@@ -13902,7 +13894,7 @@ var data = [
     {
         "number": "re",
         "artist": "<a href=\"/wiki/Luis_Fonsi\">Luis Fonsi</a> and <a href=\"/wiki/Daddy_Yankee\">Daddy Yankee</a> featuring <a href=\"/wiki/Justin_Bieber\">Justin Bieber</a>",
-        "song": "\"<a href=\"/wiki/Despacito\">Despacito (Remix)</a>\"",
+        "song": "\"<a href=\"/wiki/Despacito\">Despacito</a>\"",
         "date": "6 July 2017",
         "woc": "3",
         "appearances": [
@@ -13924,7 +13916,7 @@ var data = [
     {
         "number": "re",
         "artist": "<a href=\"/wiki/Luis_Fonsi\">Luis Fonsi</a> and <a href=\"/wiki/Daddy_Yankee\">Daddy Yankee</a> featuring <a href=\"/wiki/Justin_Bieber\">Justin Bieber</a>",
-        "song": "\"<a href=\"/wiki/Despacito\">Despacito (Remix)</a>\"",
+        "song": "\"<a href=\"/wiki/Despacito\">Despacito</a>\"",
         "date": "3 August 2017",
         "woc": "2",
         "appearances": [
@@ -13946,7 +13938,7 @@ var data = [
     {
         "number": "1327",
         "artist": "<a href=\"/wiki/Dua_Lipa\">Dua Lipa</a>",
-        "song": "\"<a href=\"/wiki/New_Rules_(song)\">New Rules</a>\"",
+        "song": "\"<a href=\"/wiki/New_Rules\">New Rules</a>\"",
         "date": "24 August 2017",
         "woc": "2",
         "appearances": [
@@ -13965,7 +13957,7 @@ var data = [
     },
     {
         "number": "1329",
-        "artist": "<a href=\"/wiki/Sam_Smith_(singer)\">Sam Smith</a>",
+        "artist": "<a href=\"/wiki/Sam_Smith\">Sam Smith</a>",
         "song": "\"<a href=\"/wiki/Too_Good_at_Goodbyes\">Too Good at Goodbyes</a>\"",
         "date": "21 September 2017",
         "woc": "3",
@@ -14097,17 +14089,19 @@ var data = [
     {
         "number": "re",
         "artist": "<a href=\"/wiki/David_Baddiel\">Baddiel</a>, <a href=\"/wiki/Frank_Skinner\">Skinner</a> and <a href=\"/wiki/The_Lightning_Seeds\">The Lightning Seeds</a>",
-        "song": "\"<a href=\"/wiki/Three_Lions\">Three Lions</a>\"",
+        "song": "\"<a href=\"/wiki/Three_Lions_(song)\">Three Lions</a>\"",
         "date": "19 July 2018",
         "woc": "1",
         "appearances": [
+            762,
+            764,
             1397
         ]
     },
     {
         "number": "1342",
         "artist": "<a href=\"/wiki/Drake_(musician)\">Drake</a>",
-        "song": "\"<a href=\"/wiki/In_My_Feelings_(song)\">In My Feelings</a>\"",
+        "song": "\"<a href=\"/wiki/In_My_Feelings\">In My Feelings</a>\"",
         "date": "26 July 2018",
         "woc": "4",
         "appearances": [
@@ -14118,7 +14112,7 @@ var data = [
         "number": "re",
         "artist": "<a href=\"/wiki/George_Ezra\">George Ezra</a>",
         "song": "\"<a href=\"/wiki/Shotgun_(George_Ezra_song)\">Shotgun</a>\"",
-        "date": "5 July 2018",
+        "date": "23 August 2018",
         "woc": "2",
         "appearances": [
             1396,
@@ -14137,7 +14131,7 @@ var data = [
     },
     {
         "number": "1344",
-        "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> and <a href=\"/wiki/Sam_Smith_(singer)\">Sam Smith</a>",
+        "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> and <a href=\"/wiki/Sam_Smith\">Sam Smith</a>",
         "song": "\"<a href=\"/wiki/Promises_(Calvin_Harris_and_Sam_Smith_song)\">Promises</a>\"",
         "date": "13 September 2018",
         "woc": "5",
@@ -14148,7 +14142,7 @@ var data = [
     },
     {
         "number": "1345",
-        "artist": "<a href=\"/wiki/Dave_(rapper)\">Dave</a> featuring <a href=\"/wiki/Fredo_(British_rapper)\">Fredo</a>",
+        "artist": "<a href=\"/wiki/Dave_(rapper)\">Dave</a> featuring <a href=\"/wiki/Fredo_(rapper)\">Fredo</a>",
         "song": "\"<a href=\"/wiki/Funky_Friday\">Funky Friday</a>\"",
         "date": "18 October 2018",
         "woc": "1",
@@ -14158,7 +14152,7 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> and <a href=\"/wiki/Sam_Smith_(singer)\">Sam Smith</a>",
+        "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> and <a href=\"/wiki/Sam_Smith\">Sam Smith</a>",
         "song": "\"<a href=\"/wiki/Promises_(Calvin_Harris_and_Sam_Smith_song)\">Promises</a>\"",
         "date": "25 October 2018",
         "woc": "1",
@@ -14214,14 +14208,13 @@ var data = [
         "date": "31 January 2019",
         "woc": "3",
         "appearances": [
-            1408,
-            1410
+            1408
         ]
     },
     {
         "number": "1351",
-        "artist": "<a href=\"/wiki/Ariana_Grande\">Ariana Grande</a>",
-        "song": "\"<a href=\"/wiki/Break_Up_with_Your_Girlfriend,_I%27m_Bored\">Break Up with Your Girlfriend, I'm Bored</a>\"",
+        "artist": "\"<a href=\"/wiki/Break_Up_with_Your_Girlfriend,_I%27m_Bored\">Break Up with Your Girlfriend, I'm Bored</a>\"",
+        "song": "<a href=\"/wiki/Republic_Records\">Republic</a>",
         "date": "21 February 2019",
         "woc": "1",
         "appearances": [
@@ -14230,12 +14223,11 @@ var data = [
     },
     {
         "number": "re",
-        "artist": "<a href=\"/wiki/Ariana_Grande\">Ariana Grande</a>",
-        "song": "\"<a href=\"/wiki/7_Rings\">7 Rings</a>\"",
+        "artist": "\"<a href=\"/wiki/7_Rings\">7 Rings</a>\"",
+        "song": "<a href=\"/wiki/Republic_Records\">Republic</a>",
         "date": "28 February 2019",
         "woc": "1",
         "appearances": [
-            1408,
             1410
         ]
     },
@@ -14439,7 +14431,7 @@ var data = [
     },
     {
         "number": "1368",
-        "artist": "<a href=\"/wiki/Michael_Ball\">Michael Ball</a>, <a href=\"/wiki/Captain_Tom\">Captain Tom Moore</a> and The NHS Voices of Care Choir",
+        "artist": "<a href=\"/wiki/Michael_Ball\">Michael Ball</a>, <a href=\"/wiki/Captain_Tom\">Captain Tom Moore</a> and the NHS Voices of Care Choir",
         "song": "\"<a href=\"/wiki/You%27ll_Never_Walk_Alone#Michael_Ball_&amp;_Captain_Tom_Moore_version\">You'll Never Walk Alone</a>\"",
         "date": "30 April 2020",
         "woc": "1",
@@ -14449,7 +14441,7 @@ var data = [
     },
     {
         "number": "1369",
-        "artist": "<a href=\"/wiki/Times_Like_These_(song)#Artists\">Live Lounge Allstars</a>",
+        "artist": "<a href=\"/wiki/Times_Like_These_(song)#Artists\">BBC Radio 1's Live Lounge Allstars</a>",
         "song": "\"<a href=\"/wiki/Times_Like_These_(song)#Live_Lounge_Allstars_charity_single\">Times Like These</a>\"",
         "date": "7 May 2020",
         "woc": "1",
@@ -14511,7 +14503,7 @@ var data = [
     },
     {
         "number": "1374",
-        "artist": "<a href=\"/wiki/Joel_Corry\">Joel Corry</a> featuring <a href=\"/wiki/MNEK\">MNEK</a>",
+        "artist": "<a href=\"/wiki/Joel_Corry\">Joel Corry</a> and <a href=\"/wiki/MNEK\">MNEK</a>",
         "song": "\"<a href=\"/wiki/Head_%26_Heart\">Head &amp; Heart</a>\"",
         "date": "30 July 2020",
         "woc": "6",
@@ -14532,7 +14524,7 @@ var data = [
     {
         "number": "1376",
         "artist": "<a href=\"/wiki/24kGoldn\">24kGoldn</a> featuring <a href=\"/wiki/Iann_Dior\">Iann Dior</a>",
-        "song": "\"<a href=\"/wiki/Mood_(song)\">Mood</a>\"",
+        "song": "\"<a href=\"/wiki/Mood_(24kGoldn_song)\">Mood</a>\"",
         "date": "1 October 2020",
         "woc": "4",
         "appearances": [
@@ -14541,7 +14533,7 @@ var data = [
     },
     {
         "number": "1377",
-        "artist": "<a href=\"/wiki/Taz_Taylor_(record_producer)\">Internet Money</a> and <a href=\"/wiki/Gunna_(rapper)\">Gunna</a> featuring <a href=\"/wiki/Don_Toliver\">Don Toliver</a> and <a href=\"/wiki/Nav_(rapper)\">Nav</a>",
+        "artist": "<a href=\"/wiki/Taz_Taylor_(record_producer)\">Internet Money</a> featuring <a href=\"/wiki/Gunna_(rapper)\">Gunna</a>, <a href=\"/wiki/Don_Toliver\">Don Toliver</a> and <a href=\"/wiki/Nav_(rapper)\">Nav</a>",
         "song": "\"<a href=\"/wiki/Lemonade_(Internet_Money_and_Gunna_song)\">Lemonade</a>\"",
         "date": "29 October 2020",
         "woc": "1",
@@ -14566,7 +14558,8 @@ var data = [
         "date": "17 December 2020",
         "woc": "2",
         "appearances": [
-            1442
+            1442,
+            1470
         ]
     },
     {
@@ -14586,7 +14579,10 @@ var data = [
         "date": "7 January 2021",
         "woc": "1",
         "appearances": [
-            1444
+            1444,
+            1471,
+            1473,
+            1490
         ]
     },
     {
@@ -14686,7 +14682,8 @@ var data = [
         "date": "28 October 2021",
         "woc": "7",
         "appearances": [
-            1454
+            1454,
+            1458
         ]
     },
     {
@@ -14696,7 +14693,8 @@ var data = [
         "date": "16 December 2021",
         "woc": "2",
         "appearances": [
-            1455
+            1455,
+            1457
         ]
     },
     {
@@ -14707,6 +14705,360 @@ var data = [
         "woc": "1",
         "appearances": [
             1456
+        ]
+    },
+    {
+        "number": "re",
+        "artist": "<a href=\"/wiki/Ed_Sheeran\">Ed Sheeran</a> and <a href=\"/wiki/Elton_John\">Elton John</a>",
+        "song": "\"<a href=\"/wiki/Merry_Christmas_(song)\">Merry Christmas</a>\"",
+        "date": "6 January 2022",
+        "woc": "1",
+        "appearances": [
+            1455,
+            1457
+        ]
+    },
+    {
+        "number": "re",
+        "artist": "<a href=\"/wiki/Adele\">Adele</a>",
+        "song": "\"<a href=\"/wiki/Easy_on_Me\">Easy on Me</a>\"",
+        "date": "13 January 2022",
+        "woc": "1",
+        "appearances": [
+            1454,
+            1458
+        ]
+    },
+    {
+        "number": "1394",
+        "artist": "<a href=\"/wiki/Gayle_(singer)\">Gayle</a>",
+        "song": "\"<a href=\"/wiki/ABCDEFU\">ABCDEFU</a>\"",
+        "date": "20 January 2022",
+        "woc": "1",
+        "appearances": [
+            1459
+        ]
+    },
+    {
+        "number": "1395",
+        "artist": "<a href=\"/wiki/Carolina_Gait%C3%A1n\">Carolina Gait\u00e1n</a>, <a href=\"/wiki/Mauro_Castillo\">Mauro Castillo</a>, <a href=\"/wiki/Adassa\">Adassa</a>, <a href=\"/wiki/Rhenzy_Feliz\">Rhenzy Feliz</a>, <a href=\"/wiki/Diane_Guerrero\">Diane Guerrero</a> and <a href=\"/wiki/Stephanie_Beatriz\">Stephanie Beatriz</a>",
+        "song": "\"<a href=\"/wiki/We_Don%27t_Talk_About_Bruno\">We Don't Talk About Bruno</a>\"",
+        "date": "27 January 2022",
+        "woc": "7",
+        "appearances": [
+            1460
+        ]
+    },
+    {
+        "number": "1396",
+        "artist": "<a href=\"/wiki/Dave_(rapper)\">Dave</a>",
+        "song": "\"<a href=\"/wiki/Starlight_(Dave_song)\">Starlight</a>\"",
+        "date": "17 March 2022",
+        "woc": "4",
+        "appearances": [
+            1461
+        ]
+    },
+    {
+        "number": "1397",
+        "artist": "<a href=\"/wiki/Harry_Styles\">Harry Styles</a>",
+        "song": "\"<a href=\"/wiki/As_It_Was\">As It Was</a>\"",
+        "date": "14 April 2022",
+        "woc": "10",
+        "appearances": [
+            1462
+        ]
+    },
+    {
+        "number": "1398",
+        "artist": "<a href=\"/wiki/Kate_Bush\">Kate Bush</a>",
+        "song": "\"<a href=\"/wiki/Running_Up_That_Hill\">Running Up That Hill</a>\"",
+        "date": "23 June 2022",
+        "woc": "3",
+        "appearances": [
+            1463
+        ]
+    },
+    {
+        "number": "1399",
+        "artist": "<a href=\"/wiki/LF_System\">LF System</a>",
+        "song": "\"<a href=\"/wiki/Afraid_to_Feel\">Afraid to Feel</a>\"",
+        "date": "14 July 2022",
+        "woc": "8",
+        "appearances": [
+            1464
+        ]
+    },
+    {
+        "number": "1400",
+        "artist": "<a href=\"/wiki/Eliza_Rose\">Eliza Rose</a> and <a href=\"/wiki/Interplanetary_Criminal\">Interplanetary Criminal</a>",
+        "song": "\"<a href=\"/wiki/B.O.T.A._(Baddest_of_Them_All)\">B.O.T.A. (Baddest of Them All)</a>\"",
+        "date": "8 September 2022",
+        "woc": "2",
+        "appearances": [
+            1465
+        ]
+    },
+    {
+        "number": "1401",
+        "artist": "<a href=\"/wiki/Lewis_Capaldi\">Lewis Capaldi</a>",
+        "song": "\"<a href=\"/wiki/Forget_Me\">Forget Me</a>\"",
+        "date": "22 September 2022",
+        "woc": "1",
+        "appearances": [
+            1466
+        ]
+    },
+    {
+        "number": "1402",
+        "artist": "<a href=\"/wiki/David_Guetta\">David Guetta</a> and <a href=\"/wiki/Bebe_Rexha\">Bebe Rexha</a>",
+        "song": "\"<a href=\"/wiki/I%27m_Good_(Blue)\">I'm Good (Blue)</a>\"",
+        "date": "29 September 2022",
+        "woc": "1",
+        "appearances": [
+            1467
+        ]
+    },
+    {
+        "number": "1403",
+        "artist": "<a href=\"/wiki/Sam_Smith\">Sam Smith</a> and <a href=\"/wiki/Kim_Petras\">Kim Petras</a>",
+        "song": "\"<a href=\"/wiki/Unholy_(Sam_Smith_and_Kim_Petras_song)\">Unholy</a>\"",
+        "date": "6 October 2022",
+        "woc": "4",
+        "appearances": [
+            1468
+        ]
+    },
+    {
+        "number": "1404",
+        "artist": "<a href=\"/wiki/Taylor_Swift\">Taylor Swift</a>",
+        "song": "\"<a href=\"/wiki/Anti-Hero_(song)\">Anti-Hero</a>\"",
+        "date": "3 November 2022",
+        "woc": "6",
+        "appearances": [
+            1469
+        ]
+    },
+    {
+        "number": "re",
+        "artist": "<a href=\"/wiki/Mariah_Carey\">Mariah Carey</a>",
+        "song": "\"<a href=\"/wiki/All_I_Want_for_Christmas_Is_You\">All I Want for Christmas Is You</a>\"",
+        "date": "15 December 2022",
+        "woc": "1",
+        "appearances": [
+            1442,
+            1470
+        ]
+    },
+    {
+        "number": "re",
+        "artist": "<a href=\"/wiki/Wham!\">Wham!</a>",
+        "song": "\"<a href=\"/wiki/Last_Christmas\">Last Christmas</a>\"",
+        "date": "22 December 2022",
+        "woc": "1",
+        "appearances": [
+            1444,
+            1471,
+            1473,
+            1490
+        ]
+    },
+    {
+        "number": "1405",
+        "artist": "<a href=\"/wiki/LadBaby\">LadBaby</a>",
+        "song": "\"<a href=\"/wiki/Do_They_Know_It%27s_Christmas%3F#LadBaby_version\">Food Aid</a>\"",
+        "date": "29 December 2022",
+        "woc": "1",
+        "appearances": [
+            1472
+        ]
+    },
+    {
+        "number": "re",
+        "artist": "<a href=\"/wiki/Wham!\">Wham!</a>",
+        "song": "\"<a href=\"/wiki/Last_Christmas\">Last Christmas</a>\"",
+        "date": "5 January 2023",
+        "woc": "1",
+        "appearances": [
+            1444,
+            1471,
+            1473,
+            1490
+        ]
+    },
+    {
+        "number": "1406",
+        "artist": "<a href=\"/wiki/Raye_(singer)\">Raye</a> featuring <a href=\"/wiki/070_Shake\">070 Shake</a>",
+        "song": "\"<a href=\"/wiki/Escapism_(Raye_song)\">Escapism</a>\"",
+        "date": "12 January 2023",
+        "woc": "1",
+        "appearances": [
+            1474
+        ]
+    },
+    {
+        "number": "1407",
+        "artist": "<a href=\"/wiki/Lewis_Capaldi\">Lewis Capaldi</a>",
+        "song": "\"<a href=\"/wiki/Pointless_(song)\">Pointless</a>\"",
+        "date": "19 January 2023",
+        "woc": "1",
+        "appearances": [
+            1475
+        ]
+    },
+    {
+        "number": "1408",
+        "artist": "<a href=\"/wiki/Miley_Cyrus\">Miley Cyrus</a>",
+        "song": "\"<a href=\"/wiki/Flowers_(Miley_Cyrus_song)\">Flowers</a>\"",
+        "date": "26 January 2023",
+        "woc": "10",
+        "appearances": [
+            1476
+        ]
+    },
+    {
+        "number": "1409",
+        "artist": "<a href=\"/wiki/Ed_Sheeran\">Ed Sheeran</a>",
+        "song": "\"<a href=\"/wiki/Eyes_Closed_(Ed_Sheeran_song)\">Eyes Closed</a>\"",
+        "date": "6 April 2023",
+        "woc": "1",
+        "appearances": [
+            1477
+        ]
+    },
+    {
+        "number": "1410",
+        "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> and <a href=\"/wiki/Ellie_Goulding\">Ellie Goulding</a>",
+        "song": "\"<a href=\"/wiki/Miracle_(Calvin_Harris_and_Ellie_Goulding_song)\">Miracle</a>\"",
+        "date": "13 April 2023",
+        "woc": "2",
+        "appearances": [
+            1478,
+            1480
+        ]
+    },
+    {
+        "number": "1411",
+        "artist": "<a href=\"/wiki/Lewis_Capaldi\">Lewis Capaldi</a>",
+        "song": "\"<a href=\"/wiki/Wish_You_the_Best_(song)\">Wish You the Best</a>\"",
+        "date": "27 April 2023",
+        "woc": "1",
+        "appearances": [
+            1479
+        ]
+    },
+    {
+        "number": "re",
+        "artist": "<a href=\"/wiki/Calvin_Harris\">Calvin Harris</a> and <a href=\"/wiki/Ellie_Goulding\">Ellie Goulding</a>",
+        "song": "\"<a href=\"/wiki/Miracle_(Calvin_Harris_and_Ellie_Goulding_song)\">Miracle</a>\"",
+        "date": "4 May 2023",
+        "woc": "6",
+        "appearances": [
+            1478,
+            1480
+        ]
+    },
+    {
+        "number": "1412",
+        "artist": "<a href=\"/wiki/Dave_(rapper)\">Dave</a> and <a href=\"/wiki/Central_Cee\">Central Cee</a>",
+        "song": "\"<a href=\"/wiki/Sprinter_(song)\">Sprinter</a>\"",
+        "date": "15 June 2023",
+        "woc": "10",
+        "appearances": [
+            1481
+        ]
+    },
+    {
+        "number": "1413",
+        "artist": "<a href=\"/wiki/Billie_Eilish\">Billie Eilish</a>",
+        "song": "\"<a href=\"/wiki/What_Was_I_Made_For%3F_(song)\">What Was I Made For?</a>\"",
+        "date": "24 August 2023",
+        "woc": "1",
+        "appearances": [
+            1482
+        ]
+    },
+    {
+        "number": "1414",
+        "artist": "<a href=\"/wiki/Dua_Lipa\">Dua Lipa</a>",
+        "song": "\"<a href=\"/wiki/Dance_the_Night\">Dance the Night</a>\"",
+        "date": "31 August 2023",
+        "woc": "1",
+        "appearances": [
+            1483
+        ]
+    },
+    {
+        "number": "1415",
+        "artist": "<a href=\"/wiki/Olivia_Rodrigo\">Olivia Rodrigo</a>",
+        "song": "\"<a href=\"/wiki/Vampire_(Olivia_Rodrigo_song)\">Vampire</a>\"",
+        "date": "7 September 2023",
+        "woc": "1",
+        "appearances": [
+            1484
+        ]
+    },
+    {
+        "number": "1416",
+        "artist": "<a href=\"/wiki/Doja_Cat\">Doja Cat</a>",
+        "song": "\"<a href=\"/wiki/Paint_the_Town_Red_(Doja_Cat_song)\">Paint the Town Red</a>\"",
+        "date": "14 September 2023",
+        "woc": "5",
+        "appearances": [
+            1485
+        ]
+    },
+    {
+        "number": "1417",
+        "artist": "<a href=\"/wiki/Kenya_Grace\">Kenya Grace</a>",
+        "song": "\"<a href=\"/wiki/Strangers_(Kenya_Grace_song)\">Strangers</a>\"",
+        "date": "19 October 2023",
+        "woc": "3",
+        "appearances": [
+            1486
+        ]
+    },
+    {
+        "number": "1418",
+        "artist": "<a href=\"/wiki/Taylor_Swift\">Taylor Swift</a>",
+        "song": "\"<a href=\"/wiki/Is_It_Over_Now%3F\">Is It Over Now?</a>\"",
+        "date": "9 November 2023",
+        "woc": "1",
+        "appearances": [
+            1487
+        ]
+    },
+    {
+        "number": "1419",
+        "artist": "<a href=\"/wiki/The_Beatles\">The Beatles</a>",
+        "song": "\"<a href=\"/wiki/Now_and_Then_(Beatles_song)\">Now and Then</a>\"",
+        "date": "16 November 2023",
+        "woc": "1",
+        "appearances": [
+            1488
+        ]
+    },
+    {
+        "number": "1420",
+        "artist": "<a href=\"/wiki/Jack_Harlow\">Jack Harlow</a>",
+        "song": "\"<a href=\"/wiki/Lovin_on_Me\">Lovin on Me</a>\"",
+        "date": "23 November 2023",
+        "woc": "3",
+        "appearances": [
+            1489
+        ]
+    },
+    {
+        "number": "re",
+        "artist": "<a href=\"/wiki/Wham!\">Wham!</a>",
+        "song": "\"<a href=\"/wiki/Last_Christmas\">Last Christmas</a>\"",
+        "date": "14 December 2023",
+        "woc": "4",
+        "appearances": [
+            1444,
+            1471,
+            1473,
+            1490
         ]
     }
 ]
