@@ -95,6 +95,9 @@ def clean_data(html):
     html = re.sub(r' *(‡|†|\^|\*) *', '', html)
     html = re.sub('<sup[^>]+><a[^>]+>[^<]+</a></sup>', '', html)
     html = re.sub(' *<img[^>]+> *', '', html)
+    html = re.sub(' \u00ef\u00bf\u00bd', '', html)
+    html = re.sub('<span style="display:none">9</span>10', '10', html)
+    html = re.sub('P[^"><]+rez Prado', 'Perez Prado', html)
     return html
 
 def get_metadata(html):
@@ -106,6 +109,8 @@ def get_metadata(html):
         if not bool(re.match(r'\A\d{1,2} [A-Z][a-z]+ \d{4}\Z', parts[3])):
             parts[3:5] = parts[4:6]
         parts[4] = parts[4].split('</tr>')[0]
+    if '.5' in parts[4]:
+        parts[4] = parts[4][-1] + 'x'
     return dict(zip(['number', 'artist', 'song', 'date', 'woc'], parts))
 
 def remove_duplicates(songs):
