@@ -50,23 +50,24 @@
 						<div class="box_subtitle">Artists with the most number&nbsp;1s</div>
 						<ul>
 							<script>
+								// https://en.wikipedia.org/wiki/List_of_artists_with_the_most_UK_Singles_Chart_number_ones
 								var artists = [
 									[ 21, 'Elvis Presley' ],
-									[ 17, 'The Beatles' ],
+									[ 18, 'The Beatles' ],
 									[ 14, 'Cliff Richard' ],
 									[ 14, 'Westlife'  ],
-									[ 13, 'Ed Sheeran' ],
+									[ 14, 'Ed Sheeran' ],
 									[ 13, 'Madonna' ],
 									[ 12, 'Take That' ],
-									[ 12, 'The Shadows' ],
-									[ 10, 'Calvin Harris' ],
+									[ 11, 'Calvin Harris' ],
 									[ 10, 'Elton John' ],
 									[ 10, 'Eminem' ],
 									[  9, 'ABBA' ],
 									[  9, 'Rihanna' ],
 									[  9, 'Spice Girls' ],
 									[  8, 'Oasis' ],
-									[  8, 'The Rolling Stones' ]
+									[  8, 'The Rolling Stones' ],
+									[  8, 'Sam Smith' ]
 								];
 								for (var artist of artists) {
 									if (artist[0] < 10)
@@ -78,26 +79,30 @@
 						<div class="box_subtitle">Artists with the most weeks at number&nbsp;1</div>
 						<ul>
 							<script>
+								// https://en.wikipedia.org/wiki/UK_Singles_Chart_records_and_statistics#Most_weeks_at_number_one_by_artist
 								var artists = [
 									[ 80, 'Elvis Presley' ],
-									[ 69, 'The Beatles' ],
-									[ 59, 'Ed Sheeran' ],
+									[ 70, 'The Beatles' ],
+									[ 61, 'Ed Sheeran' ],
 									[ 46, 'Cliff Richard' ],
 									[ 44, 'The Shadows' ],
+									[ 39, 'Calvin Harris' ],
 									[ 38, 'Justin Bieber' ],
 									[ 32, 'Frankie Laine' ],
 									[ 31, 'ABBA' ],
-									[ 31, 'Calvin Harris' ],
 									[ 31, 'Drake' ],
 									[ 29, 'Madonna' ],
 									[ 29, 'Take That' ],
-									[ 27, 'Elton John' ],
+									[ 28, 'Elton John' ],
 									[ 25, 'Rihanna' ],
 									[ 23, 'Wet Wet Wet' ],
 									[ 22, 'Spice Girls' ],
+									[ 21, 'Queen' ],
 									[ 20, 'Ariana Grande' ],
 									[ 20, 'Slade' ],
-									[ 20, 'Westlife' ]
+									[ 20, 'Westlife' ],
+									[ 19, 'Sam Smith' ],
+									[ 19, 'The Everly Brothers' ]
 								];
 								for (var artist of artists)
 									document.write('<li onclick="javascript:selectSongs(\'artist\', \'' + artist[1] + '\')">' + artist.join(' - ') + '</li>');
